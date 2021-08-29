@@ -5,7 +5,7 @@ baseurl: ''
 permalink: "/:title/"
 logo: 'assets/images/88x88.png'
 favicon: 'assets/images/favicon.ico'
-author: Sal
+author: Andres_Hincapie
 paginate: 30
 disqus: 'demowebsite'
 locale: en_us
@@ -24,14 +24,15 @@ ganalytics: UA-113961478-1
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    avatar: 'assets/images/sal.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  Andres_Hincapie:
+    name: Andres_Hincapie
+    display_name: Andrés Hincapié
+    avatar: 'assets/images/bio-photo_bw.jpg'
+    email: aahincap@unal.edu.co
+    web: https://aahincapie.github.io
+    twitter: https://twitter.com/_geocaptain
+    linkedin: https://www.linkedin.com/in/aahincapie/
+    description: "Author with professional perspective."
   john:
     name: John
     display_name: John
@@ -43,9 +44,10 @@ authors:
 
 # Social
 social:
-  instagram: https://www.instagram.com/bootstrapstarter/
-  facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
-  twitter: https://twitter.com/bstartercom
+  instagram: https://www.instagram.com/_geocaptain/
+  facebook: https://www.facebook.com/aahincapie
+  twitter: https://twitter.com/_geocaptain
+  linkedin: https://www.linkedin.com/in/aahincapie/
 
 # Plugins
 plugins: 

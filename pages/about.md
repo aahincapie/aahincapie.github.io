@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: "/about/"
+author: true
 image: assets/images/unsplash-cv-10.jpg
 ---
 
