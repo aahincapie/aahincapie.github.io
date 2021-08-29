@@ -1,0 +1,56 @@
+title: "🌎 Adolfo Andres Hincapie"
+email: aahincap@unal.edu.co
+timezone: America/Bogota
+baseurl: ""
+permalink: "/:title/"
+logo: '/assets/images/88x88.png'
+favicon: 'assets/images/favicon.ico'
+author: Andrés Hincapie
+paginate: 30
+disqus: 'demowebsite'
+locale: en_us
+lang: en_us
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: UA-138701831-1
+
+# Authors
+authors:
+  Andrés Hincapie:
+    name: Andrés Hincapie
+    display_name: Andrés Hincapie
+    avatar: '/assets/images/bio-photo_bw.jpg'
+    email: aahincap@unal.edu.co
+    web: https://aahincapie.github.io/about/
+    twitter: https://twitter.com/_geocaptain
+    description: "Author, Forestry, Anthropologist, Spatial Analyst, and Modeler of Environmental and Social Systems. Posting about: Ecosystem Services Market, Tools to unlock Natural-Based Solutions"
+  Admin:
+    name: Administrator
+    display_name: Administrator
+    avatar: '/assets/images/bio-photo_bw.jpg'
+    email: aahincap@unal.edu.co
+    web: https://aahincapie.github.io/about/
+    twitter: https://twitter.com/_geocaptain
+    description: "This is the author box. Affiliates to personal website."
+
+# Social
+social:
+  instagram: https://www.instagram.com/_geocaptain/
+  facebook: https://www.facebook.com/aahincapie
+  twitter: https://twitter.com/_geocaptain
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
