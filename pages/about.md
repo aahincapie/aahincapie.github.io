@@ -3,10 +3,6 @@ layout: page
 title: About
 permalink: "/about/"
 image: assets/images/unsplash-cv-10.jpg
-categories:
-  - Curriculum vitae
-tags:
-  - link
 link: https://github.com/aahincapie/aahincapie.github.io/raw/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf
 ---
 
