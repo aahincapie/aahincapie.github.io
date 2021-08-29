@@ -5,25 +5,19 @@ permalink: "/about/"
 image: assets/images/unsplash-cv-10.jpg
 ---
 
-<a href="https://github.com/aahincapie/aahincapie.github.io/raw/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf" class="btn btn--success" style="float:right" >Download CV as PDF</a>
-
-{% include toc %}
-
+[Download CV as PDF](https://github.com/aahincapie/aahincapie.github.io/raw/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf)
 
 ## 1- Profile
 I am a Forestry Engineer and Anthropologist who hold a Master's degree in analysis and modeling of environmental systems from Brazil. I have more than five years focused on AR and REDD's technical and political issues, overall associated with the voluntary carbon market under VCS and CCBs and GS.
-{: .notice--success} 
 
 I have a solid technical background in social and biodiversity, environmental and governance impact assessment, love work with mapping, and have experience working with Latinamerican contexts as Brazil and Colombia. I am fluent in English, Portuguese and, Spanish (mother tongue).
-{: .notice--success}
+
 
 I have been participating in carbon land-use projects that aim to reduce greenhouse gas (GHG) emissions. I had  participated in coordination the development of several AFOLU projects (feasibility, potential, additionality, theory of change(ToC) and GHG emission etimations) in order to certify them under the internationally recognized emissions reduction certification schemes.
-{: .notice--success}
 
 Currently, I am Senior Project Manager Coordinator at South Pole.
 {: .notice--success}
 
-<!--more-->
 
 ## 2- Contact
 Email:  [aahincap@unal.edu.co](mailto:aahincap@unal.edu.co), [bandreshin@gmail.com](mailto:bandreshin@gmail.com)  
