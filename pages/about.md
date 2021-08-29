@@ -3,7 +3,6 @@ layout: page
 title: About
 permalink: "/about/"
 image: assets/images/unsplash-cv-10.jpg
-link: https://github.com/aahincapie/aahincapie.github.io/raw/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf
 ---
 
 <a href="https://github.com/aahincapie/aahincapie.github.io/raw/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf" class="btn btn--success" style="float:right" >Download CV as PDF</a>
