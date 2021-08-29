@@ -2,7 +2,8 @@
 layout: page
 title: About
 permalink: "/about/"
-author: true
+author: Andres_Hincapie
+categories: [ Curriculum, Resume, HV, Contact ]
 image: assets/images/unsplash-cv-10.jpg
 ---
 
