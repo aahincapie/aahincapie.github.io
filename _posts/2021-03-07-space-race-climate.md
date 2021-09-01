@@ -3,9 +3,9 @@ layout: post
 title:  "The space race in the climate change"
 author: Andres_Hincapie 
 categories: [ Carbon Credits, Opinion ]
-image: assets/images/3.jpg
+image: assets/images/7.jpg
 ---
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/unsplash-distance-10.jpg)
+<!--- ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/unsplash-distance-10.jpg)-->
 
 While a 1.5 degree (or indeed 2) result looks far fetched, arguments that targets should be more realistically based on likely outcome is an odd response. Think about it for a moment; would you prefer corporate and govt targets based on 1.5 degrees or do we switch to targets based on whatever is deemed realistic at a given point?
 
