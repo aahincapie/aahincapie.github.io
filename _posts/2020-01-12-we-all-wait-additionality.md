@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "We all wait for be additional in NBS projects"
-categories: [ CarbonCredits, Opionion, Quote ]
+categories: [ Carbon Credits, Opinion, Quote ]
 image: assets/images/1.jpg
 ---
 
