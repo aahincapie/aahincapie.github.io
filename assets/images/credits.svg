@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg824"
+   width="386"
+   height="56"
+   viewBox="0 0 386 56"
+   sodipodi:docname="credits.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs828">
+    <marker
+       style="overflow:visible"
+       id="Tail"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Tail"
+       inkscape:isstock="true">
+      <g
+         transform="scale(-1.2)"
+         id="g57009">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.8;stroke-linecap:round"
+           d="M -3.8048674,-3.9585227 L 0.54352094,0"
+           id="path56997" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.8;stroke-linecap:round"
+           d="M -1.2866832,-3.9585227 L 3.0617053,0"
+           id="path56999" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.8;stroke-linecap:round"
+           d="M 1.3053582,-3.9585227 L 5.6537466,0"
+           id="path57001" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.8;stroke-linecap:round"
+           d="M -3.8048674,4.1775838 L 0.54352094,0.21974226"
+           id="path57003" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.8;stroke-linecap:round"
+           d="M -1.2866832,4.1775838 L 3.0617053,0.21974226"
+           id="path57005" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.8;stroke-linecap:round"
+           d="M 1.3053582,4.1775838 L 5.6537466,0.21974226"
+           id="path57007" />
+      </g>
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Scissors"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Scissors"
+       inkscape:isstock="true">
+      <path
+         style="fill:context-stroke;"
+         d="M 9.0898857,-3.6061018 C 8.1198849,-4.7769976 6.3697607,-4.7358294 5.0623558,-4.2327734 L -3.1500488,-1.1548705 C -5.5383421,-2.4615840 -7.8983361,-2.0874077 -7.8983361,-2.7236578 C -7.8983361,-3.2209742 -7.4416699,-3.1119800 -7.5100293,-4.4068519 C -7.5756648,-5.6501286 -8.8736064,-6.5699315 -10.100428,-6.4884954 C -11.327699,-6.4958500 -12.599867,-5.5553341 -12.610769,-4.2584343 C -12.702194,-2.9520479 -11.603560,-1.7387447 -10.304005,-1.6532027 C -8.7816644,-1.4265411 -6.0857470,-2.3487593 -4.8210600,-0.082342643 C -5.7633447,1.6559151 -7.4350844,1.6607341 -8.9465707,1.5737277 C -10.201445,1.5014928 -11.708664,1.8611256 -12.307219,3.0945882 C -12.885586,4.2766744 -12.318421,5.9591904 -10.990470,6.3210002 C -9.6502788,6.8128279 -7.8098011,6.1912892 -7.4910978,4.6502760 C -7.2454393,3.4624530 -8.0864637,2.9043186 -7.7636052,2.4731223 C -7.5199917,2.1477623 -5.9728246,2.3362771 -3.2164999,1.0982979 L 5.6763468,4.2330688 C 6.8000164,4.5467672 8.1730685,4.5362646 9.1684433,3.4313614 L -0.051640930,-0.053722219 L 9.0898857,-3.6061018 z M -9.2179159,-5.5066058 C -7.9233569,-4.7838060 -8.0290767,-2.8230356 -9.3743431,-2.4433169 C -10.590861,-2.0196559 -12.145370,-3.2022863 -11.757521,-4.5207817 C -11.530373,-5.6026336 -10.104134,-6.0014137 -9.2179159,-5.5066058 z M -9.1616516,2.5107591 C -7.8108215,3.0096239 -8.0402087,5.2951947 -9.4138723,5.6023681 C -10.324932,5.9187072 -11.627422,5.4635705 -11.719569,4.3902287 C -11.897178,3.0851737 -10.363484,1.9060805 -9.1616516,2.5107591 z "
+         id="schere" />
+    </marker>
+    <rect
+       x="8.8194973"
+       y="5.2916984"
+       width="378.35643"
+       height="51.153085"
+       id="rect29227" />
+    <rect
+       x="16.463062"
+       y="12.347296"
+       width="353.95583"
+       height="33.808073"
+       id="rect3248" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview826"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.4015544"
+     inkscape:cx="193"
+     inkscape:cy="28.0754"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="2391"
+     inkscape:window-y="91"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g830" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g830">
+    <text
+       xml:space="preserve"
+       id="text3246"
+       style="font-size:13.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3248)"
+       transform="translate(99.366337,20.578828)"><tspan
+         x="16.462891"
+         y="24.51203"
+         id="tspan62152"><tspan
+   style="font-family:Rembank;-inkscape-font-specification:Rembank"
+   id="tspan62150">Site made with &quot;Affiliates - Free Jekyll&quot; </tspan> </tspan></text>
+    <text
+       xml:space="preserve"
+       id="text29225"
+       style="font-size:12px;line-height:0.95;font-family:sans-serif;letter-spacing:0.25px;word-spacing:-1.02px;white-space:pre;shape-inside:url(#rect29227)"
+       x="180.45853"
+       y="0"><tspan
+         x="39.177891"
+         y="14.518359"
+         id="tspan62156"><tspan
+           dx="0 0 0 0 0 0 0 0 0 0 0 1.02 -1.0199966 0 1.02 -1.0200043 0 0 0 1.02 -1.0199966 0 0 0 0 1.02 -1.0200043 0 0 0 0 1.02 -1.0200043 0 0 0 0 0 1.02 -1.019989 0 0 0 0 1.02 -1.0200043 0 0 0 0 0 0 0 1.02 -1.019989 0 0 0 0 1.02"
+           style="font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;text-align:center;text-anchor:middle;fill:#808080"
+           id="tspan62154">Information is like maps: never final, never complete until 
+</tspan></tspan><tspan
+         x="32.724023"
+         y="25.997739"
+         id="tspan62160"><tspan
+           dx="0 0 0 0 1.02 -1.0200005 0 0 0 1.02 -1.0200005 0 1.02 -1.0199966 0 0 0 0 1.02 -1.0200043 0 0 1.02 -1.0199966 0 0 0 0 0 0 1.02 -1.019989 0 1.02 -1.0200043 0 0 1.02 -1.0200043 0 0 0 0 0 0 1.02 -1.019989 0 0 0 1.02 -1.0200195"
+           style="font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;text-align:center;text-anchor:middle;fill:#808080"
+           id="tspan62158">they grow as large and complex as the reality they represent</tspan></tspan></text>
+  </g>
+</svg>
