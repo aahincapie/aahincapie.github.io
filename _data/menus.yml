@@ -4,6 +4,9 @@ topmenu:
 - title: Home
   url: ""
 
+- title: Blog
+  url: "categories/"
+
 - title: About
   url: "about/"
 
