@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The space race in the climate change"
-author: Andres_Hincapie 
+author: Andrés Hincapié 
 categories: [ Carbon Credits, Opinion ]
 image: assets/images/7.jpg
 ---

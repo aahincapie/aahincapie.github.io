@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tree of Article 6, Article 6.2 and Article 6.4"
-author: Andres Hincapie
+author: Andrés Hincapié
 categories: [ Carbon Credits, Climate Change ]
 image: assets/images/2.jpg
 ---

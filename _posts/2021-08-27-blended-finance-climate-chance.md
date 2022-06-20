@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "4 reasons why blended finance in Climate Change and Sustainability"
-author: Andres Hincapie
+author: Andrés Hincapié
 categories: [ Climate Change, Opinion ]
 image: assets/images/4.jpg
 ---
