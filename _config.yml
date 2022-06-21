@@ -27,10 +27,10 @@ authors:
   Andrés Hincapié:
     name: Andrés Hincapié
     display_name: Andrés H
-    avatar: 'minimal-avatars.png'
+    avatar: 'assets/images/minimal-avatars.png'
     email: aahincap@unal.edu.co
     web: https://aahincapie.github.io
-    twitter: https://twitter.com/_geocaptain
+    twitter: https://twitter.com/aa_h1nc4p3
     linkedin: https://www.linkedin.com/in/aahincapie/
     description: "Author with professional perspective."
   john:
@@ -44,9 +44,9 @@ authors:
 
 # Social
 social:
-  instagram: https://www.instagram.com/_geocaptain/
+  instagram: https://www.instagram.com/aa_h1nc4p3/
   facebook: https://www.facebook.com/aahincapie
-  twitter: https://twitter.com/_geocaptain
+  twitter: https://twitter.com/aa_h1nc4p3
   linkedin: https://www.linkedin.com/in/aahincapie/
 
 # Plugins

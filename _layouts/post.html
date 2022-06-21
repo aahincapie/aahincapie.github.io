@@ -61,7 +61,7 @@ post_class: post-template
             <!-- Prev/Next -->
             <div class="row PageNavigation mt-4 prevnextlinks d-flex justify-content-between">
               {% if page.previous.url %}
-                <div class="col-md-6 rightbordºauthor-thumb" src="{{site.baseurl}}/assets/images/{{author.avatar}}" alt="{{ author.display_name }}">
+                <div class="col-md-6 rightbordºauthor-thumb" src="{{site.baseurl}}/{{author.avatar}}" alt="{{ author.display_name }}">
 					</div>
 					<div class="col-md-10">
 						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
