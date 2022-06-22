@@ -64,13 +64,16 @@ Jan 2005 - Jun 2012
 
 ## 6- Short-work experience 
 
-* Senior Project Coordinator Forestry & Land Use Projects |  South Pole, Colombia (Jun 2017 – Jun 2021)
-* GIS Forestry & Land Use Projects | South Pole, Colombia (Jun 2017 – Jun 2021)
-* Environmental Analyst | WWF-OIA, Colombia (May 2016 - Dec 2016)
-* Specialist: Social and Forestry consultancy | Universidad Nacional de Colombia, Colombia, Colombia (May 2016 - Jul 2016)
-* Assistant professor | Universidade Federal de Minas Gerais, Brazil (Jul 2015 - Dic 2015)
-* Land Tenure and Land Use Advisor | Indigenous Organization of Antioquia, Colombia (Jul 2013 - Feb 2015)
-* Forestry and Anthropologist (Consultancy)| Renovatio Group Ltda, Colombia (Sep 2013 - May 2014)
+| Position | Company/Organization | Period (Time) |
+| --------------- | --------------- | --------------- |
+| Senior Project Coordinator Forestry & Land Use Projects | South Pole, Colombia | (Jun 2017 – Jun 2021) |
+| GIS Forestry & Land Use Projects | South Pole, Colombia |  (Jun 2017 – Jun 2021) |
+| Environmental Analyst | WWF-OIA, Colombia | (May 2016 - Dec 2016) |
+| Specialist: Social and Forestry consultancy | Universidad Nacional de Colombia, Colombia, Colombia | (May 2016 - Jul 2016) |
+| Assistant professor | Universidade Federal de Minas Gerais, Brazil | (Jul 2015 - Dic 2015) |
+| Land Tenure and Land Use Advisor | Indigenous Organization of Antioquia, Colombia | (Jul 2013 - Feb 2015) |
+| Forestry and Anthropologist (Consultancy)| Renovatio Group Ltda, Colombia | (Sep 2013 - May 2014) |
+ 
 
 ## 7- References
 _Underconstruction_
