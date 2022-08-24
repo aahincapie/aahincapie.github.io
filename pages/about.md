@@ -52,7 +52,7 @@ Jan 2005 - Jun 2012
 ## 4- Research Interests
 
 * Interactions among climate, land use and land cover change, and livelihoods
-* Methods and tools for integrating social and biophysical datasets to unlock voluntary carbon market
+* Methods and tools for integrating social and forestry issues to unlock voluntary carbon market
 * Modeling , mapping and data visualization
 
 ## 5- Main skills
@@ -76,16 +76,23 @@ Jan 2005 - Jun 2012
  
 
 ## 7- References
-_Underconstruction_
+
 
 I have had the opportunity to share closely with incredible people in the public, private and academic sectors.
 
-I highlight the role in my bachelor carrer of **Rober Dover**  https://www.youtube.com/watch?v=Ev8FddReiPk&t=69s, 
+I highlight the role in my bachelor carrer of a Antropologist **Rober Dover** who pass away teaching me why is important the patience and the love to work with indigenous communities. [Who was he?](https://www.youtube.com/watch?v=Ev8FddReiPk&t=69s),
+
+They teaching me:
 * **Britaldo Soares-Filho** [Google Scholar](https://scholar.google.com/citations?user=0r083BYAAAAJ&hl=en)  , 
 * **Sonia Maria Carvalho** [Google Scholar](https://scholar.google.com/citations?user=FwrTKjQAAAAJ&hl=en)  
+
+They teaching me how work:
 * **Abel Marcarini**   
 * **Dolors Almenteras**  
-* ...
+* **Beatriz Zapata**
+* **Diego Arango**
+
+She teaching me 
 
 
 ## 8- Tools
@@ -95,4 +102,3 @@ I highlight the role in my bachelor carrer of **Rober Dover**  https://www.youtu
 •	R programming Language and, GEE essential codes
 
 Download as PDF:
-
