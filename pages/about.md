@@ -54,6 +54,7 @@ Jan 2005 - Jun 2012
 * Interactions among climate, land use and land cover change, and livelihoods
 * Methods and tools for integrating social and forestry issues to unlock voluntary carbon market
 * Modeling , mapping and data visualization
+* Fires, Accounting Carbon Emissions
 
 ## 5- Main skills
 
@@ -66,8 +67,8 @@ Jan 2005 - Jun 2012
 
 | **Position** | **Company/Organization** | **Period (Time)** |
 | :--------------- | :---------------: | ---------------: |
-| Senior Project Coordinator Forestry & Land Use Projects | South Pole, Colombia | (Jun 2017 – Jun 2021) |
-| GIS Forestry & Land Use Projects | South Pole, Colombia |  (Jun 2017 – Jun 2021) |
+| Senior Project Coordinator Forestry & Land Use Projects | South Pole, Colombia | (Jun 2020 – Jun 2022) |
+| GIS Forestry & Land Use Projects | South Pole, Colombia |  (Jun 2017 – Jun 2020) |
 | Environmental Analyst | WWF-OIA, Colombia | (May 2016 - Dec 2016) |
 | Specialist: Social and Forestry consultancy | Universidad Nacional de Colombia, Colombia, Colombia | (May 2016 - Jul 2016) |
 | Assistant professor | Universidade Federal de Minas Gerais, Brazil | (Jul 2015 - Dic 2015) |
@@ -75,24 +76,23 @@ Jan 2005 - Jun 2012
 | Forestry and Anthropologist (Consultancy)| Renovatio Group Ltda, Colombia | (Sep 2013 - May 2014) |
  
 
-## 7- References
+## 7- References (under construction)
 
 
 I have had the opportunity to share closely with incredible people in the public, private and academic sectors.
 
-I highlight the role in my bachelor carrer of a Antropologist **Rober Dover** who pass away teaching me why is important the patience and the love to work with indigenous communities. [Who was he?](https://www.youtube.com/watch?v=Ev8FddReiPk&t=69s),
+I highlight the role in my bachelor carrer of a Antropologist **Rober Dover** who pass away. Robert teaches me soft skills such as patience, empathy, and the ambition at work with traditional communities. [Who was he?](https://www.youtube.com/watch?v=Ev8FddReiPk&t=69s),
 
-They teaching me:
+I highlight the fact to had the possibility of having a classroom with ones of those teachers that think outside the black box and always are in the knowledge frontier:
 * **Britaldo Soares-Filho** [Google Scholar](https://scholar.google.com/citations?user=0r083BYAAAAJ&hl=en)  , 
 * **Sonia Maria Carvalho** [Google Scholar](https://scholar.google.com/citations?user=FwrTKjQAAAAJ&hl=en)  
+* **Dolors Almenteras** 
 
-They teaching me how work:
+Finally, I have worked with many colleagues and people who have led me how to work better, be more flexible, manage better time, speak and rise up alerts
 * **Abel Marcarini**   
-* **Dolors Almenteras**  
 * **Beatriz Zapata**
 * **Diego Arango**
 
-She teaching me 
 
 
 ## 8- Tools
