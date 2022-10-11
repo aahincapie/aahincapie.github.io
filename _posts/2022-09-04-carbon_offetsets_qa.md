@@ -8,8 +8,6 @@ image: assets/images/5.jpg
 How to explain something easy, where there is nothing ease?
 Explaining carbon offsets is incredibly challenging, and, in a way, there are some valuable efforts...
 
-
-
  John Oliver’s show served three highly appreciated purposes for Carbon Market sector:
 
  ## Three main highlights:
