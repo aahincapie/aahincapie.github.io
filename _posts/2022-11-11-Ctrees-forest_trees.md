@@ -5,7 +5,7 @@ author: Andrés Hincapié
 categories: [ Carbon, Tool, Estimations ]
 image: assets/images/8.jpg
 ---
-Release: At #COP27, CTrees is a platform to track carbon in every tree and forest on the planet.
+This week was release at #COP27 after discussing the challenges for African countries, CTrees whichs is a platform to track carbon in every tree and forest on the planet.
 
 ![One]({{ site.url }}{{ site.baseurl }}/assets/images/Ctrees1.jpg)
 
