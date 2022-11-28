@@ -5,16 +5,57 @@ author: Andrés Hincapié
 categories: [ Carbon Credits, Climate Change ]
 image: assets/images/2.jpg
 ---
-## Why article 6
+## Why article 6 and Nature-based Solutions
+Agenda:
+- JNR in term in implementation
+- Biodiverisity COP15 coming up
+- Mangroves 
+
 Activities are set to grow
 Carbon Credits under Art 6
 
-## Glasgow
+## Glasgow and Egypt (2021-2022)
 
-COP 26 is crucial for Art 6, because has two scenarios
-Action overtakes ppolicy | Rainforces interest 
+There are two scenarios
+Action overtakes policy | Rainforces interest 
 
-Operationalisation of Article 6.2 (Will be continue to developed)
+However in general sense, we need to work how we really
+
+### ARTICLE 6.2
+
+Operationalisation of Article 6.2 (Will be continue to developed)ç
+This involve:
+- Safeguards and itegrity of transfer
+- Importance between registries and Int registry
+- Techical Expert Review
+
+Transparency in a full view is very important for Art 6.2, VCMI play a role important in the integrity of some confidencial clauses availables by countries.
+
+Operationalisation of the Article 6.4 requiere for govermenets approved projects 
+28 contries have Art 6.4 DNA
+CERs to be used tpward 1st NDC
+Operation of the Mechanism Registry
+
+Expect two more years to happen
+
+### Important questions:
+- Methpodologies
+
+### Two use cases
+
+1- Authorised 6.4 ERs
+
+- CA requiered
+- Uses toward NDC, CORSIA and other OIMP
+
+2- Mitigation MCER  ( Voluntary Market)
+
+### Why are the non authorized credits?
+You could follow certain standard
+If a company wants carbon neutrality (voluntary commitment), will MCERs be enough? or that would require Authorise 6.4ERs?
+Today will need to work in Corresponding Ajustement noyt answerr already
+
+
 
 # What is really means?
 
@@ -27,8 +68,7 @@ Diferent strategic could be apply for diferent countries, for example Coltax, ot
 
 # What is the promise?
 
-Big potential 
-
+Big potential
 Article 6.2 mitigation activities | Articulo 6 readiness support
 
 # Code
