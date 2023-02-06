@@ -7,7 +7,6 @@ logo: 'assets/images/88x88.png'
 favicon: 'assets/images/favicon.ico'
 author: Andres_Hincapie
 paginate: 30
-disqus: 'demowebsite'
 locale: en_us
 lang: en_us
 feed_items: 10
