@@ -36,24 +36,20 @@ ChatGPT's table creation and analysis capacity is made possible by its ability t
 ## Chatgpt instructions to identify priorities in avaluations:
 
 > You are a professional quality control reviewer of carbon projects. A new report by the advocacy group Survival International said the offset was altering long-standing Indigenous herding practices and couldn’t accurately account for how much carbon it was removing from the atmosphere. Say okay if you understand the instruction
-{% highlight%} 
-#=> prints 'Okay' to STDOUT.
-{% endhighlight %}
+-prints 'Okay' to STDOUT.
+
 
 Put some context for:
-{% highlight%}
-The report brings the context the Northern Rangelands Trust (NRT) and highlight some monitoring issues: https://news.mongabay.com/2023/03/carbon-credits-from-award-winning-kenyan-offset-suspended-by-verra/ Say okay if you understand the instruction
-#=> prints 'Okay' to STDOUT.
-{% endhighlight %}
+
+>The report brings the context the Northern Rangelands Trust (NRT) and highlight some monitoring issues: https://news.mongabay.com/2023/03/carbon-credits-from-award-winning-kenyan-offset-suspended-by-verra/ Say okay if you understand the instruction
 
 Here is a problem, maybe Chatgpt is not reading all the article, they take some seed and print
 
 Put the first outcome for:
 
-{% highlight%}
-Create a table to summarize the main problems with the monitoring in NRT Carbon Offset Project, 8 minimal row
-#=> prints 'Okay' to STDOUT.
-{% endhighlight %}
+>Create a table to summarize the main problems with the monitoring in NRT Carbon Offset Project, 8 minimal row
+#> prints 'Okay' to STDOUT.
+
 
 > We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. 
 
