@@ -5,17 +5,16 @@ author: Andrés Hincapié
 categories: [ Carbon, Tool, Market ]
 image: assets/images/5.jpg
 ---
-Table of Contents:
 
-- Introduction
+In today's world, data is abundant and readily available, carbon market is traspassing for controversial times, and projects need to set actions strategies to improve and correct some action, but for where do you need start?.
+Rating carbon market companies are increasing each day, and maybe articles or news appers in the internet, maybe analyzing and summarizing it can be a challenge to undertand the priorities for your project. This is where ChatGPT comes in. ChatGPT is a language model that has the ability to summarize and create tables for data analysis. In this blog post, we will explore the capacities of ChatGPT for both summarization.
+
+## Table of Contents:
+
 - What is ChatGPT?
 - The Capacity for Summarization
 - The Capacity for Table Creation and Analysis
 - Propmt, Instructions
-
-## Introduction
-
-In today's world, data is abundant and readily available, but analyzing and summarizing it can be a challenge. This is where ChatGPT comes in. ChatGPT is a language model created by OpenAI that has the ability to summarize and create tables for data analysis. In this blog post, we will explore the capacities of ChatGPT for both summarization and table creation.
 
 ## What is ChatGPT?
 
@@ -35,23 +34,26 @@ ChatGPT's table creation and analysis capacity is made possible by its ability t
 
 ## Chatgpt instructions to identify priorities in avaluations:
 
-> You are a professional quality control reviewer of carbon projects. A new report by the advocacy group Survival International said the offset was altering long-standing Indigenous herding practices and couldn’t accurately account for how much carbon it was removing from the atmosphere. Say okay if you understand the instruction
--prints 'Okay' to STDOUT.
 
 
-Put some context for:
+Here are some instructions to start.
 
->The report brings the context the Northern Rangelands Trust (NRT) and highlight some monitoring issues: https://news.mongabay.com/2023/03/carbon-credits-from-award-winning-kenyan-offset-suspended-by-verra/ Say okay if you understand the instruction
+`You are a professional quality control reviewer of carbon projects. A new report by the advocacy group said the offset was altering long-standing Indigenous herding practices and couldn’t accurately account for how much carbon it was removing from the atmosphere. Say okay if you understand the instruction`
+> Okay
 
-Here is a problem, maybe Chatgpt is not reading all the article, they take some seed and print
+Following give some context for ChatGPT:
 
-Put the first outcome for:
+`The report brings the context the Northern Rangelands Trust (NRT) and highlight some issues https://news.mongabay.com/2023/03/carbon-credits-from-award-winning-kenyan-offset-suspended-by-verra/ Say okay if you understand the instruction`
+> Okay
 
->Create a table to summarize the main problems with the monitoring in NRT Carbon Offset Project, 8 minimal row
-#> prints 'Okay' to STDOUT.
+Lets do to a pause here, Chatgpt is lazy but effective, may be i just goig to the firts six paragraphs of the reading, and they take some seed to do his conclusions.
 
+I Suggest give enought context, extract by yourself the main ideas, main problems, and put into the chat.
 
-> We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. 
+### A first outcome for summarization:
+
+`Create a table/list to summarize the main problems with the monitoring in NRT Carbon Offset Project, 10 minimal rows, // Your can also define other topics.`
+>prints:
 
 Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.
 
