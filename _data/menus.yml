@@ -14,7 +14,7 @@ topmenu:
   url: "contact/"
 
 - title: Download CV 
-  url: https://github.com/aahincapie/aahincapie.github.io/raw/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf
+  url: https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf
   class: "ml-2 btn btn-dark text-white px-3"
   external: true
 

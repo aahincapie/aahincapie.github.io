@@ -7,7 +7,7 @@ categories: [ Curriculum, Resume, HV, Contact ]
 image: assets/images/unsplash-cv-10.jpg
 ---
 
-[Download CV as PDF](https://github.com/aahincapie/aahincapie.github.io/raw/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf)
+[Download CV as PDF](https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf)
 
 ## 1- Profile
 I am a Forestry Engineer and Anthropologist who hold a Master's degree in analysis and modeling of environmental systems from Brazil. I have more than five years focused on AR and REDD's technical and political issues, overall associated with the voluntary carbon market under VCS and CCBs and GS.
@@ -31,23 +31,28 @@ Phone: (+57) 350-7439527
 
 ## 3- Qualifications
 
-* **M.Sc.** Analysis and Modeling of Environmental Systems  
-[Federal University of Minas Gerais](https://ufmg.br/)  
-Institute of Geosciences (IGC / UFMG)  
-Brazil, Belo Horizonte  
-Mar 2015 - May 2017  
+# Qualifications
 
-* **B.Sc.** Anthropology  
-[University of Antioquia](https://www.udea.edu.co)  
-Faculty of Social Sciences and Humanities  
-Colombia, Medellín  
-Dec 2005 - Dec 2013  
+* **Master of Science (M.Sc.) in Analysis and Modeling of Environmental Systems**
+- [Federal University of Minas Gerais](https://ufmg.br/), Institute of Geosciences (IGC / UFMG)
+- Belo Horizonte, Brazil
+- Mar 2015 - May 2017
 
-* **B.Eng** Forestry  
-[National University of Colombia](https://unal.edu.co/)  
-Faculty of Agrarian Sciences   
-Colombia, Medellín  
-Jan 2005 - Jun 2012  
+During my master's program, I specialized in analyzing and modeling complex environmental systems, using various statistical and computational techniques. I also gained experience in conducting fieldwork and collecting environmental data, as well as presenting research findings to academic audiences.
+
+* **Bachelor of Science (B.Sc.) in Anthropology**
+- [University of Antioquia](https://www.udea.edu.co), Faculty of Social Sciences and Humanities
+- Medellín, Colombia
+- Dec 2005 - Dec 2013
+
+My undergraduate studies in anthropology provided me with a strong foundation in social and cultural theory, as well as research methods such as ethnography and qualitative analysis. I also developed skills in critical thinking, communication, and intercultural competence.
+
+* **Bachelor of Engineering (B.Eng.) in Forestry**
+- [National University of Colombia](https://unal.edu.co/), Faculty of Agrarian Sciences
+- Medellín, Colombia
+- Jan 2005 - Jun 2012
+
+As a forestry student, I gained a deep understanding of ecological principles and sustainable natural resource management. I also acquired practical skills in forest inventory, GIS mapping, and forest product processing. My coursework emphasized the importance of balancing economic, social, and environmental objectives in forestry management.
 
 ## 4- Research Interests
 
