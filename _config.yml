@@ -26,12 +26,12 @@ authors:
   Andrés Hincapié:
     name: Andrés Hincapié
     display_name: Andrés H
-    avatar: '/assets/images/minimal-avatars.png'
+    avatar: 'assets/images/minimal-avatars.png'
     email: aahincap@unal.edu.co
     web: https://aahincapie.github.io
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/in/aahincapie/
-    description: "Author of romance and thrillers stories regarding carbon market and climate change. His post provides comprehensive information to support the efficient development of carbon projects. His work in the development and operation of carbon projects has given him a critical view to exploring methodological improvements related to carbon issues. When He is not working, he can usually be found watching films, listening to music or watching videos, hiking, or wrangling her farm."
+    description: "Geek author writing romance and mystery stories with a twist - carbon markets and climate change. Andres also likes to work on improving the methodology used to measure carbon. He likes to delve into the challenges of the market, such as the quality of projects, the role of governments, leakage and performance of the market."
   john:
     name: John
     display_name: John
