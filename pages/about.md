@@ -86,9 +86,8 @@ As a forestry student, I gained a deep understanding of ecological principles an
 | **Forestry and Anthropologist (Consultancy)** | ```Renovatio Group Ltda, Colombia``` | Sep 2013 - May 2014 | **8** | [Renovatio Group Ltda](https://www.renovatiogroup.com.co/) |
 
 
-* * *
-Connect with me on LinkedIn to learn more about my work experience and skills
-**LinkedIn profile:** <https://www.linkedin.com/in/aahincapie>
+***
+Connect with me here: [LinkedIn](https://www.linkedin.com/in/aahincapie) to learn more about my work experience and skills
 
 
 
