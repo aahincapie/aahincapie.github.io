@@ -83,6 +83,24 @@ As a forestry student, I gained a deep understanding of ecological principles an
 | Land Tenure and Land Use Advisor | Indigenous Organization of Antioquia, Colombia | (Jul 2013 - Feb 2015) |
 | Forestry and Anthropologist (Consultancy)| Renovatio Group Ltda, Colombia | (Sep 2013 - May 2014) |
  
+## Short-Work Experience
+
+| Position | Company/Organization | Period (Time) | Months | Webpage |
+|---|---|---|---|---|
+| **Regional Lead NBS, Climate Projects** | **South Pole, Colombia** | **Jan 2021 – Jun 2023** | **24** | <https://www.southpole.com/> |
+| **Senior Project Coordinator, Forestry & Land Use Projects** | **South Pole, Colombia** | **Jun 2020 – Jun 2022** | **24** | <https://www.southpole.com/> |
+| **GIS, Forestry & Land Use Projects** | **South Pole, Colombia** | **Jun 2017 – Dec 2020** | **36** | <https://www.southpole.com/> |
+| **Environmental Analyst** | **WWF-OIA, Colombia** | **May 2016 - Dec 2016** | **8** | <https://www.wwf.org.co/> |
+| **Specialist: Social and Forestry consultancy** | **Universidad Nacional de Colombia, Colombia** | **May 2016 - Jul 2016** | **3** | <https://www.unal.edu.co/> |
+| **Assistant professor** | **Universidade Federal de Minas Gerais, Brazil** | **Jul 2015 - Dic 2015** | **6** | <https://www.ufmg.br/> |
+| **Land Tenure and Land Use Advisor** | **Indigenous Organization of Antioquia, Colombia** | **Jul 2013 - Feb 2015** | **18** | <https://organizacionindigenadeantioquia.blogspot.com//> |
+| **Forestry and Anthropologist (Consultancy)** | **Renovatio Group Ltda, Colombia** | **Sep 2013 - May 2014** | **8** | <https://www.renovatiogroup.com.co/> |
+
+* * *
+Connect with me on LinkedIn to learn more about my work experience and skills
+**LinkedIn profile:** <https://www.linkedin.com/in/aahincapie>
+
+
 
 ## 7- References (under construction)
 
