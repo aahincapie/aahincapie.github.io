@@ -3,13 +3,15 @@
 //
 
 .table {
-  width: 100%;
-  max-width: 100%;
+  width: 100px;
+  max-width: 100px;
+  display: inline;
   margin-bottom: $spacer;
   background-color: $table-bg; // Reset for nesting within parents with `background-color`.
 
   th,
   td {
+    font-size: 10px;
     padding: $table-cell-padding;
     vertical-align: top;
     border-top: $table-border-width solid $table-border-color;
