@@ -10,20 +10,23 @@ image: assets/images/unsplash-cv-10.jpg
 [Download CV as PDF](https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf)
 
 ## 1- Profile
-I am a Forestry Engineer and Anthropologist who hold a Master's degree in analysis and modeling of environmental systems from Brazil. I have more than five years focused on AR and REDD's technical and political issues, overall associated with the voluntary carbon market under VCS and CCBs and GS.
+Hey there, I'm Adolfo, a Forestry Engineer and Anthropologist from Brazil. I'm passionate about quantitative forestry and social sciences, and I love working on GIS problems and spatial modeling.
 
-I have a solid technical background in social and biodiversity, environmental and governance impact assessment, love work with mapping, and have experience working with Latinamerican contexts as Brazil and Colombia. I am fluent in English, Portuguese and, Spanish (mother tongue).
+I'm a problem-solving pro who loves to tackle complex scenarios and find nature-based solutions to secure financial resources to fight against the climate change crisis. My superpowers are technical carbon issues, REDD+ projects, agroforestry, and agriculture land management (ALM). I have more than five years of experience in afforestation and reforestation (AR), especially associated with the voluntary carbon market under VCS, CCBs, and GS.
 
+I have a solid technical background in social and biodiversity, environmental and governance impact assessment, and I have participated in coordinating the development of several AFOLU projects in Latin America, and I've also contributed to some projects in Africa.
 
-I have been participating in carbon land-use projects that aim to reduce greenhouse gas (GHG) emissions. I had  participated in coordination the development of several AFOLU projects (feasibility, potential, additionality, theory of change(ToC) and GHG emission etimations) in order to certify them under the internationally recognized emissions reduction certification schemes.
+When I'm not crunching data, leading projects, or engaging stakeholders, I like to improve my English and Portuguese skills. I also speak Spanish, and I'm proficient in both languages.
 
-Currently, I am Senior Project Manager Coordinator at South Pole.
+But don't let my serious skills and dedication to my work fool you—I also have many flaws, some of which are silly, chaotic, funny, and even awful.
+
+Currently, I am Regional Lead, in Nature Base Solutions, Climate Projects - LatAm at South Pole.
 {: .notice--success}
 
 
 ## 2- Contact
 Email:  [aahincap@unal.edu.co](mailto:aahincap@unal.edu.co), [bandreshin@gmail.com](mailto:bandreshin@gmail.com)  
-Phone: (+57) 350-7439527  
+Phone: [(+57) 350-7439527](https://wa.me/573507439527?text=Hola)  
 <iframe width="100%" height="333" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7932.303731077851!2d-75.61549547581298!3d6.2437079819219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44298490efb9b9%3A0x95109acfcce06974!2sSanta%20Teresita%2C%20Medell%C3%ADn%2C%20Medellin%2C%20Antioquia!5e0!3m2!1sen!2sco!4v1625969104000!5m2!1sen!2sco" frameborder="0" scrolling="0" marginheight="0" marginwidth="0"></iframe>  
 <address> Medellin, Colombia. Postcode: 050020 </address>  
 
