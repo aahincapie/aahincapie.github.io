@@ -88,7 +88,9 @@ As a forestry student, I gained a deep understanding of ecological principles an
 
 ***
 Connect with me here: [LinkedIn](https://www.linkedin.com/in/aahincapie) to learn more about my work experience and skills
+[![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aahincapie)
 
+# Andrés A. Hincapie
 
 
 ## 7- References (under construction)
@@ -96,12 +98,12 @@ Connect with me here: [LinkedIn](https://www.linkedin.com/in/aahincapie) to lear
 
 I have had the opportunity to share closely with incredible people in the public, private and academic sectors.
 
-I highlight the role in my bachelor carrer of a Antropologist **Rober Dover** who pass away. Robert teaches me soft skills such as patience, empathy, and the ambition at work with traditional communities. [Who was he?](https://www.youtube.com/watch?v=Ev8FddReiPk&t=69s),
+I highlight the role in my bachelor carrer of a Antropologist **Rober Dover** who pass away. Robert teaches me soft skills to work with traditional communities. [Who was he?](https://www.youtube.com/watch?v=Ev8FddReiPk&t=69s),
 
 I highlight the fact to had the possibility of having a classroom with ones of those teachers that think outside the black box and always are in the knowledge frontier:
 * **Britaldo Soares-Filho** [Google Scholar](https://scholar.google.com/citations?user=0r083BYAAAAJ&hl=en)  , 
 * **Sonia Maria Carvalho** [Google Scholar](https://scholar.google.com/citations?user=FwrTKjQAAAAJ&hl=en)  
-* **Dolors Almenteras** 
+* **Dolors Almenteras** [Google Scholar](https://scholar.google.com/citations?user=vmF72BgAAAAJ&hl=en)
 
 Finally, I have worked with many colleagues and people who have led me how to work better, be more flexible, manage better time, speak and rise up alerts
 * **Abel Marcarini**   
