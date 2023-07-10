@@ -74,7 +74,90 @@ As a forestry student, I gained a deep understanding of ecological principles an
 *	Geospatial solutions; Innovative and spatial-explicit modeling scenarios
 *	Right based approaches, Free, Prior and Informed Consent (FPIC), and Stakeholder Consultation (LSC)
 
-## 6- Short-work experience 
+## 6- Short-experience 
+
+### New
+
+<style>
+table {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 80%;
+}
+
+th:first-child {
+  background-color: #fdd93d;
+}
+</style>
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+<table>
+  <tr>
+    <th style="font-weight: normal">Position</th>
+    <th>Company</th>
+    <th>Period</th>
+    <th>Time (Years)</th>
+    <th>Type</th>
+  </tr>
+  <tr>
+    <td><strong>Regional Lead NBS, Climate Projects</strong></td>
+    <td>South Pole</td>
+    <td>Jan 2023 – Jun 2023</td>
+    <td>0.5</td>
+    <td>Private sector</td>
+  </tr>
+  <tr>
+    <td><strong>Senior Project Coordinator, Forestry & Land Use Projects</strong></td>
+    <td>South Pole</td>
+    <td>Jun 2020 – Dec 2022</td>
+    <td>2.5</td>
+    <td>Private sector</td>
+  </tr>
+  <tr>
+    <td><strong>GIS, Forestry & Land Use Projects</strong></td>
+    <td>South Pole</td>
+    <td>Jun 2017 – Dec 2020</td>
+    <td>3</td>
+    <td>Private sector</td>
+  </tr>
+  <tr>
+    <td><strong>Specialist: Social and Forestry consultancy</strong></td>
+    <td>Universidad Nacional de Colombia</td>
+    <td>May 2016 - Jul 2016</td>
+    <td>0.17</td>
+    <td>Public sector</td>
+  </tr>
+  <tr>
+    <td><strong>Environmental Analyst</strong></td>
+    <td>WWF</td>
+    <td>May 2016 - Dec 2016</td>
+    <td>0.67</td>
+    <td>Non-Profit Organization</td>
+  </tr>
+  <tr>
+    <td><strong>Forestry and Anthropologist (Consultancy)</strong></td>
+    <td>Renovatio Group Ltda</td>
+    <td>Sep 2013 - May 2014</td>
+    <td>0.67</td>
+    <td>Private sector</td>
+  </tr>
+  <tr>
+    <td><strong>Assistant professor</strong></td>
+    <td>Universidade Federal de Minas Gerais</td>
+    <td>Jul 2015 - Dec 2015</td>
+    <td>0.5</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>Land Tenure and Land Use Advisor</strong></td>
+    <td>Indigenous Organization of Antioquia</td>
+    <td>Jul 2013 - Feb 2015</td>
+    <td>1.67</td>
+    <td>Non-Profit Organization</td>
+  </tr>
+</table>
+
+### Old
 
 <style>
 table {
