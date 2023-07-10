@@ -1,13 +1,17 @@
 ---
-layout: page
+layout: post
 title: About
 permalink: "/about/"
 author: Andres_Hincapie
 categories: [ Curriculum, Resume, HV, Contact ]
-image: assets/images/unsplash-cv-10.jpg
+image: assets/images/unsplash-cv-10.png
 ---
 
 [Download CV as PDF](https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf)
+***
+Connect with me here in linkedin: 
+[![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aahincapie)
+
 
 ## 1- Profile
 Hey there, I'm Adolfo, a Forestry Engineer and Anthropologist from Brazil. I'm passionate about quantitative forestry and social sciences, and I love working on GIS problems and spatial modeling.
@@ -84,11 +88,6 @@ As a forestry student, I gained a deep understanding of ecological principles an
 | **Assistant professor** | ```Universidade Federal de Minas Gerais, Brazil``` | Jul 2015 - Dic 2015 | **6** | [Universidade Federal de Minas Gerais](https://www.ufmg.br/) |
 | **Land Tenure and Land Use Advisor** | ```Indigenous Organization of Antioquia, Colombia``` | Jul 2013 - Feb 2015 | **19** | [Indigenous Organization of Antioquia](https://organizacionindigenadeantioquia.blogspot.com//) |
 | **Forestry and Anthropologist (Consultancy)** | ```Renovatio Group Ltda, Colombia``` | Sep 2013 - May 2014 | **8** | [Renovatio Group Ltda](https://www.renovatiogroup.com.co/) |
-
-
-***
-Connect with me here in linkedin to learn more about my experience: 
-[![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aahincapie)
 
 
 ## 7- References
