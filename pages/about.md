@@ -87,23 +87,26 @@ As a forestry student, I gained a deep understanding of ecological principles an
 
 
 ***
-Connect with me here: [LinkedIn](https://www.linkedin.com/in/aahincapie) to learn more about my work experience and skills
+Connect with me here in linkedin to learn more about my experience: 
 [![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aahincapie)
 
-# Andrés A. Hincapie
 
+## 7- References
 
-## 7- References (under construction)
-
+### Academic references
 
 I have had the opportunity to share closely with incredible people in the public, private and academic sectors.
 
 I highlight the role in my bachelor carrer of a Antropologist **Rober Dover** who pass away. Robert teaches me soft skills to work with traditional communities. [Who was he?](https://www.youtube.com/watch?v=Ev8FddReiPk&t=69s),
 
 I highlight the fact to had the possibility of having a classroom with ones of those teachers that think outside the black box and always are in the knowledge frontier:
-* **Britaldo Soares-Filho** [Google Scholar](https://scholar.google.com/citations?user=0r083BYAAAAJ&hl=en)  , 
-* **Sonia Maria Carvalho** [Google Scholar](https://scholar.google.com/citations?user=FwrTKjQAAAAJ&hl=en)  
-* **Dolors Almenteras** [Google Scholar](https://scholar.google.com/citations?user=vmF72BgAAAAJ&hl=en)
+* **Britaldo Soares-Filho** [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-0077B5?style=flat-square&logo=google-scholar)](https://scholar.google.com/citations?user=0r083BYAAAAJ&hl)
+
+* **Sonia Maria Carvalho** [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-0077B5?style=flat-square&logo=google-scholar)](https://scholar.google.com/citations?user=FwrTKjQAAAAJ&hl)
+
+* **Dolors Almenteras** [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-0077B5?style=flat-square&logo=google-scholar)](https://scholar.google.com/citations?user=vmF72BgAAAAJ&hl)
+
+### Profesional references:
 
 Finally, I have worked with many colleagues and people who have led me how to work better, be more flexible, manage better time, speak and rise up alerts
 * **Abel Marcarini**   
@@ -111,11 +114,31 @@ Finally, I have worked with many colleagues and people who have led me how to wo
 * **Diego Arango**
 
 
-
 ## 8- Tools
-•	Database management under: [.GDB].GDB .MDB .ARCSDE .MYSQ
+| Tool | Description | Badge |
+|---|---|---|
+| Clickup | A cloud-based project management tool that helps teams track tasks, collaborate on projects, and communicate effectively. | [![Clickup](https://img.shields.io/badge/Clickup-3CB371?style=flat-square&logo=clickup)](https://clickup.com/) |
+| Miro | A collaborative whiteboard platform that helps teams brainstorm, plan, and execute projects. | [![Miro](https://img.shields.io/badge/Miro-0077B5?style=flat-square&logo=miro)](https://miro.com/) |
+| Monday.com | A project management platform that helps teams visualize their work, collaborate on tasks, and track progress. | [![Monday.com](https://img.shields.io/badge/Monday.com-56CCF2?style=flat-square&logo=monday.com)](https://monday.com/) |
+| [.GDB] | A file format for storing geospatial data. | [![.GDB](https://img.shields.io/badge/.GDB-blue?style=flat-square)](https://en.wikipedia.org/wiki/Geodatabase) |
+| .MDB | A file format for storing Microsoft Access databases. | [![.MDB](https://img.shields.io/badge/.MDB-orange?style=flat-square)](https://en.wikipedia.org/wiki/MDB_file_format) |
+| .ARCSDE | A file format for storing spatial data in ArcGIS. | [![.ARCSDE](https://img.shields.io/badge/.ARCSDE-green?style=flat-square)](https://en.wikipedia.org/wiki/ArcSDE) |
+| MySQL | A relational database management system. | [![MySQL](https://img.shields.io/badge/MySQL-5D61BD?style=flat-square)](https://www.mysql.com/) |
+| CSV | A comma-separated values file format. | [![CSV](https://img.shields.io/badge/CSV-808080?style=flat-square)](https://en.wikipedia.org/wiki/Comma-separated_values) |
+| ENVI | A commercial remote sensing software package. | [![ENVI](https://img.shields.io/badge/ENVI-blue?style=flat-square)](https://www.envi.com/) |
+| ERDAS | A commercial remote sensing software package. | [![ERDAS](https://img.shields.io/badge/ERDAS-orange?style=flat-square)](https://www.hexagongeospatial.com/products/ERDAS-Imagine) |
+| IDRISI | A commercial remote sensing software package. | [![IDRISI](https://img.shields.io/badge/IDRISI-green?style=flat-square)](https://www.itc.nl/en/products/idrisi/) |
+| ArcMap | A commercial GIS software package from Esri. | [![ArcMap](https://img.shields.io/badge/ArcMap-5D61BD?style=flat-square)](https://www.esri.com/en-us/arcgis/products/arcgis-desktop/) |
+| ArcScene | A commercial GIS software package from Esri. | [![ArcScene](https://img.shields.io/badge/ArcScene-F08080?style=flat-square)](https://www.esri.com/en-us/arcgis/products/arcgis-desktop/) |
+| DINAMICA-EGO | A free and open-source REDD+ analysis tool. | [![DINAMICA-EGO](https://img.shields.io/badge/DINAMICA-EGO-007EFF?style=flat-square)](https://sites.google.com/site/dinamicaego/) |
+| IDRISI-SELVA | A commercial REDD+ analysis tool from Clark Labs. | [![IDRISI-SELVA](https://img.shields.io/badge/IDRISI-SELVA-B31B1B?style=flat-square)](https://www.clarklabs.org/products/idrisi-selva/) |
+| SPRING | A free and open-source REDD+ analysis tool. | [![SPRING](https://img.
+
+### old
+
+•	Project management: Clickup, Miro, Monday.com
+•	Database management: [.GDB].GDB .MDB .ARCSDE .MYSQl . CSV
 •	Remote sensing analysis and visualization: ENVI; ERDAS; IDRISI; ArcMap; ArcScene
 •	REDD+ analysis tools: DINAMICA-EGO IDRISI-SELVA, SPRING
 •	R programming Language and, GEE essential codes
 
-Download as PDF:
