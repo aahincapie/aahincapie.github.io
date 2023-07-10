@@ -76,17 +76,24 @@ As a forestry student, I gained a deep understanding of ecological principles an
 
 ## 6- Short-work experience 
 
- 
-| Position | Company/Location | Period | Time (Months) | Webpage |
-|---|---|---|---|---|
-| **Regional Lead NBS, Climate Projects** | ```South Pole, Colombia``` | Jan 2023 – Jun 2023 | **6** | [South Pole](https://www.southpole.com/) |
-| **Senior Project Coordinator, Forestry & Land Use Projects** | ```South Pole, Colombia``` | Jun 2020 – Dec 2022 | **24** | [South Pole](https://www.southpole.com/) |
-| **GIS, Forestry & Land Use Projects** | ```South Pole, Colombia``` | Jun 2017 – Dec 2020 | **36** | [South Pole](https://www.southpole.com/) |
-| **Environmental Analyst** | ```WWF-OIA, Colombia``` | May 2016 - Dec 2016 | **8** | [WWF-OIA](https://www.wwf.org.co/) |
-| **Specialist: Social and Forestry consultancy** | ```Universidad Nacional de Colombia, Colombia``` | May 2016 - Jul 2016 | **3** | [Universidad Nacional de Colombia](https://www.unal.edu.co/) |
-| **Assistant professor** | ```Universidade Federal de Minas Gerais, Brazil``` | Jul 2015 - Dic 2015 | **6** | [Universidade Federal de Minas Gerais](https://www.ufmg.br/) |
-| **Land Tenure and Land Use Advisor** | ```Indigenous Organization of Antioquia, Colombia``` | Jul 2013 - Feb 2015 | **19** | [Indigenous Organization of Antioquia](https://organizacionindigenadeantioquia.blogspot.com//) |
-| **Forestry and Anthropologist (Consultancy)** | ```Renovatio Group Ltda, Colombia``` | Sep 2013 - May 2014 | **8** | [Renovatio Group Ltda](https://www.renovatiogroup.com.co/) |
+| Position                                             | Company/Location/Webpage                           | Period              | Time (Years) | Type of Institution        |
+|------------------------------------------------------|---------------------------------------------------|---------------------|--------------|----------------------------|
+| Regional Lead NBS, Climate Projects                  | South Pole, Colombia                               | Jan 2023 – Jun 2023 | 0.5          | Private sector             |
+|                                                     | [South Pole](https://www.southpole.com/)            |                     |              |                            |
+| Senior Project Coordinator, Forestry & Land Use Projects | South Pole, Colombia                               | Jun 2020 – Dec 2022 | 2.5          | Private sector             |
+|                                                     | [South Pole](https://www.southpole.com/)            |                     |              |                            |
+| GIS, Forestry & Land Use Projects                    | South Pole, Colombia                               | Jun 2017 – Dec 2020 | 3            | Private sector             |
+|                                                     | [South Pole](https://www.southpole.com/)            |                     |              |                            |
+| Specialist: Social and Forestry consultancy          | Universidad Nacional de Colombia, Colombia         | May 2016 - Jul 2016 | 0.17         | Public sector              |
+|                                                     | [Universidad Nacional de Colombia](https://www.unal.edu.co/) |              |              |                            |
+| Environmental Analyst                                | WWF-OIA, Colombia                                  | May 2016 - Dec 2016 | 0.67         | Non-Profit Organization    |
+|                                                     | [WWF-OIA](https://www.wwf.org.co/)                  |                     |              |                            |
+| Forestry and Anthropologist (Consultancy)             | Renovatio Group Ltda, Colombia                     | Sep 2013 - May 2014 | 0.67         | Private sector             |
+|                                                     | [Renovatio Group Ltda](https://www.renovatiogroup.com.co/) |       |              |                            |
+| Assistant professor                                  | Universidade Federal de Minas Gerais, Brazil        | Jul 2015 - Dec 2015 | 0.5          |                            |
+|                                                     | [Universidade Federal de Minas Gerais](https://www.ufmg.br/) |           |              |                            |
+| Land Tenure and Land Use Advisor                     | Indigenous Organization of Antioquia, Colombia     | Jul 2013 - Feb 2015 | 1.67         | Non-Profit Organization    |
+|                                                     | [Indigenous Organization of Antioquia](https://organizacionindigenadeantioquia.blogspot.com/) |  |              |                            |
 
 
 ## 7- References
