@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: About
 permalink: "/about/"
 author: Andres_Hincapie
@@ -7,9 +7,8 @@ categories: [ Curriculum, Resume, HV, Contact ]
 image: assets/images/unsplash-cv-10.png
 ---
 
-[Download CV as PDF](https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf)
-***
-Connect with me here in linkedin: 
+- [Download CV as PDF](https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf)
+- Connect with me here in linkedin: 
 [![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aahincapie)
 
 
