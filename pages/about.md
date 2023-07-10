@@ -76,7 +76,13 @@ As a forestry student, I gained a deep understanding of ecological principles an
 
 ## 6- Short-work experience 
 
-<font face="Arial">
+<style>
+table {
+  font-family: 'Open Sans', sans-serif;
+}
+</style>
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
 | Position                                             | Company                           | Period              | Time (Years) | Type        |
 |------------------------------------------------------|---------------------------------------------------|---------------------|--------------|----------------------------|
@@ -97,7 +103,6 @@ As a forestry student, I gained a deep understanding of ecological principles an
 | Land Tenure and Land Use Advisor                     | Indigenous Organization of Antioquia              | Jul 2013 - Feb 2015 | 1.67         | Non-Profit Organization    |
 |                                                     | [Indigenous Organization of Antioquia](https://organizacionindigenadeantioquia.blogspot.com/) |  |              |                            |
 
-</font>
 
 
 ## 7- References
