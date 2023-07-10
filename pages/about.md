@@ -79,30 +79,33 @@ As a forestry student, I gained a deep understanding of ecological principles an
 <style>
 table {
   font-family: 'Open Sans', sans-serif;
+  font-size: 80%;
+}
+td:first-child {
+  font-weight: bold;
 }
 </style>
 
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-| Position                                             | Company                           | Period              | Time (Years) | Type        |
+| **Position**                                         | Company                           | Period              | Time (Years) | Type        |
 |------------------------------------------------------|---------------------------------------------------|---------------------|--------------|----------------------------|
-| Regional Lead NBS, Climate Projects                  | South Pole                                        | Jan 2023 – Jun 2023 | 0.5          | Private sector             |
+| Regional Lead NBS, Climate Projects                  |                                        | Jan 2023 – Jun 2023 | 0.5          | Private sector             |
 |                                                     | [South Pole](https://www.southpole.com/)            |                     |              |                            |
-| Senior Project Coordinator, Forestry & Land Use Projects | South Pole                                        | Jun 2020 – Dec 2022 | 2.5          | Private sector             |
+| Senior Project Coordinator, Forestry & Land Use Projects |                                        | Jun 2020 – Dec 2022 | 2.5          | Private sector             |
 |                                                     | [South Pole](https://www.southpole.com/)            |                     |              |                            |
-| GIS, Forestry & Land Use Projects                    | South Pole                                        | Jun 2017 – Dec 2020 | 3            | Private sector             |
+| GIS, Forestry & Land Use Projects                    |                                         | Jun 2017 – Dec 2020 | 3            | Private sector             |
 |                                                     | [South Pole](https://www.southpole.com/)            |                     |              |                            |
-| Specialist: Social and Forestry consultancy          | Universidad Nacional de Colombia                   | May 2016 - Jul 2016 | 0.17         | Public sector              |
+| Specialist: Social and Forestry consultancy          |                    | May 2016 - Jul 2016 | 0.17         | Public sector              |
 |                                                     | [Universidad Nacional de Colombia](https://www.unal.edu.co/) |              |              |                            |
-| Environmental Analyst                                | WWF                                               | May 2016 - Dec 2016 | 0.67         | Non-Profit Organization    |
+| Environmental Analyst                                |                                                | May 2016 - Dec 2016 | 0.67         | Non-Profit Organization    |
 |                                                     | [WWF](https://www.wwf.org.co/)                      |                     |              |                            |
-| Forestry and Anthropologist (Consultancy)             | Renovatio Group Ltda                              | Sep 2013 - May 2014 | 0.67         | Private sector             |
+| Forestry and Anthropologist (Consultancy)             |                               | Sep 2013 - May 2014 | 0.67         | Private sector             |
 |                                                     | [Renovatio Group Ltda](https://www.renovatiogroup.com.co/) |       |              |                            |
-| Assistant professor                                  | Universidade Federal de Minas Gerais               | Jul 2015 - Dec 2015 | 0.5          |                            |
+| Assistant professor                                  |                | Jul 2015 - Dec 2015 | 0.5          |                            |
 |                                                     | [Universidade Federal de Minas Gerais](https://www.ufmg.br/) |           |              |                            |
-| Land Tenure and Land Use Advisor                     | Indigenous Organization of Antioquia              | Jul 2013 - Feb 2015 | 1.67         | Non-Profit Organization    |
+| Land Tenure and Land Use Advisor                     |              | Jul 2013 - Feb 2015 | 1.67         | Non-Profit Organization    |
 |                                                     | [Indigenous Organization of Antioquia](https://organizacionindigenadeantioquia.blogspot.com/) |  |              |                            |
-
 
 
 ## 7- References
