@@ -64,8 +64,8 @@ As a forestry student, I gained a deep understanding of ecological principles an
 ## 5- Main skills
 
 |-----------------------------------------------|-----------------------|-----------------------|-----------------------|
-| - Forestry and Landscape projects             | - Community and Stakeholder engagement | - Complex data analysis | - REDD and Agroforestry projects |
-| - Geospatial solutions                        | - Innovative and spatial-explicit modeling scenarios | - Human Right based approaches | - Free, Prior and Informed Consent (FPIC), and Stakeholder Consultation (LSC) |
+| * **Forestry and Landscape projects**             | * **Community and Stakeholder engagement** | * **Complex data analysis** | * **REDD and Agroforestry projects** |
+| * **Geospatial solutions**                        | * **Innovative and spatial-explicit modeling scenarios** | * **Human Right based approaches** | * **Free, Prior and Informed Consent (FPIC), and Stakeholder Consultation (LSC)** |
 
 
 
@@ -78,9 +78,6 @@ table {
   font-size: 80%;
 }
 
-td:first-child {
-  font-weight: bold;
-}
 
 </style>
 
@@ -214,11 +211,8 @@ td:first-child {
 table {
   font-family: 'Open Sans', sans-serif;
   font-size: 80%;
-  background-color: #fdd93d;
 }
-td:first-child {
-  font-weight: bold;
-}
+
 </style>
 
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
