@@ -7,23 +7,19 @@ categories: [ Curriculum, Resume, HV, Contact ]
 image: assets/images/unsplash-cv-10.png
 ---
 
-- [Download CV as PDF](https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf)
+- My CV is available as a PDF file. [Click here to download it](https://raw.githubusercontent.com/aahincapie/aahincapie.github.io/746bca58603663e0102f19d336aa6f7f629e31d6/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf)
 - Connect with me here in linkedin: 
 [![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aahincapie)
 
 
 ## 1- Profile
-Hey there, I'm Adolfo, a Forestry Engineer and Anthropologist from Brazil. I'm passionate about quantitative forestry and social sciences, and I love working on GIS problems and spatial modeling.
+I am Adolfo, a Forestry Engineer and Anthropologist from Colombia with a Master oin Analysis and Modeling of Environmental Systems from Brazil. I am passionate about quantitative forestry and social sciences, and I love working on GIS problems and spatial modeling.
 
-I'm a problem-solving pro who loves to tackle complex scenarios and find nature-based solutions to secure financial resources to fight against the climate change crisis. My superpowers are technical carbon issues, REDD+ projects, agroforestry, and agriculture land management (ALM). I have more than five years of experience in afforestation and reforestation (AR), especially associated with the voluntary carbon market under VCS, CCBs, and GS.
+I am a problem-solving pro with a proven track record of tackling complex scenarios and finding nature-based solutions to secure financial resources to fight against the climate change crisis. My superpowers are technical carbon issues, REDD+ projects, agroforestry, and agriculture land management (ALM). I have more than five years of experience in afforestation and reforestation (AR), especially associated with the voluntary carbon market under VCS, CCBs, and GS.
 
-I have a solid technical background in social and biodiversity, environmental and governance impact assessment, and I have participated in coordinating the development of several AFOLU projects in Latin America, and I've also contributed to some projects in Africa.
+My technical expertise in GIS modeling and social and impact assessment has enabled me to coordinate the development of several AFOLU projects in Latin America and Africa. When I'm not crunching data, leading projects, I like to improve my English and Portuguese skills. I also speak Spanish, and I'm proficient in both languages.
 
-When I'm not crunching data, leading projects, or engaging stakeholders, I like to improve my English and Portuguese skills. I also speak Spanish, and I'm proficient in both languages.
-
-But don't let my serious skills and dedication to my work fool you—I also have many flaws, some of which are silly, chaotic, funny, and even awful.
-
-Currently, I am Regional Lead, in Nature Base Solutions, Climate Projects - LatAm at South Pole.
+I am currently the Regional Lead for Nature-Based Solutions and Climate Projects in Latin America at South Pole. I am excited to use my skills and experience to help South Pole or Projects achieve its mission of making a positive impact on the planet.
 {: .notice--success}
 
 
@@ -93,7 +89,7 @@ th:first-child {
 
 <table>
   <tr>
-    <th style="font-weight: normal">Position</th>
+    <th style="font-weight: normal; background-color: #fdd93d">Position</th>
     <th>Company</th>
     <th>Period</th>
     <th>Time (Years)</th>
@@ -156,6 +152,7 @@ th:first-child {
     <td>Non-Profit Organization</td>
   </tr>
 </table>
+
 
 ### Old
 
