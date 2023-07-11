@@ -1,6 +1,5 @@
 ---
 layout: page
-title: About
 permalink: "/about/"
 author: Andres_Hincapie
 categories: [ Curriculum, Resume, HV, Contact ]
@@ -56,12 +55,13 @@ As a forestry student, I gained a deep understanding of ecological principles an
 
 ## 4- Research Interests
 
-| Topic | Description | My most Recent Read |
-|---|---|---|
-| Interactions among climate, land use and land cover change, and livelihoods | New models and tools that can better understand and predict these relationships. | ["The Impact of Climate Change on Livelihoods in the Sahel"](https://www.nature.com/articles/s41561-018-0244-1) |
-| Methods and tools for integrating social and forestry issues to unlock voluntary carbon market | Develop methods and tools that can be used to measure, monitor, and verify the social and environmental benefits of forestry projects. | ["Assessing the Social and Environmental Impacts of Forest Conservation and Restoration"](https://www.sciencedirect.com/science/article/pii/S0959378020300864) |
-| Modeling, mapping and data visualization | New methods and tools that can be used to understand and communicate complex environmental data. | ["A New Approach to Mapping Forest Cover Change"](https://www.mdpi.com/1999-4907/11/12/2564) |
-| Fires methodologies and regrowing carbon emissions | Measuring and quantifying the carbon emissions from fires, and to develop methods for regrowing forests to offset these emissions. | ["The Impact of Wildfires on Carbon Emissions"](https://www.nature.com/articles/s41558-021-00958-9) |
+| **Topic**                                                           | Description                                                                                                                           | My most Recent Read                                                                                                           |
+|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| **Interactions among climate, land use and land cover change, and livelihoods**               | New models and tools that can better understand and predict these relationships.                                                     | ["The Impact of Climate Change on Livelihoods in the Sahel"](https://www.nature.com/articles/s41561-018-0244-1)              |
+| **Methods and tools for integrating social and forestry issues to unlock voluntary carbon market**    | Develop methods and tools that can be used to measure, monitor, and verify the social and environmental benefits of forestry projects. | ["Assessing the Social and Environmental Impacts of Forest Conservation and Restoration"](https://www.sciencedirect.com/science/article/pii/S0959378020300864) |
+| **Modeling, mapping and data visualization**                              | New methods and tools that can be used to understand and communicate complex environmental data.                                       | ["A New Approach to Mapping Forest Cover Change"](https://www.mdpi.com/1999-4907/11/12/2564)                                |
+| **Fires methodologies and regrowing carbon emissions**                     | Measuring and quantifying the carbon emissions from fires, and to develop methods for regrowing forests to offset these emissions.    | ["The Impact of Wildfires on Carbon Emissions"](https://www.nature.com/articles/s41558-021-00958-9)                        |
+
 
 
 
