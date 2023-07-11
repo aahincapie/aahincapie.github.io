@@ -13,13 +13,11 @@ image: assets/images/unsplash-cv-10.png
 
 
 ## 1- Profile
-I am Adolfo, a Forestry Engineer and Anthropologist from Colombia with a Master oin Analysis and Modeling of Environmental Systems from Brazil. I am passionate about quantitative forestry and social sciences, and I love working on GIS problems and spatial modeling.
+I am Adolfo, a Forestry Engineer and Anthropologist from Colombia with a Master in Analysis and Modeling of Environmental Systems from Brazil. I am passionate about quantitative forestry and social sciences, and I love working on GIS problems and spatial modeling.
 
-I am a problem-solving pro with a proven track record of tackling complex scenarios and finding nature-based solutions to secure financial resources to fight against the climate change crisis. My superpowers are technical carbon issues, REDD+ projects, agroforestry, and agriculture land management (ALM). I have more than five years of experience in afforestation and reforestation (AR), especially associated with the voluntary carbon market under VCS, CCBs, and GS.
+I am a problem-solving pro with a proven track record in tackling complex scenarios and finding nature-based solutions to secure financial resources to fight against the climate change crisis. My superpowers are GIS and technical carbon issues related to REDD+ projects and agroforestry. My technical expertise in GIS modeling and social and impact assessment has enabled me to coordinate the development of several AFOLU projects in Latin America and Africa. When I'm not crunching data or managing projects, I like to improve my English and Portuguese skills. I also speak Spanish (mother tongue). I have more than five years of experience associated with the voluntary carbon market, especially under VCS, CCBs, and GS.
 
-My technical expertise in GIS modeling and social and impact assessment has enabled me to coordinate the development of several AFOLU projects in Latin America and Africa. When I'm not crunching data, leading projects, I like to improve my English and Portuguese skills. I also speak Spanish, and I'm proficient in both languages.
-
-I am currently the Regional Lead for Nature-Based Solutions and Climate Projects in Latin America at South Pole. I am excited to use my skills and experience to help South Pole or Projects achieve its mission of making a positive impact on the planet.
+I am currently a Regional Lead for Nature-Based Solutions and Climate Projects in Latin America at South Pole. I enjoy using my skills and experience to help South Pole and Projects to achieve their mission of making a positive impact on the planet.
 {: .notice--success}
 
 
@@ -60,8 +58,8 @@ As a forestry student, I gained a deep understanding of ecological principles an
 
 * Interactions among climate, land use and land cover change, and livelihoods
 * Methods and tools for integrating social and forestry issues to unlock voluntary carbon market
-* Modeling , mapping and data visualization
-* Fires, Accounting Carbon Emissions
+* Modeling, mapping and data visualization
+* Fires accounting carbon emissions
 
 ## 5- Main skills
 
@@ -72,15 +70,18 @@ As a forestry student, I gained a deep understanding of ecological principles an
 
 ## 6- Short-experience 
 
-### New
-
+### new
 <style>
 table {
   font-family: 'Open Sans', sans-serif;
   font-size: 80%;
 }
 
-th:first-child {
+td:first-child {
+  font-weight: bold;
+}
+
+.table-highlight {
   background-color: #fdd93d;
 }
 </style>
@@ -89,77 +90,133 @@ th:first-child {
 
 <table>
   <tr>
-    <th style="font-weight: normal; background-color: #fdd93d">Position</th>
+    <th>Position</th>
     <th>Company</th>
     <th>Period</th>
     <th>Time (Years)</th>
     <th>Type</th>
   </tr>
-  <tr>
+  <tr class="table-highlight">
     <td><strong>Regional Lead NBS, Climate Projects</strong></td>
-    <td>South Pole</td>
+    <td></td>
     <td>Jan 2023 – Jun 2023</td>
     <td>0.5</td>
     <td>Private sector</td>
   </tr>
   <tr>
+    <td></td>
+    <td><a href="https://www.southpole.com/">South Pole</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td><strong>Senior Project Coordinator, Forestry & Land Use Projects</strong></td>
-    <td>South Pole</td>
+    <td></td>
     <td>Jun 2020 – Dec 2022</td>
     <td>2.5</td>
     <td>Private sector</td>
   </tr>
   <tr>
+    <td></td>
+    <td><a href="https://www.southpole.com/">South Pole</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td><strong>GIS, Forestry & Land Use Projects</strong></td>
-    <td>South Pole</td>
+    <td></td>
     <td>Jun 2017 – Dec 2020</td>
     <td>3</td>
     <td>Private sector</td>
   </tr>
   <tr>
+    <td></td>
+    <td><a href="https://www.southpole.com/">South Pole</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td><strong>Specialist: Social and Forestry consultancy</strong></td>
-    <td>Universidad Nacional de Colombia</td>
+    <td></td>
     <td>May 2016 - Jul 2016</td>
     <td>0.17</td>
     <td>Public sector</td>
   </tr>
   <tr>
+    <td></td>
+    <td><a href="https://www.unal.edu.co/">Universidad Nacional de Colombia</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td><strong>Environmental Analyst</strong></td>
-    <td>WWF</td>
+    <td></td>
     <td>May 2016 - Dec 2016</td>
     <td>0.67</td>
     <td>Non-Profit Organization</td>
   </tr>
   <tr>
+    <td></td>
+    <td><a href="https://www.wwf.org.co/">WWF</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td><strong>Forestry and Anthropologist (Consultancy)</strong></td>
-    <td>Renovatio Group Ltda</td>
+    <td></td>
     <td>Sep 2013 - May 2014</td>
     <td>0.67</td>
     <td>Private sector</td>
   </tr>
   <tr>
+    <td></td>
+    <td><a href="https://www.renovatiogroup.com.co/">Renovatio Group Ltda</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td><strong>Assistant professor</strong></td>
-    <td>Universidade Federal de Minas Gerais</td>
+    <td></td>
     <td>Jul 2015 - Dec 2015</td>
     <td>0.5</td>
     <td></td>
   </tr>
   <tr>
+    <td></td>
+    <td><a href="https://www.ufmg.br/">Universidade Federal de Minas Gerais</a></td>
+    <td></td>
+    <td></td>
+    <td>Public sector</td>
+  </tr>
+  <tr>
     <td><strong>Land Tenure and Land Use Advisor</strong></td>
-    <td>Indigenous Organization of Antioquia</td>
+    <td></td>
     <td>Jul 2013 - Feb 2015</td>
     <td>1.67</td>
     <td>Non-Profit Organization</td>
   </tr>
+  <tr>
+    <td></td>
+    <td><a href="https://organizacionindigenadeantioquia.blogspot.com/">Indigenous Organization of Antioquia</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
 
-
-### Old
+### old
 
 <style>
 table {
   font-family: 'Open Sans', sans-serif;
   font-size: 80%;
+  background-color: #fdd93d;
 }
 td:first-child {
   font-weight: bold;
