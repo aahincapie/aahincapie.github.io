@@ -205,38 +205,6 @@ table {
   </tr>
 </table>
 
-### old
-
-<style>
-table {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 80%;
-}
-
-</style>
-
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
-| **Position**                                         | Company                           | Period              | Time (Years) | Type        |
-|------------------------------------------------------|---------------------------------------------------|---------------------|--------------|----------------------------|
-| Regional Lead NBS, Climate Projects                  |                                        | Jan 2023 – Jun 2023 | 0.5          | Private sector             |
-|                                                     | [South Pole](https://www.southpole.com/)            |                     |              |                            |
-| Senior Project Coordinator, Forestry & Land Use Projects |                                        | Jun 2020 – Dec 2022 | 2.5          | Private sector             |
-|                                                     | [South Pole](https://www.southpole.com/)            |                     |              |                            |
-| GIS, Forestry & Land Use Projects                    |                                         | Jun 2017 – Dec 2020 | 3            | Private sector             |
-|                                                     | [South Pole](https://www.southpole.com/)            |                     |              |                            |
-| Specialist: Social and Forestry consultancy          |                    | May 2016 - Jul 2016 | 0.17         | Public sector              |
-|                                                     | [Universidad Nacional de Colombia](https://www.unal.edu.co/) |              |              |                            |
-| Environmental Analyst                                |                                                | May 2016 - Dec 2016 | 0.67         | Non-Profit Organization    |
-|                                                     | [WWF](https://www.wwf.org.co/)                      |                     |              |                            |
-| Forestry and Anthropologist (Consultancy)             |                               | Sep 2013 - May 2014 | 0.67         | Private sector             |
-|                                                     | [Renovatio Group Ltda](https://www.renovatiogroup.com.co/) |       |              |                            |
-| Assistant professor                                  |                | Jul 2015 - Dec 2015 | 0.5          |                            |
-|                                                     | [Universidade Federal de Minas Gerais](https://www.ufmg.br/) |           |              |                            |
-| Land Tenure and Land Use Advisor                     |              | Jul 2013 - Feb 2015 | 1.67         | Non-Profit Organization    |
-|                                                     | [Indigenous Organization of Antioquia](https://organizacionindigenadeantioquia.blogspot.com/) |  |              |                            |
-
-
 ## 7- References
 
 ### Academic references
@@ -256,9 +224,12 @@ I highlight the fact to had the possibility of having a classroom with ones of t
 ### Profesional references:
 
 Finally, I have worked with many colleagues and people who have led me how to work better, be more flexible, manage better time, speak and rise up alerts
-* **Abel Marcarini**  (Yes) 
-* **Beatriz Zapata** (No)
-* **Diego Arango** (No)
+* **Abel Marcarini** (Earthshot Lab)
+* **Sara Betancur**  (South Pole)
+* **Beatriz Zapata** (South Pole)
+* **David Montoya Gonzále**  (Terra Global)
+* **Claudia Milena**  (Verra)
+
 
 
 ## 8- Tools
