@@ -63,10 +63,11 @@ As a forestry student, I gained a deep understanding of ecological principles an
 
 ## 5- Main skills
 
-*	Forestry and Landscape projects; Community and Stakeholder engagement; Complex data analysis 
-*	Emissions Reduction from Deforestation, Degradation, and Agroforestry projects 
-*	Geospatial solutions; Innovative and spatial-explicit modeling scenarios
-*	Right based approaches, Free, Prior and Informed Consent (FPIC), and Stakeholder Consultation (LSC)
+|-----------------------------------------------|-----------------------|-----------------------|-----------------------|
+| - Forestry and Landscape projects             | - Community and Stakeholder engagement | - Complex data analysis | - REDD and Agroforestry projects |
+| - Geospatial solutions                        | - Innovative and spatial-explicit modeling scenarios | - Human Right based approaches | - Free, Prior and Informed Consent (FPIC), and Stakeholder Consultation (LSC) |
+
+
 
 ## 6- Short-experience 
 
@@ -264,9 +265,9 @@ I highlight the fact to had the possibility of having a classroom with ones of t
 ### Profesional references:
 
 Finally, I have worked with many colleagues and people who have led me how to work better, be more flexible, manage better time, speak and rise up alerts
-* **Abel Marcarini**   
-* **Beatriz Zapata**
-* **Diego Arango**
+* **Abel Marcarini**  (Yes) 
+* **Beatriz Zapata** (No)
+* **Diego Arango** (No)
 
 
 ## 8- Tools
