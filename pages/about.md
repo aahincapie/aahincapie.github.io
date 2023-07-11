@@ -56,22 +56,38 @@ As a forestry student, I gained a deep understanding of ecological principles an
 
 ## 4- Research Interests
 
-* Interactions among climate, land use and land cover change, and livelihoods
-* Methods and tools for integrating social and forestry issues to unlock voluntary carbon market
-* Modeling, mapping and data visualization
-* Fires accounting carbon emissions
+* Interactions among climate, land use and land cover change, and livelihoods: New models and tools that can better understand and predict these relationships
+* Methods and tools for integrating social and forestry issues to unlock voluntary carbon market: develop methods and tools that can be used to measure, monitor, and verify the social and environmental benefits of forestry projects
+* Modeling, mapping and data visualization: new methods and tools that can be used to understand and communicate complex environmental data
+* Fires methodologies and regrowing carbon emissions: measuring and quantifying the carbon emissions from fires, and to develop methods for regrowing forests to offset these emissions.
+
+## Research Interests
+
+* **Interactions among climate, land use and land cover change, and livelihoods:** New models and tools that can better understand and predict these relationships.
+  * Most recent read (2018): ["The Impact of Climate Change on Livelihoods in the Sahel"](https://www.nature.com/articles/s41561-018-0244-1).
+
+* **Methods and tools for integrating social and forestry issues to unlock voluntary carbon market:** Develop methods and tools that can be used to measure, monitor, and verify the social and environmental benefits of forestry projects.
+  * Most recent read (2020): ["Assessing the Social and Environmental Impacts of Forest Conservation and Restoration"](https://www.sciencedirect.com/science/article/pii/S0959378020300864).
+
+* **Modeling, mapping and data visualization:** New methods and tools that can be used to understand and communicate complex environmental data.
+  * Most recent read (2019): ["A New Approach to Mapping Forest Cover Change"](https://www.mdpi.com/1999-4907/11/12/2564).
+
+* **Fires methodologies and regrowing carbon emissions:** Measuring and quantifying the carbon emissions from fires, and to develop methods for regrowing forests to offset these emissions.
+  * Most recent read (2021): ["The Impact of Wildfires on Carbon Emissions"](https://www.nature.com/articles/s41558-021-00958-9).
+
+
 
 ## 5- Main skills
 
-|-----------------------------------------------|-----------------------|-----------------------|-----------------------|
-| * **Forestry and Landscape projects**             | * **Community and Stakeholder engagement** | * **Complex data analysis** | * **REDD and Agroforestry projects** |
-| * **Geospatial solutions**                        | * **Innovative and spatial-explicit modeling scenarios** | * **Human Right based approaches** | * **Free, Prior and Informed Consent (FPIC), and Stakeholder Consultation (LSC)** |
-
+|---------------------------------------------|------------------------------------------------------------|
+| **Forestry and REDD**                          | - Forestry and Landscape projects, REDD and Agroforestry projects |
+| **Geospatial**                                  | - Geospatial solutions and visulization                                    |
+| **Human Rights**                                | - Human Right based approaches, Free, Prior and Informed Consent (FPIC), and Stakeholder Consultation (LSC) |
+| **Data Analysis**                               | - Complex data analysis, Innovative and spatial-explicit modeling scenarios |
 
 
 ## 6- Short-experience 
 
-### new
 <style>
 table {
   font-family: 'Open Sans', sans-serif;
@@ -93,115 +109,75 @@ table {
   </tr>
   <tr class="table-highlight">
     <td><strong>Regional Lead NBS, Climate Projects</strong></td>
-    <td></td>
     <td>Jan 2023 – Jun 2023</td>
     <td>0.5</td>
     <td>Private sector</td>
   </tr>
   <tr>
-    <td></td>
     <td><a href="https://www.southpole.com/">South Pole</a></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td><strong>Senior Project Coordinator, Forestry & Land Use Projects</strong></td>
-    <td></td>
     <td>Jun 2020 – Dec 2022</td>
     <td>2.5</td>
     <td>Private sector</td>
   </tr>
   <tr>
-    <td></td>
     <td><a href="https://www.southpole.com/">South Pole</a></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td><strong>GIS, Forestry & Land Use Projects</strong></td>
-    <td></td>
     <td>Jun 2017 – Dec 2020</td>
     <td>3</td>
     <td>Private sector</td>
   </tr>
   <tr>
-    <td></td>
     <td><a href="https://www.southpole.com/">South Pole</a></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td><strong>Specialist: Social and Forestry consultancy</strong></td>
-    <td></td>
     <td>May 2016 - Jul 2016</td>
     <td>0.17</td>
     <td>Public sector</td>
   </tr>
   <tr>
-    <td></td>
     <td><a href="https://www.unal.edu.co/">Universidad Nacional de Colombia</a></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td><strong>Environmental Analyst</strong></td>
-    <td></td>
     <td>May 2016 - Dec 2016</td>
     <td>0.67</td>
     <td>Non-Profit Organization</td>
   </tr>
   <tr>
-    <td></td>
     <td><a href="https://www.wwf.org.co/">WWF</a></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td><strong>Forestry and Anthropologist (Consultancy)</strong></td>
-    <td></td>
     <td>Sep 2013 - May 2014</td>
     <td>0.67</td>
     <td>Private sector</td>
   </tr>
   <tr>
-    <td></td>
     <td><a href="https://www.renovatiogroup.com.co/">Renovatio Group Ltda</a></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td><strong>Assistant professor</strong></td>
-    <td></td>
     <td>Jul 2015 - Dec 2015</td>
     <td>0.5</td>
-    <td></td>
   </tr>
   <tr>
-    <td></td>
     <td><a href="https://www.ufmg.br/">Universidade Federal de Minas Gerais</a></td>
-    <td></td>
-    <td></td>
     <td>Public sector</td>
   </tr>
   <tr>
     <td><strong>Land Tenure and Land Use Advisor</strong></td>
-    <td></td>
     <td>Jul 2013 - Feb 2015</td>
     <td>1.67</td>
     <td>Non-Profit Organization</td>
   </tr>
   <tr>
-    <td></td>
     <td><a href="https://organizacionindigenadeantioquia.blogspot.com/">Indigenous Organization of Antioquia</a></td>
-    <td></td>
-    <td></td>
-    <td></td>
   </tr>
 </table>
 
