@@ -82,9 +82,6 @@ td:first-child {
   font-weight: bold;
 }
 
-.table-highlight {
-  background-color: #fdd93d;
-}
 </style>
 
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
