@@ -60,18 +60,25 @@ As a forestry student, I gained a deep understanding of ecological principles an
 | **Interactions among climate, land use and land cover change, and livelihoods**               | New models and tools that can better understand and predict these relationships.                                                     | ["The Impact of Climate Change on Livelihoods in the Sahel"](https://www.nature.com/articles/s41561-018-0244-1)              |
 | **Methods and tools for integrating social and forestry issues to unlock voluntary carbon market**    | Develop methods and tools that can be used to measure, monitor, and verify the social and environmental benefits of forestry projects. | ["Assessing the Social and Environmental Impacts of Forest Conservation and Restoration"](https://www.sciencedirect.com/science/article/pii/S0959378020300864) |
 | **Modeling, mapping and data visualization**                              | New methods and tools that can be used to understand and communicate complex environmental data.                                       | ["A New Approach to Mapping Forest Cover Change"](https://www.mdpi.com/1999-4907/11/12/2564)                                |
-| **Fires methodologies and regrowing carbon emissions**                     | Measuring and quantifying the carbon emissions from fires, and to develop methods for regrowing forests to offset these emissions.    | ["The Impact of Wildfires on Carbon Emissions"](https://www.nature.com/articles/s41558-021-00958-9)                        |
-
+| **Fires methodologies and regrowing carbon emissions** |     |     |     |
+| Savanna fires are a major source of GHG. | Savanna fires emit large amounts of greenhouse gases, including carbon dioxide, methane, and nitrous oxide. |: [Russell-Smith et al. (2021)](https://doi.org/10.1016/j.jenvman.2021.112414) :|
+| Early dry season burning | Early dry season burning can reduce emissions by up to 50%, but it requires coordination between different stakeholders and can have negative impacts on biodiversity. |    |
+| Further research and development is needed | There is a need for more research on the effectiveness of early dry season burning and on the ways to mitigate its negative impacts on biodiversity. |    |
 
 
 
 ## 5- Main skills
 
-|---------------------------------------------|------------------------------------------------------------|
-| **Forestry and REDD**                          | - Forestry and Landscape projects, REDD and Agroforestry projects |
-| **Geospatial**                                  | - Geospatial solutions and visulization                                    |
-| **Human Rights**                                | - Human Right based approaches, Free, Prior and Informed Consent (FPIC), and Stakeholder Consultation (LSC) |
-| **Data Analysis**                               | - Complex data analysis, Innovative and spatial-explicit modeling scenarios |
+
+|---------------------------------------------|------------------------------------------------------------|-------------------------------------------------------|
+| **Forestry and REDD:**                          | - Forestry and Landscape projects                               | REDD and Agroforestry projects                        |
+| **Geospatial:**                                  | - Geospatial solutions and new developments                 |                                                       |
+| **Human Rights:**                                | - Human Right based approaches                                   | Free, Prior and Informed Consent (FPIC)               |
+|                                             | - Stakeholder and Theory of Change (ToC)                     |                                                       |
+| **Data Analysis:**                               | - Complex data analysis and innovation                       | Spatial-explicit modeling scenarios                    |
+
+
+
 
 
 ## 6- Short-experience 
