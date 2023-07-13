@@ -55,11 +55,13 @@ As a forestry student, I gained a deep understanding of ecological principles an
 
 ## 4- Research Interests
 
-| **Topic**                                                           | Description                                                                                                                           | My most Recent Read                                                                                                           |
+| **Topic**                                                           | Description                                                                                                                           | My most recent read Read                                                                                                           |
 |----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | **Interactions among climate, land use and land cover change, and livelihoods**               | New models and tools that can better understand and predict these relationships.                                                     | ["The Impact of Climate Change on Livelihoods in the Sahel"](https://www.nature.com/articles/s41561-018-0244-1)              |
 | **Methods and tools for integrating social and forestry issues to unlock voluntary carbon market**    | Develop methods and tools that can be used to measure, monitor, and verify the social and environmental benefits of forestry projects. | ["Assessing the Social and Environmental Impacts of Forest Conservation and Restoration"](https://www.sciencedirect.com/science/article/pii/S0959378020300864) |
-| **Modeling, mapping and data visualization**                              | New methods and tools that can be used to understand and communicate complex environmental data.                                       | ["A New Approach to Mapping Forest Cover Change"](https://www.mdpi.com/1999-4907/11/12/2564)                                |
+| **Modeling, mapping and data visualization**                              | New methods and tools that can be used to understand and communicate complex environmental data.       |     |     |     |
+| Tree cover outside of forests | The authors show that more than one quarter of Africa's tree cover is found outside areas previously classified as forest. | [Reiner et al. (2023)](https://www.nature.com/articles/s41467-023-37880-4) |
+| Satellite data | The authors use satellite data to show the distribution of tree cover outside of forests. |  |
 | **Fires methodologies and regrowing carbon emissions** |     |     |     |
 | Savanna fires are a major source of GHG. | Savanna fires emit large amounts of greenhouse gases, including carbon dioxide, methane, and nitrous oxide. |: [Russell-Smith et al. (2021)](https://doi.org/10.1016/j.jenvman.2021.112414) :|
 | Early dry season burning | Early dry season burning can reduce emissions by up to 50%, but it requires coordination between different stakeholders and can have negative impacts on biodiversity. |    |
@@ -70,12 +72,12 @@ As a forestry student, I gained a deep understanding of ecological principles an
 ## 5- Main skills
 
 
-|---------------------------------------------|------------------------------------------------------------|-------------------------------------------------------|
-| **Forestry and REDD:**                          | - Forestry and Landscape projects                               | REDD and Agroforestry projects                        |
-| **Geospatial:**                                  | - Geospatial solutions and new developments                 |                                                       |
-| **Human Rights:**                                | - Human Right based approaches                                   | Free, Prior and Informed Consent (FPIC)               |
-|                                             | - Stakeholder and Theory of Change (ToC)                     |                                                       |
-| **Data Analysis:**                               | - Complex data analysis and innovation                       | Spatial-explicit modeling scenarios                    |
+|-------------------------------------------|------------------------------------------------------------|-------------------------------------------------------|
+| **Forestry and REDD:**                        | - Forestry and Landscape projects                               | - REDD and Agroforestry projects                        |
+| **Geospatial:**                                | - Geospatial solutions and new developments                 |                                                       |
+| **Human Rights:**                              | - Human Right based approaches                                   | - Free, Prior and Informed Consent (FPIC)               |
+|                                           | - Stakeholder and Theory of Change (ToC)                     |                                                       |
+| **Data Analysis:**                             | - Complex data analysis and innovation                       | - Spatial-explicit modeling scenarios                    |
 
 
 
@@ -226,9 +228,7 @@ I highlight the role in my bachelor carrer of a Antropologist **Rober Dover** wh
 
 I highlight the fact to had the possibility of having a classroom with ones of those teachers that think outside the black box and always are in the knowledge frontier:
 * **Britaldo Soares-Filho** [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-0077B5?style=flat-square&logo=google-scholar)](https://scholar.google.com/citations?user=0r083BYAAAAJ&hl)
-
 * **Sonia Maria Carvalho** [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-0077B5?style=flat-square&logo=google-scholar)](https://scholar.google.com/citations?user=FwrTKjQAAAAJ&hl)
-
 * **Dolors Almenteras** [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-0077B5?style=flat-square&logo=google-scholar)](https://scholar.google.com/citations?user=vmF72BgAAAAJ&hl)
 
 
@@ -238,7 +238,7 @@ Finally, I have worked with many colleagues and people who have led me how to wo
 * **Abel Marcarini** (Earthshot Lab)
 * **Sara Betancur**  (South Pole)
 * **Beatriz Zapata** (South Pole)
-* **David Montoya Gonzále**  (Terra Global)
+
 * **Claudia Milena**  (Verra)
 
 
@@ -271,3 +271,29 @@ Finally, I have worked with many colleagues and people who have led me how to wo
 | Basic    | R                                                                    | A statistical programming language widely used for data analysis and visualization, including geospatial data analysis.              | [![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r)](https://www.r-project.org/)                                  |
 | Basic    | JavaScript                                                           | A versatile programming language commonly used for web development and interactive map applications.                                | [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript)](https://developer.mozilla.org/)     |
 
+### New
+
+| Category                | Tool/Platform                                                         |                       | Description |
+|-------------------------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Tools**               |                                                                      |                                                                                                                                      |
+| Project                 | Clickup                                                              | [![Clickup](https://img.shields.io/badge/Clickup-3CB371?style=flat-square&logo=clickup)](https://clickup.com/)                      | A cloud-based project management tool.       
+| Collaboration           | Miro                                                                 | [![Miro](https://img.shields.io/badge/Miro-0077B5?style=flat-square&logo=miro)](https://miro.com/)                                   | A collaborative whiteboard platform that helps teams brainstorm, plan, and execute projects.                                         
+| Project                 | Monday.com                                                           | [![Monday.com](https://img.shields.io/badge/Monday.com-56CCF2?style=flat-square&logo=monday.com)](https://monday.com/)              | A project management platform to collaborate on tasks, and track progress.                         
+| **Platforms**           |                                                                      |                                                                                                                                      |
+| GIS Software            | ArcMap                                                               | [![ArcMap](https://img.shields.io/badge/ArcMap-5D61BD?style=flat-square)](https://www.esri.com/en-us/arcgis/products/arcgis-desktop/) | A commercial GIS software package.                                                                               
+| Remote Sensing          | ENVI                                                                 | [![ENVI](https://img.shields.io/badge/ENVI-blue?style=flat-square)](https://www.envi.com/)                                          | A commercial remote sensing software package.                                                                                        
+| Remote Sensing          | ERDAS                                                                | [![ERDAS](https://img.shields.io/badge/ERDAS-orange?style=flat-square)](https://www.hexagongeospatial.com/products/ERDAS-Imagine)     | A commercial remote sensing software package.                                                                                        
+| Remote Sensing          | IDRISI                                                               | [![IDRISI](https://img.shields.io/badge/IDRISI-green?style=flat-square)](https://www.itc.nl/en/products/idrisi/)                      | A commercial remote sensing software package.                                                                                        
+| **Commercial Software** |                                                                      |                                                                                                                                      |
+| File Format             | .GDB                                                                 | [![.GDB](https://img.shields.io/badge/.GDB-blue?style=flat-square)](https://en.wikipedia.org/wiki/Geodatabase)                       | A file format for storing geospatial data.                                                                                           
+| File Format             | .BigQuery                                                            | [![.ARCSDE](https://img.shields.io/badge/.ARCSDE-green?style=flat-square)](https://en.wikipedia.org/wiki/ArcSDE)                    | A client library for storing spatial data in Python.                                                                                  
+| **Open-source Software** |                                                                      |                                                                                                                                      |
+| REDD+ Analysis          | DINAMICA-EGO                                                         | [![DINAMICA-EGO](https://img.shields.io/badge/DINAMICA--EGO-007EFF?style=flat-square)](https://sites.google.com/site/dinamicaego/) | A free and open-source REDD+ analysis tool.                                                                                          
+| REDD+ Analysis          | SPRING                                                               | [![SPRING](https://img.shields.io/badge/SPRING-008000?style=flat-square)](https://github.com/dpiaget/SPRING)                         | A free and open-source REDD+ analysis tool.                                                                                          
+| **Open-source Software** |                                                                      |                                                                                                                                      |
+| GIS Software            | QGIS                                                                 | [![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat-square)](https://www.qgis.org/)                                        | A free and open-source GIS software package.                                                                                         
+| Remote Sensing          | Google Earth Engine (GEE)                                            | [![GEE](https://img.shields.io/badge/GEE-4285F4?style=flat-square&logo=google-earth)](https://earthengine.google.com/)               | A cloud-based platform for analyzing and visualizing geospatial data using Google's infrastructure.                                  
+| **Programming Languages**|                                                                      |                                                                                                                                      |
+| Basic    | Python                                                               | [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)](https://www.python.org/)                        | A popular general-purpose programming language for geospatial data analysis.                         
+| Basic    | R                                                                    | [![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r)](https://www.r-project.org/)                                  | A statistical programming language widely used for data analysis and visualization.             
+| Basic    | JavaScript                                                           | [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript)](https://google.github.io/styleguide/javascriptguide.xml) | A versatile programming language commonly used for web development and interactive map applications.   
