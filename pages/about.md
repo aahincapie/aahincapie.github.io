@@ -229,38 +229,26 @@ I highlight the fact to had the possibility of having a classroom with ones of t
 Throughout my journey, I've had the privilege of working with amazing colleagues who have guided me in improving my work skills, time management, communication, and the ability to raise important concerns. Here are a few of the remarkable individuals I've had the pleasure of working with at my desk.
 
 <div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 100px; height: 100px;">
-    <img src="https://uploads-ssl.webflow.com/636af6c7a6be384c24bea3d7/6393d225c7a3f2c03b710efd_637db6aff3ef8307cec3edfd_abel-p-500.jpeg" alt="Employee Image" style="width: 100%;">
+    <img src="https://uploads-ssl.webflow.com/636af6c7a6be384c24bea3d7/6393d225c7a3f2c03b710efd_637db6aff3ef8307cec3edfd_abel-p-500.jpeg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
 </div>
 
-* **Abel Marcarini** (Earthshot Lab)
-Abel is a carbon project lead for Brazil at Earthshot Labs. He has more than 10 years working on Nature Based Solutions for the voluntary carbon market and academic background in forestry.Abel worked for Verra for the last two years and for South Pole for another seven years. 
+* **Abel Marcarini:** Abel is a carbon project lead for Brazil at Earthshot Labs. He has more than 10 years working on Nature Based Solutions for the voluntary carbon market and academic background in forestry.Abel worked for Verra for the last two years and for South Pole for another seven years. 
 
 <div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 100px; height: 100px;">
     <img src="https://www.southpole.com/uploads/thumbs/bza_600x775.jpg" alt="Employee Image" style="width: 100%;">
 </div>
 
-* **Beatriz Zapata** (South Pole)
-Beatriz Zapata is a forest engineer with vast experience in carbon forest project initiatives. She has deep technical knowledge of methodologies, tools, and guidelines of the main standards used in the AFOLU sector, such as VCS, CCBS and Gold Standard. Beatriz work for South Pole since seven years ago.
+* **Beatriz Zapata:** Beatriz Zapata is a forest engineer with vast experience in carbon forest project initiatives. She has deep technical knowledge of methodologies, tools, and guidelines of the main standards used in the AFOLU sector, such as VCS, CCBS and Gold Standard. Beatriz work for South Pole since seven years ago.
 
-
-* **Claudia Milena** 
-
-<div>
-  <div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
+<div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 100px; height: 100px;">
     <img src="https://verra.org/wp-content/uploads/claudia-milena-agudelo-palacio.jpg" alt="Employee Image" style="width: 100%;">
-  </div>
-  <div>
-    <p>Milena is a program officer at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM.</p>
-    <p>Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly in developing human-induced regeneration projects for the Australian Carbon Farming Initiative and worked with South Pole for five years.</p>
+</div>
+
+* **Claudia Milena** Milena is a program officer at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly in developing human-induced regeneration projects for the Australian Carbon Farming Initiative and worked with South Pole for five years.</p>
   </div>
 </div>
 
-| <img src="https://verra.org/wp-content/uploads/claudia-milena-agudelo-palacio.jpg" alt="Employee Image" width="100"> | Milena is a program officer at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly in developing human-induced regeneration projects for the Australian Carbon Farming Initiative and worked with South Pole for five years. |
-
-
-
-
-* **David Montoya González**  (TerraGlobal)
+* **David Montoya González**  !(TerraGlobal)
 
 David hold eight years of extensive experience in Remote Sensing and GIS. He leads the Remote Sensing and GIS team in TerraGlobal, using innovative software and tools that meet carbon market and impact standards and support community-based geospatial community monitoring. David worked for The National Department of Statistics (DANE) and South Pole for two years.
 
