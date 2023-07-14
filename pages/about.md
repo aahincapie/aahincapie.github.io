@@ -245,7 +245,7 @@ Beatriz Zapata is a forest engineer with vast experience in carbon forest projec
 
 * **Claudia Milena** 
 
-<div style="display: flex; align-items: center;">
+<div>
     <div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 75px; height: 75px;">
         <img src="https://verra.org/wp-content/uploads/claudia-milena-agudelo-palacio.jpg" alt="Employee Image" style="width: 100%;">
     </div>
