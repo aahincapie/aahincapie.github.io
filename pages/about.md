@@ -228,8 +228,11 @@ I highlight the fact to had the possibility of having a classroom with ones of t
 ### Profesional references:
 Throughout my journey, I've had the privilege of working with amazing colleagues who have guided me in improving my work skills, time management, communication, and the ability to raise important concerns. Here are a few of the remarkable individuals I've had the pleasure of working with at my desk.
 
-* **Abel Marcarini** (Earthshot Lab)
+<div class="employee-image" style="border-radius: 50%; overflow: hidden;">
+    <img src="https://uploads-ssl.webflow.com/636af6c7a6be384c24bea3d7/6393d225c7a3f2c03b710efd_637db6aff3ef8307cec3edfd_abel-p-500.jpeg" alt="Employee Image" style="width: 100%;">
+</div>
 
+* **Abel Marcarini** (Earthshot Lab)
 Abel is a carbon project lead for Brazil at Earthshot Labs. He has more than 10 years working on Nature Based Solutions for the voluntary carbon market and academic background in forestry.Abel worked for Verra for the last two years and for South Pole for another seven years. 
 
 * **Beatriz Zapata** (South Pole)
