@@ -228,16 +228,23 @@ I highlight the fact to had the possibility of having a classroom with ones of t
 ### Profesional references:
 Throughout my journey, I've had the privilege of working with amazing colleagues who have guided me in improving my work skills, time management, communication, and the ability to raise important concerns. Here are a few of the remarkable individuals I've had the pleasure of working with at my desk.
 
-<div class="employee-image" style="border-radius: 50%; overflow: hidden;">
+<div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 50px; height: 50px;">
     <img src="https://uploads-ssl.webflow.com/636af6c7a6be384c24bea3d7/6393d225c7a3f2c03b710efd_637db6aff3ef8307cec3edfd_abel-p-500.jpeg" alt="Employee Image" style="width: 100%;">
 </div>
 
 * **Abel Marcarini** (Earthshot Lab)
 Abel is a carbon project lead for Brazil at Earthshot Labs. He has more than 10 years working on Nature Based Solutions for the voluntary carbon market and academic background in forestry.Abel worked for Verra for the last two years and for South Pole for another seven years. 
 
-* **Beatriz Zapata** (South Pole)
+<div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 50px; height: 50px;">
+    <img src="https://www.southpole.com/uploads/thumbs/bza_600x775.jpg" alt="Employee Image" style="width: 100%;">
+</div>
 
+* **Beatriz Zapata** (South Pole)
 Beatriz Zapata is a forest engineer with vast experience in carbon forest project initiatives. She has deep technical knowledge of methodologies, tools, and guidelines of the main standards used in the AFOLU sector, such as VCS, CCBS and Gold Standard. Beatriz work for South Pole since seven years ago.
+
+<div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 50px; height: 50px;">
+    <img src="https://verra.org/wp-content/uploads/claudia-milena-agudelo-palacio.jpg" alt="Employee Image" style="width: 100%;">
+</div>
 
 * **Claudia Milena**  (Verra)
 
@@ -253,7 +260,7 @@ David hold eight years of extensive experience in Remote Sensing and GIS. He lea
 
 | Category                | Tool/Platform                                                                                | Description |
 |-------------------------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| **Tools**               |                                                                      |                                                                                                                                      |
+| **Tools**               |                                                                                                                                                                                                            |
 | Project                 | Clickup                                                               [![Clickup](https://img.shields.io/badge/Clickup-3CB371?style=flat-square&logo=clickup)](https://clickup.com/)                      | - A cloud-based project management tool.       
 | Collaboration           | Miro                                                                  [![Miro](https://img.shields.io/badge/Miro-0077B5?style=flat-square&logo=miro)](https://miro.com/)                                   | - A collaborative whiteboard platform that helps teams brainstorm, plan, and execute projects.                                         
 | Project                 | Monday.com                                                            [![Monday.com](https://img.shields.io/badge/Monday.com-56CCF2?style=flat-square&logo=monday.com)](https://monday.com/)              | - A project management platform to collaborate on tasks, and track progress.                         
@@ -271,7 +278,7 @@ David hold eight years of extensive experience in Remote Sensing and GIS. He lea
 | **Open-source Software** |                                                                                                                                                                                                            |
 | GIS Software            | QGIS                                                                  [![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat-square)](https://www.qgis.org/)                                        | - A free and open-source GIS software package.                                                                                         
 | Remote Sensing          | Google Earth Engine (GEE)                                             [![GEE](https://img.shields.io/badge/GEE-4285F4?style=flat-square&logo=google-earth)](https://earthengine.google.com/)               | - A cloud-based platform for analyzing and visualizing geospatial data using Google's infrastructure.                                  
-| **Programming Languages**|                                                                      |                                                                                                                                      |
+| **Programming Languages**|                                                                                                                                                                                                            |
 | Basic    | Python                                                                [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)](https://www.python.org/)                        | - A popular general-purpose programming language for geospatial data analysis.                         
 | Basic    | R                                                                     [![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r)](https://www.r-project.org/)                                  | - A statistical programming language widely used for data analysis and visualization.             
 | Basic    | JavaScript                                                            [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript)](https://google.github.io/styleguide/javascriptguide.xml) | - A versatile programming language commonly used for web development and interactive map applications.   
