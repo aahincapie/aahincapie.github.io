@@ -245,8 +245,14 @@ Beatriz Zapata is a forest engineer with vast experience in carbon forest projec
 
 * **Claudia Milena** 
 
-|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 100px; height: 100px;"><img src="https://verra.org/wp-content/uploads/claudia-milena-agudelo-palacio.jpg" alt="Employee Image" style="width: 100%;"></div> | Milena is a program officer in Verra, contributing to the evolution of Verra programs by helping develop updates to existing rules and procedures. She provides technical input to the development of new methodologies, especially those related to ALM. She holds a bachelor’s degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Milena supported Climate Friendly in developing human-induced regeneration projects for the Australian Carbon Farming Initiative and worked with South Pole for five years. |
+<div style="display: flex; align-items: center;">
+    <div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 75px; height: 75px;">
+        <img src="https://verra.org/wp-content/uploads/claudia-milena-agudelo-palacio.jpg" alt="Employee Image" style="width: 100%;">
+    </div>
+    <div style="margin-left: 20px;">
+        Milena is a program officer at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly in developing human-induced regeneration projects for the Australian Carbon Farming Initiative and worked with South Pole for five years.
+    </div>
+</div>
 
 
 * **David Montoya González**  (TerraGlobal)
