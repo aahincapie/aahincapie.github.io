@@ -6,9 +6,10 @@ categories: [ Curriculum, Resume, HV, Contact ]
 image: assets/images/unsplash-cv-10.jpg
 ---
 
-- My CV is available as a PDF file. [Click here to download it](https://raw.githubusercontent.com/aahincapie/aahincapie.github.io/746bca58603663e0102f19d336aa6f7f629e31d6/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf)
-- Connect with me here in linkedin: 
-[![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aahincapie)
+|                                               |                                                                                          |
+| -------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Resume/CV as PDF:                        | [Click here to download it](https://raw.githubusercontent.com/aahincapie/aahincapie.github.io/746bca58603663e0102f19d336aa6f7f629e31d6/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf) |
+| Connect with me on:                        | [![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aahincapie)   |
 
 
 ## 1- Profile
