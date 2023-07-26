@@ -63,7 +63,7 @@ As a forestry student, I gained a deep understanding of ecological principles an
 | Tree cover outside of forests | The authors show that more than one quarter of Africa's tree cover is found outside areas previously classified as forest. | [Reiner et al. (2023)](https://www.nature.com/articles/s41467-023-37880-4) |
 | Satellite data | The authors use satellite data to show the distribution of tree cover outside of forests. |  |
 | **Fires methodologies and regrowing carbon emissions** |     |     |     |
-| Savanna fires are a major source of GHG. | Savanna fires emit large amounts of greenhouse gases, including carbon dioxide, methane, and nitrous oxide. |: [Russell-Smith et al. (2021)](https://doi.org/10.1016/j.jenvman.2021.112414) :|
+| Savanna fires are a major source of GHG. | Savanna fires emit large amounts of greenhouse gases, including carbon dioxide, methane, and nitrous oxide. | [Russell-Smith et al. (2021)](https://doi.org/10.1016/j.jenvman.2021.112414) :|
 | Early dry season burning | Early dry season burning can reduce emissions by up to 50%, but it requires coordination between different stakeholders and can have negative impacts on biodiversity. |    |
 | Further research and development is needed | There is a need for more research on the effectiveness of early dry season burning and on the ways to mitigate its negative impacts on biodiversity. |    |
 
@@ -259,7 +259,7 @@ Throughout my journey, I've had the privilege of working with amazing colleagues
 | Category                | Tool/Platform                                                                                | Description |
 |-------------------------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | **Tools**               |                                                                                                                                                                                                            |
-| Project                 |  [![Clickup](https://img.shields.io/badge/Clickup-3CB371?style=flat-square&logo=clickup)](https://clickup.com/)                      | - A cloud-based project management tool.       
+| Project                 | [![Clickup](https://img.shields.io/badge/Clickup-3CB371?style=flat-square&logo=clickup)](https://clickup.com/)                      | - A cloud-based project management tool.       
 | Collaboration           | [![Miro](https://img.shields.io/badge/Miro-0077B5?style=flat-square&logo=miro)](https://miro.com/)                                   | - A collaborative whiteboard platform that helps teams brainstorm, plan, and execute projects.                                         
 | Project                 | [![Monday.com](https://img.shields.io/badge/Monday.com-56CCF2?style=flat-square&logo=monday.com)](https://monday.com/)              | - A project management platform to collaborate on tasks, and track progress.                         
 | **Platforms**           |                                                                                                                                                                                                            |
