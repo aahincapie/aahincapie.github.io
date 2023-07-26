@@ -241,13 +241,29 @@ Throughout my journey, I've had the privilege of working with amazing colleagues
 * **Beatriz Zapata:** Beatriz Zapata is a forest engineer with vast experience in carbon forest project initiatives. She has deep technical knowledge of methodologies, tools, and guidelines of the main standards used in the AFOLU sector, such as VCS, CCBS and Gold Standard. Beatriz work for South Pole since seven years ago.
 
 
-<div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 100px; height: 100px;">
+<div class="employee-image">
+  <div class="employee-image_left" style="width: 30%;">
     <img src="https://verra.org/wp-content/uploads/claudia-milena-agudelo-palacio.jpg" alt="Employee Image" style="width: 100%;">
-    <div class="70-percent">
-        <h2>Claudia Milena</h2>
-        <p>Milena is a program officer at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly in developing human-induced regeneration projects for the Australian Carbon Farming Initiative and worked with South Pole for five years.</p>
-    </div>
+  </div>
+  <div class="employee-image_right" style="width: 70%;">
+    <h2>Claudia Milena</h2>
+    <p>Milena is a program officer at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly in developing human-induced regeneration projects for the Australian Carbon Farming Initiative and worked with South Pole for five years.</p>
+  </div>
 </div>
+
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+
+
+### old
 
 * **Claudia Milena** Milena is a program officer at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly in developing human-induced regeneration projects for the Australian Carbon Farming Initiative and worked with South Pole for five years.
 
