@@ -337,15 +337,16 @@ blockquote {
 
 .employee-reference {
     display: flex;
-}
-
-.employee-reference .left-side {
+  }
+  
+  .employee-reference .left-side {
     width: 30%;
-}
-
-.employee-reference .right-side {
+    padding-right: 20px; /* Adding some spacing between the left and right sides */
+  }
+  
+  .employee-reference .right-side {
     width: 70%;
-}
+  }
 
 .full-width {
     width: 100vw;
