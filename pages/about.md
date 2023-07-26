@@ -56,7 +56,7 @@ My undergraduate studies in anthropology provided me with a strong foundation in
 
 
 <div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Escudo_de_la_Universidad_Nacional_de_Colombia_%282016%29.svg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logotipo_de_la_Universidad_Nacional_de_Colombia.svg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
 </div>
 
  **Bachelor of Engineering (B.Eng.) in Forestry**
