@@ -3,7 +3,7 @@ layout: page
 permalink: "/about/"
 author: Andres_Hincapie
 categories: [ Curriculum, Resume, HV, Contact ]
-image: assets/images/unsplash-cv-10.png
+image: assets/images/unsplash-cv-10.jpg
 ---
 
 - My CV is available as a PDF file. [Click here to download it](https://raw.githubusercontent.com/aahincapie/aahincapie.github.io/746bca58603663e0102f19d336aa6f7f629e31d6/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf)
@@ -244,7 +244,7 @@ Throughout my journey, I've had the privilege of working with amazing colleagues
     <img src="https://verra.org/wp-content/uploads/claudia-milena-agudelo-palacio.jpg" alt="Employee Image" style="width: 100%;">
 </div>
 
-**Milena Agudelo:** Milena is a program officer at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly and South Pole for five years.
+**Milena Agudelo:** Milena is a manager for Nature Climate Solutions at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly and South Pole for five years.
 
 <div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 100px; height: 100px;">
     <img src="https://www.terraglobalcapital.com/sites/default/files/styles/square241px/public/David_W.jpg" alt="Employee Image" style="width: 100%;">
