@@ -72,11 +72,11 @@ As a forestry student, I gained a deep understanding of ecological principles an
 ## 5- Main skills
 
 |-------------------------------------------|------------------------------------------------------------|-------------------------------------------------------|
-| **Forestry and REDD:**                        | - Forestry and Landscape projects                               | - REDD and Agroforestry projects                        |
-| **Geospatial:**                                | - Geospatial solutions and new developments                 |                                                       |
-| **Human Rights:**                              | - Human Right based approaches                                   | - Free, Prior and Informed Consent (FPIC)               |
-|                                           | - Stakeholder and Theory of Change (ToC)                     |                                                       |
-| **Data Analysis:**                             | - Complex data analysis and innovation                       | - Spatial-explicit modeling scenarios                    |
+| **Forestry and REDD:**                        | Forestry and Landscape projects                               | REDD and Agroforestry projects                        |
+| **Geospatial:**                                | Geospatial solutions and new developments                 |                                                       |
+| **Human Rights:**                              | Human Right based approaches                                   | Free, Prior and Informed Consent (FPIC)               |
+|                                           | Stakeholder and Theory of Change (ToC)                     |                                                       |
+| **Data Analysis:**                             | Complex data analysis and innovation                       | Spatial-explicit modeling scenarios                    |
 
 
 
@@ -232,34 +232,25 @@ Throughout my journey, I've had the privilege of working with amazing colleagues
     <img src="https://uploads-ssl.webflow.com/636af6c7a6be384c24bea3d7/6393d225c7a3f2c03b710efd_637db6aff3ef8307cec3edfd_abel-p-500.jpeg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
 </div>
 
-* **Abel Marcarini:** Abel is a carbon project lead for Brazil at Earthshot Labs. He has more than 10 years working on Nature Based Solutions for the voluntary carbon market and academic background in forestry.Abel worked for Verra for the last two years and for South Pole for another seven years. 
+**Abel Marcarini:** Abel is a carbon project lead for Brazil at Earthshot Labs. He has more than 10 years working on Nature Based Solutions for the voluntary carbon market and academic background in forestry.Abel worked for Verra for the last two years and for South Pole for another seven years. 
 
 <div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 100px; height: 100px;">
     <img src="https://www.southpole.com/uploads/thumbs/bza_600x775.jpg" alt="Employee Image" style="width: 100%;">
 </div>
 
-* **Beatriz Zapata:** Beatriz Zapata is a forest engineer with vast experience in carbon forest project initiatives. She has deep technical knowledge of methodologies, tools, and guidelines of the main standards used in the AFOLU sector, such as VCS, CCBS and Gold Standard. Beatriz work for South Pole since seven years ago.
+**Beatriz Zapata:** Beatriz Zapata is a forest engineer with vast experience in carbon forest project initiatives. She has deep technical knowledge of methodologies, tools, and guidelines of the main standards used in the AFOLU sector, such as VCS, CCBS and Gold Standard. Beatriz work for South Pole since seven years ago.
 
-<table class="employee-reference">
-  <tr>
-    <td class="left-side">
-      <img src="https://verra.org/wp-content/uploads/claudia-milena-agudelo-palacio.jpg" alt="Employee Image" class="employee-image">
-    </td>
-    <td class="right-side">
-      <p>Milena is a program officer at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly in developing human-induced regeneration projects for the Australian Carbon Farming Initiative and worked with South Pole for five years.</p>
-    </td>
-  </tr>
-</table>
+<div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 100px; height: 100px;">
+    <img src="https://verra.org/wp-content/uploads/claudia-milena-agudelo-palacio.jpg" alt="Employee Image" style="width: 100%;">
+</div>
 
+**Milena Agudelo:** Milena is a program officer at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly and South Pole for five years.
 
-### old
+<div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 100px; height: 100px;">
+    <img src="https://www.terraglobalcapital.com/sites/default/files/styles/square241px/public/David_W.jpg" alt="Employee Image" style="width: 100%;">
+</div>
 
-* **Claudia Milena** Milena is a program officer at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly in developing human-induced regeneration projects for the Australian Carbon Farming Initiative and worked with South Pole for five years.
-
-
-* **David Montoya González**  !(TerraGlobal)
-
-David hold eight years of extensive experience in Remote Sensing and GIS. He leads the Remote Sensing and GIS team in TerraGlobal, using innovative software and tools that meet carbon market and impact standards and support community-based geospatial community monitoring. David worked for The National Department of Statistics (DANE) and South Pole for two years.
+**David Montoya González** David hold eight years of extensive experience in Remote Sensing and GIS. He leads the Remote Sensing and GIS team in TerraGlobal, using innovative software and tools that meet carbon market and impact standards and support community-based geospatial community monitoring. David worked for The National Department of Statistics (DANE) and South Pole for two years.
 
 
 ## 8- Tools
@@ -268,24 +259,24 @@ David hold eight years of extensive experience in Remote Sensing and GIS. He lea
 | Category                | Tool/Platform                                                                                | Description |
 |-------------------------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | **Tools**               |                                                                                                                                                                                                            |
-| Project                 | Clickup                                                               [![Clickup](https://img.shields.io/badge/Clickup-3CB371?style=flat-square&logo=clickup)](https://clickup.com/)                      | - A cloud-based project management tool.       
-| Collaboration           | Miro                                                                  [![Miro](https://img.shields.io/badge/Miro-0077B5?style=flat-square&logo=miro)](https://miro.com/)                                   | - A collaborative whiteboard platform that helps teams brainstorm, plan, and execute projects.                                         
-| Project                 | Monday.com                                                            [![Monday.com](https://img.shields.io/badge/Monday.com-56CCF2?style=flat-square&logo=monday.com)](https://monday.com/)              | - A project management platform to collaborate on tasks, and track progress.                         
+| Project                 |  [![Clickup](https://img.shields.io/badge/Clickup-3CB371?style=flat-square&logo=clickup)](https://clickup.com/)                      | - A cloud-based project management tool.       
+| Collaboration           | [![Miro](https://img.shields.io/badge/Miro-0077B5?style=flat-square&logo=miro)](https://miro.com/)                                   | - A collaborative whiteboard platform that helps teams brainstorm, plan, and execute projects.                                         
+| Project                 | [![Monday.com](https://img.shields.io/badge/Monday.com-56CCF2?style=flat-square&logo=monday.com)](https://monday.com/)              | - A project management platform to collaborate on tasks, and track progress.                         
 | **Platforms**           |                                                                                                                                                                                                            |
-| GIS Software            | ArcMap                                                                [![ArcMap](https://img.shields.io/badge/ArcMap-5D61BD?style=flat-square)](https://www.esri.com/en-us/arcgis/products/arcgis-desktop/) | - A commercial GIS software package.                                                                               
-| Remote Sensing          | ENVI                                                                  [![ENVI](https://img.shields.io/badge/ENVI-blue?style=flat-square)](https://www.envi.com/)                                          | - A commercial remote sensing software package.                                                                                        
-| Remote Sensing          | ERDAS                                                                 [![ERDAS](https://img.shields.io/badge/ERDAS-orange?style=flat-square)](https://www.hexagongeospatial.com/products/ERDAS-Imagine)     | - A commercial remote sensing software package.                                                                                        
-| Remote Sensing          | IDRISI                                                                [![IDRISI](https://img.shields.io/badge/IDRISI-green?style=flat-square)](https://www.itc.nl/en/products/idrisi/)                      | - A commercial remote sensing software package.                                                                                        
-| **Commercial Software** |                                                                                                                                                                                                            |
-| File Format             | .GDB                                                                  [![.GDB](https://img.shields.io/badge/.GDB-blue?style=flat-square)](https://en.wikipedia.org/wiki/Geodatabase)                       | - A file format for storing geospatial data.                                                                                           
-| File Format             | .BigQuery                                                             [![.ARCSDE](https://img.shields.io/badge/.ARCSDE-green?style=flat-square)](https://en.wikipedia.org/wiki/ArcSDE)                    | - A client library for storing spatial data in Python.                                                                                  
+| GIS Software            | [![ArcMap](https://img.shields.io/badge/ArcMap-5D61BD?style=flat-square)](https://www.esri.com/en-us/arcgis/products/arcgis-desktop/) | - A commercial GIS software package.                                                                               
+| Remote Sensing          | [![ENVI](https://img.shields.io/badge/ENVI-blue?style=flat-square)](https://www.envi.com/)                                          | - A commercial remote sensing software package.                                                                                        
+| Remote Sensing          | [![ERDAS](https://img.shields.io/badge/ERDAS-orange?style=flat-square)](https://www.hexagongeospatial.com/products/ERDAS-Imagine)     | - A commercial remote sensing software package.                                                                                        
+| Remote Sensing          | [![IDRISI](https://img.shields.io/badge/IDRISI-green?style=flat-square)](https://www.itc.nl/en/products/idrisi/)                      | - A commercial remote sensing software package.                                                                                        
+| **Databases** |                                                                                                                                                                                                            |
+| File Format             | [![.GDB](https://img.shields.io/badge/.GDB-blue?style=flat-square)](https://en.wikipedia.org/wiki/Geodatabase)                       | - A file format for storing geospatial data.                                                                                           
+| File Format             | [![.BigQuery](https://img.shields.io/badge/BigQuery-green?style=flat-square)](https://cloud.google.com/bigquery)                    | - A client library for storing spatial data in Python.                                                                                  
 | **Open-source Software** |                                                                                                                                                                                                            |
-| REDD+ Analysis          | DINAMICA-EGO                                                          [![DINAMICA-EGO](https://img.shields.io/badge/DINAMICA--EGO-007EFF?style=flat-square)](https://sites.google.com/site/dinamicaego/) | - A free and open-source REDD+ analysis tool.                                                                                          
-| REDD+ Analysis          | SPRING                                                                [![SPRING](https://img.shields.io/badge/SPRING-008000?style=flat-square)](https://github.com/dpiaget/SPRING)                         | - A free and open-source REDD+ analysis tool.                                                                                          
+| REDD+ Analysis          | [![DINAMICA-EGO](https://img.shields.io/badge/DINAMICA--EGO-007EFF?style=flat-square)](https://sites.google.com/site/dinamicaego/) | - A free and open-source REDD+ analysis tool.                                                                                          
+| REDD+ Analysis          | [![SPRING](https://img.shields.io/badge/SPRING-008000?style=flat-square)](https://github.com/dpiaget/SPRING)                         | - A free and open-source REDD+ analysis tool.                                                                                          
 | **Open-source Software** |                                                                                                                                                                                                            |
-| GIS Software            | QGIS                                                                  [![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat-square)](https://www.qgis.org/)                                        | - A free and open-source GIS software package.                                                                                         
-| Remote Sensing          | Google Earth Engine (GEE)                                             [![GEE](https://img.shields.io/badge/GEE-4285F4?style=flat-square&logo=google-earth)](https://earthengine.google.com/)               | - A cloud-based platform for analyzing and visualizing geospatial data using Google's infrastructure.                                  
+| GIS Software            | [![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat-square)](https://www.qgis.org/)                                        | - A free and open-source GIS software package.                                                                                         
+| Remote Sensing          | [![GEE](https://img.shields.io/badge/GEE-4285F4?style=flat-square&logo=google-earth)](https://earthengine.google.com/)               | - A cloud-based platform for analyzing and visualizing geospatial data using Google's infrastructure.                                  
 | **Programming Languages**|                                                                                                                                                                                                            |
-| Basic    | Python                                                                [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)](https://www.python.org/)                        | - A popular general-purpose programming language for geospatial data analysis.                         
-| Basic    | R                                                                     [![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r)](https://www.r-project.org/)                                  | - A statistical programming language widely used for data analysis and visualization.             
-| Basic    | JavaScript                                                            [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript)](https://google.github.io/styleguide/javascriptguide.xml) | - A versatile programming language commonly used for web development and interactive map applications.   
+| Basic    | [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)](https://www.python.org/)                        | - A popular general-purpose programming language for geospatial data analysis.                         
+| Basic    | [![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r)](https://www.r-project.org/)                                  | - A statistical programming language widely used for data analysis and visualization.             
+| Basic    | [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript)](https://google.github.io/styleguide/javascriptguide.xml) | - A versatile programming language commonly used for web development and interactive map applications.   
