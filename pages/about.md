@@ -36,33 +36,30 @@ Phone: [(+57) 350-7439527](https://wa.me/573507439527?text=Hola)
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Symbolfumg.jpg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
 </div>
 
-* **Master of Science (M.Sc.) in Analysis and Modeling of Environmental Systems**
+**Master of Science (M.Sc.) in Analysis and Modeling of Environmental Systems**
 - [Federal University of Minas Gerais](https://ufmg.br/), Institute of Geosciences (IGC / UFMG)
 - Belo Horizonte, Brazil
 - Mar 2015 - May 2017
 
 During my master's program, I specialized in analyzing and modeling complex environmental systems, using various statistical and computational techniques. I also gained experience in conducting fieldwork and collecting environmental data, as well as presenting research findings to academic audiences.
 
-<a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-sociales-humanas/estudiar-facultad/pregrados" target="_blank">
-  <div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
+<div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Escudo-UdeA.svg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
-  </div>
-</a>
+</div>
 
-* **Bachelor of Science (B.Sc.) in Anthropology**
+ **Bachelor of Science (B.Sc.) in Anthropology**
 - [University of Antioquia](https://www.udea.edu.co), Faculty of Social Sciences and Humanities
 - Medellín, Colombia
 - Dec 2005 - Dec 2013
 
 My undergraduate studies in anthropology provided me with a strong foundation in social and cultural theory, as well as research methods such as ethnography and qualitative analysis. I also developed skills in critical thinking, communication, and intercultural competence.
 
-<a href="https://cienciasagrarias.medellin.unal.edu.co/ingenieria-forestal.html" target="_blank">
-  <div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Escudo_de_la_Universidad_Nacional_de_Colombia_%282016%29.svg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
-  </div>
-</a>
 
-* **Bachelor of Engineering (B.Eng.) in Forestry**
+<div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Escudo_de_la_Universidad_Nacional_de_Colombia_%282016%29.svg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
+</div>
+
+ **Bachelor of Engineering (B.Eng.) in Forestry**
 - [National University of Colombia](https://unal.edu.co/), Faculty of Agrarian Sciences
 - Medellín, Colombia
 - Jan 2005 - Jun 2012
