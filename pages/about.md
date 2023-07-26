@@ -32,11 +32,12 @@ Phone: [(+57) 350-7439527](https://wa.me/573507439527?text=Hola)
 
 # Qualifications
 
-<a href="https://ufmg.br/cursos/pos-graduacao" target="_blank">
+<figure>
   <div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Symbolfumg.jpg/120px-Symbolfumg.jpg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Symbolfumg.jpg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
   </div>
-</a>
+  <figcaption>Employee Image</figcaption>
+</figure>
 
 * **Master of Science (M.Sc.) in Analysis and Modeling of Environmental Systems**
 - [Federal University of Minas Gerais](https://ufmg.br/), Institute of Geosciences (IGC / UFMG)
