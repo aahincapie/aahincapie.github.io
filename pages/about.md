@@ -32,12 +32,24 @@ Phone: [(+57) 350-7439527](https://wa.me/573507439527?text=Hola)
 
 # Qualifications
 
+<a href="https://ufmg.br/cursos/pos-graduacao" target="_blank">
+  <div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Symbolfumg.jpg/120px-Symbolfumg.jpg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
+  </div>
+</a>
+
 * **Master of Science (M.Sc.) in Analysis and Modeling of Environmental Systems**
 - [Federal University of Minas Gerais](https://ufmg.br/), Institute of Geosciences (IGC / UFMG)
 - Belo Horizonte, Brazil
 - Mar 2015 - May 2017
 
 During my master's program, I specialized in analyzing and modeling complex environmental systems, using various statistical and computational techniques. I also gained experience in conducting fieldwork and collecting environmental data, as well as presenting research findings to academic audiences.
+
+<a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-sociales-humanas/estudiar-facultad/pregrados" target="_blank">
+  <div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Escudo-UdeA.svg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
+  </div>
+</a>
 
 * **Bachelor of Science (B.Sc.) in Anthropology**
 - [University of Antioquia](https://www.udea.edu.co), Faculty of Social Sciences and Humanities
@@ -46,10 +58,17 @@ During my master's program, I specialized in analyzing and modeling complex envi
 
 My undergraduate studies in anthropology provided me with a strong foundation in social and cultural theory, as well as research methods such as ethnography and qualitative analysis. I also developed skills in critical thinking, communication, and intercultural competence.
 
+<a href="https://cienciasagrarias.medellin.unal.edu.co/ingenieria-forestal.html" target="_blank">
+  <div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Escudo_de_la_Universidad_Nacional_de_Colombia_%282016%29.svg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
+  </div>
+</a>
+
 * **Bachelor of Engineering (B.Eng.) in Forestry**
 - [National University of Colombia](https://unal.edu.co/), Faculty of Agrarian Sciences
 - Medellín, Colombia
 - Jan 2005 - Jun 2012
+
 
 As a forestry student, I gained a deep understanding of ecological principles and sustainable natural resource management. I also acquired practical skills in forest inventory, GIS mapping, and forest product processing. My coursework emphasized the importance of balancing economic, social, and environmental objectives in forestry management.
 
@@ -226,7 +245,7 @@ I highlight the fact to had the possibility of having a classroom with ones of t
 
 
 ### Profesional references:
-Throughout my journey, I've had the privilege of working with amazing colleagues who have guided me in improving my work skills, time management, communication, and the ability to raise important concerns. Here are a few of the remarkable individuals I've had the pleasure of working with at my desk.
+Throughout my journey, I've had the privilege of working with amazing colleagues who have guided me in improving my work skills, time management, communication, and the ability to raise important concerns. Here are a few of the remarkable individuals I've had the pleasure of working:
 
 <div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 100px; height: 100px;">
     <img src="https://uploads-ssl.webflow.com/636af6c7a6be384c24bea3d7/6393d225c7a3f2c03b710efd_637db6aff3ef8307cec3edfd_abel-p-500.jpeg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
