@@ -240,13 +240,11 @@ Throughout my journey, I've had the privilege of working with amazing colleagues
 
 * **Beatriz Zapata:** Beatriz Zapata is a forest engineer with vast experience in carbon forest project initiatives. She has deep technical knowledge of methodologies, tools, and guidelines of the main standards used in the AFOLU sector, such as VCS, CCBS and Gold Standard. Beatriz work for South Pole since seven years ago.
 
-
-<div class="employee-image">
-  <div class="employee-image_left" style="width: 30%;">
-    <img src="https://verra.org/wp-content/uploads/claudia-milena-agudelo-palacio.jpg" alt="Employee Image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
+<div class="employee-reference">
+  <div class="left-side">
+    <img src="https://verra.org/wp-content/uploads/claudia-milena-agudelo-palacio.jpg" alt="Employee Image" class="employee-image">
   </div>
-  <div class="employee-image_right">
-    <h2>Claudia Milena</h2>
+  <div class="right-side">
     <p>Milena is a program officer at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly in developing human-induced regeneration projects for the Australian Carbon Farming Initiative and worked with South Pole for five years.</p>
   </div>
 </div>

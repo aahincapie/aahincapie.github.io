@@ -328,6 +328,25 @@ blockquote {
     margin-bottom: 2rem;
 }
 
+.employee-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+.employee-reference {
+    display: flex;
+}
+
+.employee-reference .left-side {
+    width: 30%;
+}
+
+.employee-reference .right-side {
+    width: 70%;
+}
+
 .full-width {
     width: 100vw;
     position: relative;
