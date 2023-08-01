@@ -4,17 +4,17 @@ topmenu:
 - title: Home
   url: ""
 
-- title: Blog
+- title: Blog & Notes
   url: "categories/"
 
-- title: About
+- title: About me
   url: "about/"
 
 - title: Contact
   url: "contact/"
 
-- title: Download CV 
-  url: https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf
+- title: Download resume 
+  url: https://raw.githubusercontent.com/aahincapie/aahincapie.github.io/746bca58603663e0102f19d336aa6f7f629e31d6/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf
   class: "ml-2 btn btn-dark text-white px-3"
   external: true
 
