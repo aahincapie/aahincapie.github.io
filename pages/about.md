@@ -13,9 +13,9 @@ categories: [ Curriculum, Resume, HV, Contact ]
       <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a>
     </div>
     <div class="col-md-6 text-center pl-0 pl-lg-4">
-      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro_.svg">
-      <img src="{{site.baseurl}}/assets/images/icon-double-down.gif" alt="Double down">
-      <p> continue reading...</p>      
+      <img class="intro" src="{{site.baseurl}}/assets/images/intro_.svg">
+      <img src="{{site.baseurl}}/assets/images/icon-double-down.gif" alt="Double down" height="100">
+      <p style="font-size: 9px; font-family: 'Consolas', monospace;">Continue reading...</p>    
     </div>
   </div>
 </div>
