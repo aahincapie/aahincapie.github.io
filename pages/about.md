@@ -12,8 +12,9 @@ categories: [ Curriculum, Resume, HV, Contact ]
       <p class="lead mb-4">Hi!, my name is Andrés Hincapie I hope to share my insights and experiences with about my carbon market journey, and encourage a dialogue about the important issues. So, let's explore the a world together and find new ways to unlock Natural-Based Solutions.</p>
       <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a>
     </div>
-    <div class="col-md-6 text-right pl-0 pl-lg-4">
+    <div class="col-md-6 text-center pl-0 pl-lg-4">
       <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro_.svg">
+      <h3> continue reading...</h3>
       <img src="{{site.baseurl}}/assets/images/icon-double-down.gif" alt="Double down">      
     </div>
   </div>

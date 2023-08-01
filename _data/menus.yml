@@ -4,10 +4,10 @@ topmenu:
 - title: Home
   url: ""
 
-- title: Blog & Notes
+- title: Blog
   url: "categories/"
 
-- title: About me
+- title: About
   url: "about/"
 
 - title: Contact
