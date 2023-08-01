@@ -14,8 +14,8 @@ categories: [ Curriculum, Resume, HV, Contact ]
     </div>
     <div class="col-md-6 text-center pl-0 pl-lg-4">
       <img class="intro" src="{{site.baseurl}}/assets/images/intro_.svg" height="500">
-      <img class="icons" src="{{site.baseurl}}/assets/images/icon-double-down.gif" alt="Double down" height="50" >
-      <p style="font-size: 10px; font-family: 'Roboto';">Continue reading...</p>   
+      <img class="icons" src="{{site.baseurl}}/assets/images/icon-double-down.gif" alt="Double down" width="100px" height="100px">
+      <p style="font-size: 11px; font-family: 'Roboto';">Scroll dowen and continue reading...</p>   
     </div>
   </div>
 </div>
