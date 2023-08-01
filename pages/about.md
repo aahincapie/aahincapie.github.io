@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: "/about/"
 author: Andres_Hincapie
 categories: [ Curriculum, Resume, HV, Contact ]
@@ -14,16 +14,14 @@ categories: [ Curriculum, Resume, HV, Contact ]
     </div>
     <div class="col-md-6 text-center pl-0 pl-lg-4">
       <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro_.svg">
-      <p> continue reading...</p>
-      <img src="{{site.baseurl}}/assets/images/icon-double-down.gif" alt="Double down">      
+      <img src="{{site.baseurl}}/assets/images/icon-double-down.gif" alt="Double down">
+      <p> continue reading...</p>      
     </div>
   </div>
 </div>
 
 
-|                                               |                                                                                          |
-| -------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| Resume or Curriculum Vitae:                        | [Click here to download it](https://raw.githubusercontent.com/aahincapie/aahincapie.github.io/746bca58603663e0102f19d336aa6f7f629e31d6/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf) |
+[Resume or Curriculum Vitae:](https://raw.githubusercontent.com/aahincapie/aahincapie.github.io/746bca58603663e0102f19d336aa6f7f629e31d6/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf)
 
 
 ## 1- Profile
