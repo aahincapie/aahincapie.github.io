@@ -8,18 +8,16 @@ categories: [ Curriculum, Resume, HV, Contact ]
 <div class="rounded mb-5 hero">
   <div class="row align-items-center justify-content-between">
     <div class="col-md-6">
-      <h2 class="font-weight-bold mb-4 serif-font">About me:</h2>
+      <h2 class="font-weight-bold mb-4 serif-font">About me</h2>
       <p class="lead mb-4">Hi!, my name is Andrés Hincapie I hope to share my insights and experiences with about my carbon market journey, and encourage a dialogue about the important issues. So, let's explore the a world together and find new ways to unlock Natural-Based Solutions.</p>
-      <table>
-        <tr>
-          <th>Resume/CV as PDF</th>
-          <td><a href="https://raw.githubusercontent.com/aahincapie/aahincapie.github.io/746bca58603663e0102f19d336aa6f7f629e31d6/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf">Click here to download it</a></td>
-        </tr>
-        <tr>
-          <th>Connect with me on:</th>
-          <td><a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a></td>
-        </tr>
-      </table>
+      <a href="https://raw.githubusercontent.com/aahincapie/aahincapie.github.io/746bca58603663e0102f19d336aa6f7f629e31d6/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf">Resume/CV as PDF</a>
+      <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a>
+      <!-- To reduce the margin of the text, add the following CSS rule: -->
+      <style>
+        .hero p {
+          margin: 0;
+        }
+      </style>
     </div>
     <div class="col-md-6 text-right pl-0 pl-lg-4">
       <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro_.svg">      
