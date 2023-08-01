@@ -13,9 +13,9 @@ categories: [ Curriculum, Resume, HV, Contact ]
       <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a>
     </div>
     <div class="col-md-6 text-center pl-0 pl-lg-4">
-      <img class="intro" src="{{site.baseurl}}/assets/images/intro_.svg" height="500">
+      <img class="intro" src="{{site.baseurl}}/assets/images/intro_.svg" height="600px">
       <img class="icons" src="{{site.baseurl}}/assets/images/icon-double-down.gif" alt="Double down" width="100px" height="100px">
-      <p style="font-size: 11px; font-family: 'Roboto';">Scroll dowen and continue reading...</p>   
+      <p style="font-size: 12px; font-family: 'Roboto'; color: white;">Scroll down and continue reading...</p> 
     </div>
   </div>
 </div>
