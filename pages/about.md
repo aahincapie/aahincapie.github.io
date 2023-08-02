@@ -33,15 +33,7 @@ I am currently a Regional Lead for Nature-Based Solutions and Climate Projects i
 {: .notice--success}
 
 
-## 2- Contact
-Email:  [aahincap@unal.edu.co](mailto:aahincap@unal.edu.co), [bandreshin@gmail.com](mailto:bandreshin@gmail.com)  
-Phone: [(+57) 350-7439527](https://wa.me/573507439527?text=Hola)  
-<iframe width="100%" height="333" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7932.303731077851!2d-75.61549547581298!3d6.2437079819219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44298490efb9b9%3A0x95109acfcce06974!2sSanta%20Teresita%2C%20Medell%C3%ADn%2C%20Medellin%2C%20Antioquia!5e0!3m2!1sen!2sco!4v1625969104000!5m2!1sen!2sco" frameborder="0" scrolling="0" marginheight="0" marginwidth="0"></iframe>  
-<address> Medellin, Colombia. Postcode: 050020 </address>  
-
-
-
-## 3- Qualifications
+## 2- Qualifications
 
 # Qualifications
 
@@ -80,7 +72,7 @@ My undergraduate studies in anthropology provided me with a strong foundation in
 
 As a forestry student, I gained a deep understanding of ecological principles and sustainable natural resource management. I also acquired practical skills in forest inventory, GIS mapping, and forest product processing. My coursework emphasized the importance of balancing economic, social, and environmental objectives in forestry management.
 
-## 4- Research Interests
+## 3- Research Interests
 
 | **Topic**                                                           | Description                                                                                                                           | My most recent read Read                                                                                                           |
 |----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
@@ -96,7 +88,7 @@ As a forestry student, I gained a deep understanding of ecological principles an
 
 
 
-## 5- Main skills
+## 4- Main skills
 
 |-------------------------------------------|------------------------------------------------------------|-------------------------------------------------------|
 | **Forestry and REDD:**                        | Forestry and Landscape projects                               | REDD and Agroforestry projects                        |
@@ -107,7 +99,7 @@ As a forestry student, I gained a deep understanding of ecological principles an
 
 
 
-## 6- Short-experience 
+## 5- Short-experience 
 
 <style>
 table {
@@ -238,7 +230,7 @@ table {
   </tr>
 </table>
 
-## 7- References
+## 6- References
 
 ### Academic references
 
@@ -280,7 +272,7 @@ Throughout my journey, I've had the privilege of working with amazing colleagues
 **David Montoya González** David hold eight years of extensive experience in Remote Sensing and GIS. He leads the Remote Sensing and GIS team in TerraGlobal, using innovative software and tools that meet carbon market and impact standards and support community-based geospatial community monitoring. David worked for The National Department of Statistics (DANE) and South Pole for two years.
 
 
-## 8- Tools
+## 7- Tools
 
 
 | Category                | Tool/Platform                                                                                | Description |
