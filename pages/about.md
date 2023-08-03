@@ -21,7 +21,7 @@ categories: [ Curriculum, Resume, HV, Contact ]
 </div>
 
 
-[Resume or Curriculum Vitae:](https://raw.githubusercontent.com/aahincapie/aahincapie.github.io/746bca58603663e0102f19d336aa6f7f629e31d6/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf)
+[Resume or Curriculum Vitae:](https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf)
 
 
 ## 1- Profile
