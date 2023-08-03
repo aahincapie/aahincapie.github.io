@@ -14,14 +14,14 @@ categories: [ Curriculum, Resume, HV, Contact ]
     </div>
     <div class="col-md-6 text-center pl-0 pl-lg-4">
       <img class="intro" src="{{site.baseurl}}/assets/images/intro_.svg" height="600px">
-      <img class="icons" src="{{site.baseurl}}/assets/images/icon-double-down.gif" alt="Double down" width="100px" height="100px">
+      <img class="icons" src="{{site.baseurl}}/assets/images/icon-double-down.gif" alt="Double down" width="70px" height="70px">
       <p style="font-size: 12px; font-family: 'Roboto'; color: white;">Scroll down and continue reading...</p> 
     </div>
   </div>
 </div>
 
 
-[Resume or Curriculum Vitae:](https://raw.githubusercontent.com/aahincapie/aahincapie.github.io/746bca58603663e0102f19d336aa6f7f629e31d6/assets/images/2021_07_CV_AdolfoAndresHincapie.pdf)
+[Resume or Curriculum Vitae:](https://raw.githubusercontent.com/aahincapie/aahincapie.github.io/746bca58603663e0102f19d336aa6f7f629e31d6/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf)
 
 
 ## 1- Profile
