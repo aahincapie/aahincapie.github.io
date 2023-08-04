@@ -1,0 +1,40 @@
+---
+layout: personal
+---
+
+<!-- Begin Article
+================================================== -->
+
+<div class="row">
+		
+
+    <!-- Post -->        
+    <div class="col-lg-8 mx-auto">
+
+      <div class="mainheading">
+        <h1 class="posttitle">{{ page.title }}</h1>
+      </div>
+    
+      <div class="article-post serif-font">
+        {{content}}
+      </div>
+    
+      {% if page.comments == true %}
+      <div id="comments">             
+          {% include disqus.html %} 
+      </div>
+      {% endif %}
+    
+    </div>
+    <!-- End Post -->
+
+  
+
+    <!-- Sidebar -->
+    <div class="col-sm-4">
+        {% include sidebar.html %}
+        </div>
+    
+    
+
+</div>
