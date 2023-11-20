@@ -29,7 +29,7 @@ I am Adolfo, a Forestry Engineer and Anthropologist from Colombia with a Master 
 
 I am a problem-solving pro with a proven track record in tackling complex scenarios and finding nature-based solutions to secure financial resources to fight against the climate change crisis. My superpowers are GIS and technical carbon issues related to REDD+ projects and agroforestry. My technical expertise in GIS modeling and social and impact assessment has enabled me to coordinate the development of several AFOLU projects in Latin America and Africa. When I'm not crunching data or managing projects, I like to improve my English and Portuguese skills. I also speak Spanish (mother tongue). I have more than five years of experience associated with the voluntary carbon market, especially under VCS, CCBs, and GS.
 
-I am currently a Regional Lead for Nature-Based Solutions and Climate Projects in Latin America at South Pole. I enjoy using my skills and experience to help South Pole and Projects to achieve their mission of making a positive impact on the planet.
+I currently serve as a Carbon Compliance Expert at Earthshot Lab. Prior to joining Earthshot Lab, I held the position of Regional Lead for Nature-Based Solutions in the Climate Projects Team at South Pole for over six years. I find great satisfaction in utilizing my skills and experience to assist donors, investors, and project proponents in achieving their goal of making a positive impact on the planet
 {: .notice--success}
 
 
@@ -117,10 +117,17 @@ table {
     <th>Type</th>
   </tr>
   <tr class="table-highlight">
+    <td><strong>Carbon Compliance Expert, Carbon Development</strong></td>
+    <td><a href="https://www.earthshot.eco/">Earthshot Lab</a></td>
+    <td>Nov 2023 - Actual</td>
+    <td>0.1</td>
+    <td>Private sector</td>
+  </tr>
+  <tr class="table-highlight">
     <td><strong>Regional Lead NBS, Climate Projects</strong></td>
     <td></td>
-    <td>Jan 2023 – Jun 2023</td>
-    <td>0.5</td>
+    <td>Jan 2023 – Nov 2023</td>
+    <td>0.9</td>
     <td>Private sector</td>
   </tr>
   <tr>
@@ -266,7 +273,7 @@ Throughout my journey, I've had the privilege of working with amazing colleagues
 **Milena Agudelo:** Milena is a manager for Nature Climate Solutions at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly and South Pole for five years.
 
 <div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 100px; height: 100px;">
-    <img src="https://www.terraglobalcapital.com/sites/default/files/styles/square241px/public/David_W.jpg" alt="Employee Image" style="width: 100%;">
+    <img src="https://www.terraglobalcapital.com/sites/default/files/styles/square241px/public/5-5D8A8603_0.jpg" alt="Employee Image" style="width: 100%;">
 </div>
 
 **David Montoya González** David hold eight years of extensive experience in Remote Sensing and GIS. He leads the Remote Sensing and GIS team in TerraGlobal, using innovative software and tools that meet carbon market and impact standards and support community-based geospatial community monitoring. David worked for The National Department of Statistics (DANE) and South Pole for two years.
