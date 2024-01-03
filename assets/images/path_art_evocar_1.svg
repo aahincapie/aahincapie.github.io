@@ -2,11 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="98.078606mm"
-   height="148.79436mm"
-   viewBox="0 0 98.078606 148.79436"
+   width="90.125717mm"
+   height="42.789524mm"
+   viewBox="0 0 90.125717 42.789525"
    version="1.1"
    id="svg1"
+   sodipodi:docname="art_evocar_1.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -215,68 +216,21 @@
          transform="translate(-790.87074,-510.59011)"
          id="path23572" />
     </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath22400">
-      <path
-         d="M 0,1020.472 H 1162.205 V 0 H 0 Z"
-         transform="translate(-656.84201,-354.21131)"
-         id="path22400" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath22398">
-      <path
-         d="M 0,1020.472 H 1162.205 V 0 H 0 Z"
-         transform="translate(-771.25569,-280.09941)"
-         id="path22398" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath22394">
-      <path
-         d="M 0,1020.472 H 1162.205 V 0 H 0 Z"
-         transform="translate(-862.92752,-298.31121)"
-         id="path22394" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath23574">
-      <path
-         d="M 0,1020.472 H 1162.205 V 0 H 0 Z"
-         transform="translate(-766.54659,-716.39622)"
-         id="path23574" />
-    </clipPath>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-56.046384,-6.6603768)">
-    <path
-       id="path22393"
-       d="m 0,0 c -31.446,-1.11 -60.919,-17.405 -92.376,-18.14 -62.794,-1.465 -109.755,56.819 -168.672,78.382 l 0.709,-291.443 277.8,0.01 -0.005,230.462 C 11.615,-0.104 5.79,0.204 0,0"
-       style="fill:#1e324d icc-color(sRGB-IEC61966-2, 0.1, 0.11799622, 0.19599915, 0.30198669);fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.35215595,0,0,-0.15669556,147.97599,119.22656)"
-       clip-path="url(#clipPath22394)" />
-    <path
-       id="path22397"
-       d="m 0,0 c 31.457,0.734 60.93,17.03 92.376,18.14 5.789,0.204 10.911,-0.033 16.752,-0.658 V 75.141 C 79.359,64.006 49.138,53.008 17.445,55.324 c -34.881,2.549 -67.707,21.461 -102.64,19.77 -9.76,-0.472 -19.576,-2.56 -29.219,-0.982 -23.066,3.775 -37.534,24.637 -54.258,41.849 V 78.382 C -109.756,56.819 -62.795,-1.466 0,0"
-       style="fill:#273b57 icc-color(sRGB-IEC61966-2, 0.1, 0.15299988, 0.23098755, 0.34098816);fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.35277776,0,0,-0.35277776,115.56762,137.9351)"
-       clip-path="url(#clipPath22398)" />
-    <path
-       id="path22399"
-       d="m 0,0 c 9.643,-1.578 19.459,0.51 29.219,0.982 34.933,1.691 67.759,-17.221 102.64,-19.77 31.693,-2.316 61.914,8.682 91.683,19.817 v 153.916 c -16.863,-8.826 -35.353,-12.735 -51.494,-22.86 -12.945,-8.12 -23.31,-19.698 -35.309,-29.158 C 96.111,70.895 35.805,66.407 -9.116,92.071 c -14.188,8.106 -29.353,16.786 -45.142,19.084 V 41.849 C -37.534,24.637 -23.066,3.775 0,0"
-       style="fill:#6d808a icc-color(sRGB-IEC61966-2, 0.1, 0.42698669, 0.5019989, 0.54098511);fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.35277776,0,0,-0.20252695,75.262741,115.06387)"
-       clip-path="url(#clipPath22400)" />
+     transform="translate(-59.801959,-34.994508)">
     <path
        id="path23525"
        d="M 0,0 4.255,5.212 7.109,2.88 2.854,-2.333 4.723,-3.859 10.981,3.808 13.835,1.475 5.195,-9.111 -7.123,0.953 1.547,11.575 4.42,9.228 -1.869,1.527 Z"
        style="fill:#951610 icc-color(sRGB-IEC61966-2, 0.1, 0.58399963, 0.08599854, 0.06298828);fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(0.79486235,0,0,-0.79486235,65.463764,59.056849)"
-       clip-path="url(#clipPath23526)" />
+       clip-path="url(#clipPath23526)"
+       inkscape:export-filename="path_art_evocar_1.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        id="path23527"
        d="m 0,0 -3.838,-2.323 -14.814,9.609 3.56,2.156 11.155,-7.222 -1.141,13.281 3.561,2.156 z"
@@ -415,11 +369,5 @@
        style="fill:#1e324d icc-color(sRGB-IEC61966-2, 0.1, 0.11799622, 0.19599915, 0.30198669);fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(0.628261,0,0,-0.628261,133.4385,75.663285)"
        clip-path="url(#clipPath23572)" />
-    <path
-       id="path23573"
-       d="m 0,0 c 0,-11.742 -9.518,-21.26 -21.26,-21.26 -11.741,0 -21.26,9.518 -21.26,21.26 0,11.741 9.519,21.26 21.26,21.26 C -9.518,21.26 0,11.741 0,0"
-       style="fill:#e8be3a icc-color(sRGB-IEC61966-2, 0.1, 0.9099884, 0.74499512, 0.22698975);fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.35277776,0,0,-0.35277776,110.94953,14.160432)"
-       clip-path="url(#clipPath23574)" />
   </g>
 </svg>
