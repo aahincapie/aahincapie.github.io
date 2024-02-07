@@ -25,6 +25,8 @@ gtag('js', new Date());
 gtag('config', '{{site.ganalytics}}');
 </script>
 
+{% if page.mermaid %}
+  {% include mermaid.html %}
 {% endif %}
 </head>   
  
