@@ -3,6 +3,7 @@ layout: post
 title:  "Meta-Analysis of Drivers of Deforestation"
 author: Andrés Hincapié 
 categories: [ Carbon, Carbon Credit, Market ]
+mermaid: true
 image: assets/images/2.jpg
 ---
 
