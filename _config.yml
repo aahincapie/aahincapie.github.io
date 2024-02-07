@@ -12,6 +12,7 @@ lang: en_us
 feed_items: 15
 feed_update_period: daily
 feed_update_frequency: 1
+mermaid: true
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
