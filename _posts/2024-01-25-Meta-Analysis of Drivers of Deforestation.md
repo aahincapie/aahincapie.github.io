@@ -4,6 +4,7 @@ title:  "Meta-Analysis of Drivers of Deforestation"
 author: Andrés Hincapié 
 categories: [ Carbon, Carbon Credit, Market ]
 mermaid: true
+comments: false
 image: assets/images/2.jpg
 ---
 
@@ -59,6 +60,24 @@ graph TD
   J -->|Yes| G
   J -->|No| E
 ```
+{% mermaid %}
+graph TD
+  A((Landholder paradigm)) --> B[Is agriculture or cattle ranching profitable?]
+  B -->|Yes| C[Are there conditions to implement. i.e., roads, cities nearby, market?]
+  B -->|No| D[Is there steep or inaccessible terrain?]
+  C -->|Yes| E[Convert forest into agriculture or cattle ranching]
+  C -->|No| F[Are there legal protections for the forest?]
+  D -->|Yes| G[(Conserve the forest)]
+  D -->|No| F
+  F -->|Yes| H[Are the protections enforce by law or other institutions?]
+  F -->|No| E
+  H -->|Yes| I[Is there indigenous land management?]
+  H -->|No| E
+  I -->|Yes| J[Are there certification programs or payments for ecosystem services?]
+  I -->|No| E
+  J -->|Yes| G
+  J -->|No| E
+{% mermaid %}
 
 ---
 
