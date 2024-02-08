@@ -3,6 +3,7 @@ layout: post
 permalink: "/about/"
 author: Andres_Hincapie
 categories: [ Curriculum, Resume, HV, Contact ]
+mermaid: true
 ---
 
 <div class="rounded mb-5 hero">
@@ -306,3 +307,24 @@ Throughout my journey, I've had the privilege of working with amazing colleagues
 | Basic    | [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)](https://www.python.org/)                        | - A popular general-purpose programming language for geospatial data analysis.                         
 | Basic    | [![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r)](https://www.r-project.org/)                                  | - A statistical programming language widely used for data analysis and visualization.             
 | Basic    | [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript)](https://google.github.io/styleguide/javascriptguide.xml) | - A versatile programming language commonly used for web development and interactive map applications.   
+
+
+## 
+```mermaid
+graph TD
+  A((Landholder paradigm)) --> B[Is agriculture or cattle ranching profitable?]
+  B -->|Yes| C[Are there conditions to implement. i.e., roads, cities nearby, market?]
+  B -->|No| D[Is there steep or inaccessible terrain?]
+  C -->|Yes| E[Convert forest into agriculture or cattle ranching]
+  C -->|No| F[Are there legal protections for the forest?]
+  D -->|Yes| G[(Conserve the forest)]
+  D -->|No| F
+  F -->|Yes| H[Are the protections enforce by law or other institutions?]
+  F -->|No| E
+  H -->|Yes| I[Is there indigenous land management?]
+  H -->|No| E
+  I -->|Yes| J[Are there certification programs or payments for ecosystem services?]
+  I -->|No| E
+  J -->|Yes| G
+  J -->|No| E
+```
