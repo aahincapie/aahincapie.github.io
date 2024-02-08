@@ -60,7 +60,8 @@ graph TD
   J -->|Yes| G
   J -->|No| E
 ```
-{% mermaid %}
+
+
 graph TD
   A((Landholder paradigm)) --> B[Is agriculture or cattle ranching profitable?]
   B -->|Yes| C[Are there conditions to implement. i.e., roads, cities nearby, market?]
@@ -77,7 +78,6 @@ graph TD
   I -->|No| E
   J -->|Yes| G
   J -->|No| E
-{% mermaid %}
 
 ---
 
