@@ -1,8 +1,12 @@
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10.8.0/dist/mermaid.min.js"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/mermaid@10.8.0/dist/mermaid.min.js
+"></script>
 <script>
     $(document).ready(function () {
-        mermaid.initialize({
-            theme: 'base'
-        });
+      mermaid.initialize({
+        startOnLoad:true,
+        theme: "base",
+      });
+      window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
     });
-</script>
+  </script>
