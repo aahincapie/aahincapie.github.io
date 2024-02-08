@@ -60,22 +60,36 @@ graph TD
 ```
 
 
-graph TD
-  A((Landholder paradigm)) --> B[Is agriculture or cattle ranching profitable?]
-  B -->|Yes| C[Are there conditions to implement. i.e., roads, cities nearby, market?]
-  B -->|No| D[Is there steep or inaccessible terrain?]
-  C -->|Yes| E[Convert forest into agriculture or cattle ranching]
-  C -->|No| F[Are there legal protections for the forest?]
-  D -->|Yes| G[(Conserve the forest)]
-  D -->|No| F
-  F -->|Yes| H[Are the protections enforce by law or other institutions?]
-  F -->|No| E
-  H -->|Yes| I[Is there indigenous land management?]
-  H -->|No| E
-  I -->|Yes| J[Are there certification programs or payments for ecosystem services?]
-  I -->|No| E
-  J -->|Yes| G
-  J -->|No| E
+```mermaid
+graph LR
+
+A(Start)
+
+A --> B[Look for an item]
+
+B --> C{Did you find it?}
+C -->|Yes| D(Stop looking)
+C -->|No| E{Do you need it?}
+E -->|Yes| B
+E -->|No| D
+
+```mermaid
+sequenceDiagram
+participant U as User
+participant C as Client
+participant S as Server
+participant DB as Database
+
+U ->> C: Fill username
+U ->> C: Fill password
+C ->> U: Enable "Login" button
+U ->> C: Click "Login" button
+C ->>+ S: POST /login
+S ->>+ DB: SELECT FROM users
+Note over S,DB: See login.py for impl. details
+DB -->>- S: results
+S -->>- C: { authenticated: true }
+C ->> U: redirect /home
 
 ---
 
