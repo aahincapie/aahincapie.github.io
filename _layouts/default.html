@@ -103,18 +103,6 @@ gtag('config', '{{site.ganalytics}}');
 <footer>  
   {% include footer/custom.html %}
   {% include footer.html %}
-  <script src="
-  https://cdn.jsdelivr.net/npm/mermaid@10.8.0/dist/mermaid.min.js
-  "></script>
-  <script>
-      $(document).ready(function () {
-        mermaid.initialize({
-          startOnLoad:true,
-          theme: "base",
-        });
-        window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-      });
-    </script>
 </footer>
 
 
@@ -123,7 +111,8 @@ gtag('config', '{{site.ganalytics}}');
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>   
 <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>   
 <script src="{{ site.baseurl }}/assets/js/theme.js"></script>    
-    
+<script src="{{ '/assets/js/mermaid.min.js' | relative_url }}"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
 </body>
 {% endif %} 
 </html>
