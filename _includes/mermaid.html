@@ -1,10 +1,2 @@
 <script src="{{ '/assets/js/mermaid.min.js' | relative_url }}"></script>
-<script>
-    $(document).ready(function () {
-      mermaid.initialize({
-        startOnLoad:true,
-        theme: "base",
-      });
-      window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-    });
-  </script>
+<script>mermaid.initialize({startOnLoad:true});</script>
