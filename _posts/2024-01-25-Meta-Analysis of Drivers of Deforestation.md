@@ -40,7 +40,7 @@ Payments for ecosystem services are mechanisms that reward landowners or users f
 
 Their study is the first to conduct such a broad and rigorous meta-analysis on the drivers of deforestation. Below, I present a decision tree diagram to illustrate a decision-making process related to the topic. The diagram shows how an actor or landowner can choose between different land use options, taking into account the factors that drive or halt deforestation.
 
-```mermaid
+<pre class="mermaid">
 graph TD
   A((Landholder paradigm)) --> B[Is agriculture or cattle ranching profitable?]
   B -->|Yes| C[Are there conditions to implement. i.e., roads, cities nearby, market?]
@@ -57,7 +57,7 @@ graph TD
   I -->|No| E
   J -->|Yes| G
   J -->|No| E
-```
+</pre>
 
 
 ```mermaid
