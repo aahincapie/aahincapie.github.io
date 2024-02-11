@@ -114,12 +114,7 @@ gtag('config', '{{site.ganalytics}}');
 <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>   
 <script src="{{ site.baseurl }}/assets/js/theme.js"></script>    
 <script src="{{ '/assets/js/mermaid.min.js' | relative_url }}"></script>
-    <script>
-      mermaid.initialize({
-        startOnLoad: true,
-        theme: 'forest'
-      });
-    </script>
+<script>mermaid.initialize({startOnLoad:true});</script>
 
 
 {% if page.mermaid %}
