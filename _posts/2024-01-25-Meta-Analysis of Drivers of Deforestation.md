@@ -60,7 +60,7 @@ graph TD
 </pre>
 
 
-```mermaid
+{% mermaid %}
 graph LR
 A(Start)
 A --> B[Look for an item]
@@ -69,9 +69,10 @@ C -->|Yes| D(Stop looking)
 C -->|No| E{Do you need it?}
 E -->|Yes| B
 E -->|No| D
-```
+{% mermaid %}
 
-```mermaid
+
+<pre class="mermaid">
 sequenceDiagram
 participant U as User
 participant C as Client
@@ -87,7 +88,8 @@ Note over S,DB: See login.py for impl. details
 DB -->>- S: results
 S -->>- C: { authenticated: true }
 C ->> U: redirect /home
-```
+</pre>
+
 ---
 
 ¹: Ferretti-Gallon, K. and Busch, J. (2024). What Drives Deforestation and What Stops It? A Meta-Analysis. *Review of Environmental Economics and Policy*, 8(1), 3-23. [Article](^1^).
