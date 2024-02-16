@@ -52,25 +52,34 @@ I currently serve as a Carbon Compliance Expert at Earthshot Lab. Prior to joini
 <pre class ="mermaid">
 graph LR
 A((Andrés H)) --> B[Qualifications]
-A --> C[Interests] 
+A --> C[Interests]
 A --> D[Skills]
 A --> E[Experience]
 
-B --> F[Forestry Engineer and Anthropologist]  
+subgraph Qualifications
+B --> F[Forestry Engineer and Anthropologist]
 B --> G[Master in Analysis and Modeling of Environmental Systems]
+end
 
+subgraph Interests
 C --> H[Quantitative forestry and social sciences]
-C --> I[GIS problems and spatial modeling] 
+C --> I[GIS problems and spatial modeling]
 C --> J[Nature Climate Solutions]
+end
 
+subgraph Skills
 D --> K[Problem-solving pro]
 D --> L[GIS and technical carbon issues]
 D --> M[GIS modeling and social and impact assessment]
 D --> N[Languages: Spanish, English, Portuguese]
+end
 
+subgraph Experience
 E --> O[Six years of experience in the voluntary carbon market]
 E --> P[Current position: Carbon Compliance Expert at Earthshot Lab]
 E --> Q[Previous position: Regional Lead for Nature-Based Solutions at South Pole]
+end
+
 </pre>
   </div>
 </div>
