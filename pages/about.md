@@ -26,15 +26,37 @@ mermaid: true
 
 ## 1- Profile
 
-<table border="0">
-  <tr>
-    <td>I am Adolfo, a Forestry Engineer and Anthropologist from Colombia with a Master in Analysis and Modeling of Environmental Systems from Brazil. I am passionate about quantitative forestry and social sciences, and I love working on GIS problems and spatial modeling.
+<style>
+  .container {
+    display: flex;
+  }
+
+  .text {
+    width: 60%;
+    background-color: lightblue;
+  }
+
+  .image {
+    width: 40%;
+    background-color: lightgreen;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+</style>
+
+<div class="container">
+  <div class="text">
+    <p>I am Adolfo, a Forestry Engineer and Anthropologist from Colombia with a Master in Analysis and Modeling of Environmental Systems from Brazil. I am passionate about quantitative forestry and social sciences, and I love working on GIS problems and spatial modeling.
 
 I am a problem-solving pro with a proven track record in tackling complex scenarios and finding nature-based solutions to secure financial resources to fight against the climate change crisis. My superpowers are GIS and technical carbon issues related to REDD+ projects and agroforestry. My technical expertise in GIS modeling and social and impact assessment has enabled me to coordinate the development of several AFOLU projects in Latin America and Africa. When I'm not crunching data or managing projects, I like to improve my English and Portuguese skills. I also speak Spanish (mother tongue). I have more than five years of experience associated with the voluntary carbon market, especially under VCS, CCBs, and GS.
 
-I currently serve as a Carbon Compliance Expert at Earthshot Lab. Prior to joining Earthshot Lab, I held the position of Regional Lead for Nature-Based Solutions in the Climate Projects Team at South Pole for over six years. I find great satisfaction in utilizing my skills and experience to assist donors, investors, and project proponents in achieving their goal of making a positive impact on the planet</td>
-    <td>
-    <pre class="mermaid">
+I currently serve as a Carbon Compliance Expert at Earthshot Lab. Prior to joining Earthshot Lab, I held the position of Regional Lead for Nature-Based Solutions in the Climate Projects Team at South Pole for over six years. I find great satisfaction in utilizing my skills and experience to assist donors, investors, and project proponents in achieving their goal of making a positive impact on the planet</p>
+  </div>
+  <div class="code mermaid">
+<pre class="mermaid">
     graph LR
     A((Andrés H)) --> B[Qualifications]
 A --> C[Interests]
@@ -65,10 +87,8 @@ E --> P[Current position: Carbon Compliance Expert at Earthshot Lab]
 E --> Q[Previous position: Regional Lead for Nature-Based Solutions at South Pole]
 end
     </pre>
-    </td>
-  </tr>
-</table>
-
+  </div>
+</div>
 {: .notice--success}
 
 
