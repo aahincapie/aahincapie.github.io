@@ -27,38 +27,32 @@ mermaid: true
       </pre> </p>
       <p class="code" height=auto>
       <pre class ="mermaid">
-graph LR
-A((Andrés H)) --> B[Qualifications]
-A --> C[Interests]
-A --> D[Skills]
-A --> E[Experience]
-
-subgraph Qualifications
-B --> F[Forestry Engineer and Anthropologist]
-B --> G[Master in Analysis and Modeling of Environmental Systems]
-end
-
-subgraph Interests
-C --> H[Quantitative forestry and social sciences]
-C --> I[GIS problems and spatial modeling]
-C --> J[Nature Climate Solutions]
-end
-
-subgraph Skills
-D --> K[Problem-solving pro]
-D --> L[GIS and technical carbon issues]
-D --> M[GIS modeling and social and impact assessment]
-D --> N[Languages: Spanish, English, Portuguese]
-end
-
-subgraph Experience
-E --> O[Six years of experience in the voluntary carbon market]
-E --> P[Current position: Carbon Compliance Expert at Earthshot Lab]
-E --> Q[Previous position: Regional Lead for Nature-Based Solutions at South Pole]
-end
+      graph LR
+      B(Qualifications) --> F[Forestry Engineer and Anthropologist]
+      B --> G[Master in Analysis and Modeling of Environmental Systems]
       </pre> </p>
-      <img class="code" height=auto>
-      <img class="code" height=auto>
+      <p class="code" height=auto>
+      <pre class ="mermaid">
+      graph LR
+      C(Interests) --> H[Quantitative forestry and social sciences]
+      C --> I[GIS problems and spatial modeling]
+      C --> J[Nature Climate Solutions]
+      </pre> </p>
+      <p class="code" height=auto>
+      <pre class ="mermaid">
+      graph LR
+      D(Skills) --> K[Problem-solving pro]
+      D --> L[GIS and technical carbon issues]
+      D --> M[GIS modeling and social and impact assessment]
+      D --> N[Languages: Spanish, English, Portuguese]
+      </pre> </p>
+      <p class="code" height=auto>
+      <pre class ="mermaid">
+      graph LR
+      E(Experience) --> O[Six years of experience in the voluntary carbon market]
+      E --> P[Current position: Carbon Compliance Expert at Earthshot Lab]
+      E --> Q[Previous position: Regional Lead for Nature-Based Solutions at South Pole]
+      </pre> </p>
     </div>
   </div>
 </div>
@@ -66,21 +60,7 @@ end
 
 [Resume or Curriculum Vitae](https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf?raw=true)
 
-## 1- Profile
 
-<style>
-  .container {
-    display: flex;
-  }
-
-  .text {
-    width: 60%;
-  }
-
-  .code {
-    width: 40%;
-  }
-</style>
 {: .notice--success}
 
 
