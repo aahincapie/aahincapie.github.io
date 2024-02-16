@@ -10,46 +10,23 @@ mermaid: true
   <div class="row align-items-center justify-content-between">
     <div class="col-md-6">
       <h1 class="font-weight-bold mb-4 serif-font">About me</h1>
-      <p class="lead mb-4">Hi!, my name is Andrés Hincapie I hope to share my insights and experiences with about my carbon market journey, and encourage a dialogue about the important issues. So, let's explore the a world together and find new ways to unlock Natural-Based Solutions.</p>
+      <p class="lead mb-4"> I am Adolfo, a Forestry Engineer and Anthropologist from Colombia with a Master's in Analysis and Modeling of Environmental Systems from Brazil. I am passionate about quantitative forestry and social sciences, and I love working on GIS problems and spatial modeling.
+      I am a problem-solving pro with a proven track record in tackling complex scenarios and finding nature-based solutions to secure financial resources to fight against the climate change crisis. My superpowers are GIS and technical carbon issues related to REDD+ projects and agroforestry. My technical expertise in GIS modeling and social and impact assessment has enabled me to coordinate the development of several AFOLU projects in Latin America and Africa. When I'm not crunching data or managing projects, I like to improve my English and Portuguese skills. I also speak Spanish (mother tongue). I have more than five years of experience associated with the voluntary carbon market, especially under VCS, CCBs, and GS.
+      I currently serve as a Carbon Compliance Expert at Earthshot Lab. Prior to joining Earthshot Lab, I held the position of Regional Lead for Nature-Based Solutions in the Climate Projects Team at South Pole for over six years. I find great satisfaction in utilizing my skills and experience to assist donors, investors, and project proponents in achieving their goal of making a positive impact on the planet.
+    </p>
       <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a>
     </div>
     <div class="col-md-6 text-center pl-0 pl-lg-4">
-      <img class="intro" src="{{site.baseurl}}/assets/images/intro_.svg" height="600px">
-      <img class="icons" src="{{site.baseurl}}/assets/images/icon-double-down.gif" alt="Double down" width="70px" height="70px">
-      <p style="font-size: 12px; font-family: 'Roboto'; color: white;">Scroll down and continue reading...</p> 
-    </div>
-  </div>
-</div>
-
-
-[Resume or Curriculum Vitae](https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf?raw=true)
-
-## 1- Profile
-
-<style>
-  .container {
-    display: flex;
-  }
-
-  .text {
-    width: 60%;
-  }
-
-  .code {
-    width: 40%;
-  }
-</style>
-
-<div class="container">
-  <div class="text">
-    <p>I am Adolfo, a Forestry Engineer and Anthropologist from Colombia with a Master in Analysis and Modeling of Environmental Systems from Brazil. I am passionate about quantitative forestry and social sciences, and I love working on GIS problems and spatial modeling.
-
-I am a problem-solving pro with a proven track record in tackling complex scenarios and finding nature-based solutions to secure financial resources to fight against the climate change crisis. My superpowers are GIS and technical carbon issues related to REDD+ projects and agroforestry. My technical expertise in GIS modeling and social and impact assessment has enabled me to coordinate the development of several AFOLU projects in Latin America and Africa. When I'm not crunching data or managing projects, I like to improve my English and Portuguese skills. I also speak Spanish (mother tongue). I have more than five years of experience associated with the voluntary carbon market, especially under VCS, CCBs, and GS.
-
-I currently serve as a Carbon Compliance Expert at Earthshot Lab. Prior to joining Earthshot Lab, I held the position of Regional Lead for Nature-Based Solutions in the Climate Projects Team at South Pole for over six years. I find great satisfaction in utilizing my skills and experience to assist donors, investors, and project proponents in achieving their goal of making a positive impact on the planet</p>
-  </div>
-  <div class="code">
-<pre class ="mermaid">
+      <p class="code" height=auto>
+      <pre class ="mermaid">
+      graph
+      A((Andrés H)) --> B[Qualifications]
+      A --> C[Interests]
+      A --> D[Skills]
+      A --> E[Experience]
+      </pre> </p>
+      <p class="code" height=auto>
+      <pre class ="mermaid">
 graph LR
 A((Andrés H)) --> B[Qualifications]
 A --> C[Interests]
@@ -79,11 +56,31 @@ E --> O[Six years of experience in the voluntary carbon market]
 E --> P[Current position: Carbon Compliance Expert at Earthshot Lab]
 E --> Q[Previous position: Regional Lead for Nature-Based Solutions at South Pole]
 end
-
-</pre>
+      </pre> </p>
+      <img class="code" height=auto>
+      <img class="code" height=auto>
+    </div>
   </div>
 </div>
 
+
+[Resume or Curriculum Vitae](https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf?raw=true)
+
+## 1- Profile
+
+<style>
+  .container {
+    display: flex;
+  }
+
+  .text {
+    width: 60%;
+  }
+
+  .code {
+    width: 40%;
+  }
+</style>
 {: .notice--success}
 
 
