@@ -62,7 +62,7 @@ Their study is the first to conduct such a broad and rigorous meta-analysis on t
 - **Near to Roads**: Improved access raises the vulnerability of forests. 🚜
 - **Near to Clearing Activities**: Adjacent lands face higher deforestation rates. 🚧
 
-## 📈 Market Drivers
+### 📈 Market Drivers
 ![Market]({{ site.baseurl }}/assets/images/seed_drivers_m3.png)
 - **🌾 More Deforestation**:
   - **Agricultural and Livestock Activity**: Major global deforestation drivers, with agriculture accounting for nearly 90% of forest loss.
@@ -70,7 +70,7 @@ Their study is the first to conduct such a broad and rigorous meta-analysis on t
 - **🌱 Less Deforestation**:
   - **Agricultural Yield**: Higher yields can reduce or increase deforestation, depending on land use and profitability.
 
-## 👨‍🌾 Demography
+### 👨‍🌾 Demography
 ![Demography]({{ site.baseurl }}/assets/images/seed_drivers_d4.png)
 - **💵 More Deforestation**:
   - **Rural Income Support**: May inadvertently promote deforestation if linked to agricultural production.
