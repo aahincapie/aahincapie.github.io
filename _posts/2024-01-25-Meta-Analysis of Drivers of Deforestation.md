@@ -57,13 +57,13 @@ Their study is the first to conduct such a broad and rigorous meta-analysis on t
 **Note**: The main findings of Busch and Ferretti-Gallon are very studied and what have less evidence. These factors vary by local conditions, governance, and policies. 
 
 ### 🛣 Accessibility
-![Accessibility](assets\images\seed_drivers_a2.png "Accessibility")
+![Accessibility]({{ site.baseurl }}/assets/images/seed_drivers_a2.png)
 - **Nearer to Urban Areas**: Urban sprawl leads to significant habitat loss. 🏗️
 - **Near to Roads**: Improved access raises the vulnerability of forests. 🚜
 - **Near to Clearing Activities**: Adjacent lands face higher deforestation rates. 🚧
 
 ## 📈 Market Drivers
-![Market](assets\images\seed_drivers_m3.png "Market")
+![Market]({{ site.baseurl }}/assets/images/seed_drivers_m3.png)
 - **🌾 More Deforestation**:
   - **Agricultural and Livestock Activity**: Major global deforestation drivers, with agriculture accounting for nearly 90% of forest loss.
 
@@ -71,7 +71,7 @@ Their study is the first to conduct such a broad and rigorous meta-analysis on t
   - **Agricultural Yield**: Higher yields can reduce or increase deforestation, depending on land use and profitability.
 
 ## 👨‍🌾 Demography
-![Demography](assets\images\seed_drivers_d4.png "Demography")
+![Demography]({{ site.baseurl }}/assets/images/seed_drivers_d4.png)
 - **💵 More Deforestation**:
   - **Rural Income Support**: May inadvertently promote deforestation if linked to agricultural production.
 
@@ -79,7 +79,7 @@ Their study is the first to conduct such a broad and rigorous meta-analysis on t
   - **Indigenous Peoples**: Effective forest management by indigenous communities leads to lower deforestation rates.
 
 ### 🌲 Biophysical
-![Biophysical](assets\images\seed_drivers_b1.png "Biophysical")
+![Biophysical]({{ site.baseurl }}/assets/images/seed_drivers_b1.png)
 - **🔥 More Deforestation**:
   - **Hotter Climates**: Wildfires and stressed ecosystems lead to more deforestation. 🌡️
   - **Forest Abundance**: Valuable timber and land conversion pressures threaten forests. 🌳
