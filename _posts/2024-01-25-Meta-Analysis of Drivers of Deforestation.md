@@ -10,7 +10,10 @@ image: assets/images/9.jpg
 
 Deforestation is one of the main environmental problems facing the world today. The loss of tropical forests has serious consequences for biodiversity, climate, and human well-being. But what factors cause deforestation and how can it be stopped?
 
-In a recent study published in the *Review of Environmental Economics and Policy*¹, the researchers Kalifi Ferretti-Gallon and Jonathan Busch conducted a comprehensive analysis of more than 15,000 data points from 320 published studies between 1996 and 2020, to identify the factors that are consistently associated with more deforestation, less deforestation, or neither.
+In a recent study published in the *Review of Environmental Economics and Policy*¹, the researchers Kalifi [Ferretti-Gallon and Jonathan Busch](https://www.journals.uchicago.edu/doi/10.1086/725051) conducted a comprehensive analysis of more than 15,000 data points from 320 published studies between 1996 and 2020, to identify the factors that are consistently associated with more deforestation, less deforestation, or neither.
+
+🌐 Please check the johan Busch [website](https://www.jonahbusch.com/how-to-halt-and-reverse-deforestation)
+
 
 ## The Main Drivers of Deforestation
 
@@ -40,6 +43,92 @@ Payments for ecosystem services are mechanisms that reward landowners or users f
 
 Their study is the first to conduct such a broad and rigorous meta-analysis on the drivers of deforestation. Below, I present a decision tree diagram to illustrate a decision-making process related to the topic. The diagram shows how an actor or landowner can choose between different land use options, taking into account the factors that drive or halt deforestation.
 
+### Key findings (Busch and Ferretti-Gallon)
+
+**Higher deforestation is consistently associated with:**
+- Greater accessibility (slope, elevation, roads, cities...)
+- Greater economic returns (agriculture, livestock, timber...)
+- Some demographic variables (non-Indigenous peoples, wealth...) but not others (education, gender...)
+
+**Lower deforestation is consistently associated with:**
+- Policies and institutions that directly influence allowable land-use activities (protected areas, payments, forest law enforcement...)
+- But not policies and institutions that primarily seek other ends (land tenure security, conflict abatement, democracy...)
+
+**Note**: The main findings of Busch and Ferretti-Gallon are very studied and what have less evidence. These factors vary by local conditions, governance, and policies. 
+
+### 🛣 Accessibility
+![Accessibility](assets\images\seed_drivers_a2.png "Accessibility")
+- **Nearer to Urban Areas**: Urban sprawl leads to significant habitat loss. 🏗️
+- **Near to Roads**: Improved access raises the vulnerability of forests. 🚜
+- **Near to Clearing Activities**: Adjacent lands face higher deforestation rates. 🚧
+
+## 📈 Market Drivers
+![Market](assets\images\seed_drivers_m3.png "Market")
+- **🌾 More Deforestation**:
+  - **Agricultural and Livestock Activity**: Major global deforestation drivers, with agriculture accounting for nearly 90% of forest loss.
+
+- **🌱 Less Deforestation**:
+  - **Agricultural Yield**: Higher yields can reduce or increase deforestation, depending on land use and profitability.
+
+## 👨‍🌾 Demography
+![Demography](assets\images\seed_drivers_d4.png "Demography")
+- **💵 More Deforestation**:
+  - **Rural Income Support**: May inadvertently promote deforestation if linked to agricultural production.
+
+- **🛡 Less Deforestation**:
+  - **Indigenous Peoples**: Effective forest management by indigenous communities leads to lower deforestation rates.
+
+### 🌲 Biophysical
+![Biophysical](assets\images\seed_drivers_b1.png "Biophysical")
+- **🔥 More Deforestation**:
+  - **Hotter Climates**: Wildfires and stressed ecosystems lead to more deforestation. 🌡️
+  - **Forest Abundance**: Valuable timber and land conversion pressures threaten forests. 🌳
+  - **Proximity to Water**: Water sources attract agriculture but also offer protection. 💧
+
+- **🌧 Less Deforestation**:
+  - **Wetter Regions**: Surprisingly, more rainfall can increase deforestation risks. ☔
+  - **Steeper Slopes**: Previously untouched, these areas are now prime targets. 🏔️
+  - **Higher Elevations**: Untouched forests at risk due to valuable resources. 🛤️
+  
+
+<pre class="mermaid">
+sequenceDiagram
+    participant U as Urban Expansion
+    participant R as Roads
+    participant A as Agriculture
+    participant L as Livestock
+    participant F as Forest Management
+    participant I as Indigenous Practices
+
+    Note over U,R: More Deforestation
+    U->>R: Encroaches on forests
+    R->>A: Provides access for agriculture
+    A->>L: Expands for crops and livestock
+    L->>F: Leads to forest loss
+
+    Note over F,I: Less Deforestation
+    F->>I: Sustainable practices
+    I->>F: Effective management reduces deforestation
+</pre>
+
+## SEED Database: A Resource for Understanding Deforestation
+
+The **SEED Database** 📚 is an invaluable resource for researchers and policy analysts focused on the drivers of deforestation. This comprehensive database compiles a growing list of spatially explicit econometric studies of deforestation, all of which have been published in peer-reviewed academic journals.
+
+As of July 2023, the SEED Database includes **320 studies** dating from 1996 to 2019. It serves as a free, public, and periodically updated reference tool, aiding in the research and policy analysis of what drives deforestation and the measures effective in halting it.
+
+🌐 The SEED Database is freely available for public use. [To access the database file]({site.baseurl}\assets\images\2023_SEED_database.xlsx)
+
+### Contributing to the SEED Database's Impact
+
+I encourage users of the SEED Database to contribute to its ongoing impact assessment. If you're utilizing the database for your research or policy analysis, kindly send a brief email to jbusch@conservation.org. This will help us track the extent of its use and the impact it's having on the global understanding of deforestation.
+
+
+
+## Navigating the Crossroads: Landholder Decisions on Deforestation (continued)
+
+In the context of deforestation, the landholder paradigm involves a series of decisions based on economic, environmental, and legal factors. A landowner must weigh the potential profits from agricultural or cattle ranching activities against the value of conserving the forest. This includes considering market access, the physical characteristics of the land, and any legal protections or incentives for conservation.  
+
 <pre class="mermaid">
 graph TD
   A((Landholder paradigm)) --> B[Is agriculture or cattle ranching profitable?]
@@ -59,27 +148,8 @@ graph TD
   J -->|No| E
 </pre>
 
-
-<pre class="mermaid">
-sequenceDiagram
-participant U as User
-participant C as Client
-participant S as Server
-participant DB as Database
-U ->> C: Fill username
-U ->> C: Fill password
-C ->> U: Enable "Login" button
-U ->> C: Click "Login" button
-C ->>+ S: POST /login
-S ->>+ DB: SELECT FROM users
-Note over S,DB: See login.py for impl. details
-DB -->>- S: results
-S -->>- C: { authenticated: true }
-C ->> U: redirect /home
-</pre>
-
 ---
 
-¹: Ferretti-Gallon, K. and Busch, J. (2024). What Drives Deforestation and What Stops It? A Meta-Analysis. *Review of Environmental Economics and Policy*, 8(1), 3-23. [Article](^1^).
+¹: Ferretti-Gallon, K. and Busch, J. (2024). What Drives Deforestation and What Stops It? A Meta-Analysis. *Review of Environmental Economics and Policy*, 8(1), 3-23. [Article](https://www.journals.uchicago.edu/doi/10.1086/725051).
 
 ²: FAO (2020). *The State of the World's Forests 2020*. Rome: Food and Agriculture Organization of the United Nations. [Report](^2^).
