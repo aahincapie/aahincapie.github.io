@@ -12,51 +12,11 @@ custom_js:
   - typed
 ---
 
-<div id="particles-js"></div>
-
-<div class="container animated fadeIn">
-  <h1 class="text-center mb-5">Andrés Hincapié</h1>
-  
-  <div class="typed-container text-center mb-4">
-    <span id="typed"></span>
-  </div>
-
-  <div class="timeline">
-    <div class="timeline-item">
-      <h3 class="timeline-header">Experiencia</h3>
-      <div class="timeline-content">
-        <!-- Add your work experience here -->
-      </div>
-    </div>
-    <div class="timeline-item">
-      <h3 class="timeline-header">Educación</h3>
-      <div class="timeline-content">
-        <!-- Add your education details here -->
-      </div>
-    </div>
-    <div class="timeline-item">
-      <h3 class="timeline-header">Habilidades</h3>
-      <div class="timeline-content">
-        <!-- Add your skills here -->
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-  var typed = new Typed('#typed', {
-    strings: ['Desarrollador', 'Diseñador', 'Innovador'],
-    typeSpeed: 50,
-    backSpeed: 50,
-    loop: true
-  });
-</script>
-
 <div class="rounded mb-5 hero">
   <div class="row align-items-center justify-content-between">
     <div class="col-md-6">
       <h1 class="font-weight-bold mb-4 serif-font">Acerca de mí</h1>
-      <p class="lead mb-4" style="font-family: Roboto; font-size: 17px;"> Ingeniero forestal y antropólogo, apasionado por usar las ciencias sociales y la tecnología para gestionar y certificar proyectos basados en la Naturaleza. Con experiencia en proyectos AFOLU (Agriculture Forestry and Other Land Uses) en Latinoamérica, Asia y África, Recientemente trabajo como consultor y asesor en temas de Carbon Compliance, remarcando casi 1 año consecutivo con Earthshot Lab, en el paso lidere algunos proyectos en South Pole. Hablo español, inglés y portugués. <br> Tengo experiencia en SIG, en temas de carbono y evaluación de riesgos para proyectos. <br> Mi trabajo es el entendimiento y aplicacion de estandares de carbono como Gold Stantard, Verra y otros. <br> Actualmente me encuentro trabajando en proyectos personales que ayuden a tomar desiciones sobre el uso de datos y metodologias para el sector privado bajo Scope 3 y 4. 
+      <p class="lead mb-4" style="font-family: Roboto; font-size: 17px;"> Ingeniero forestal de la Universidad Nacional de Colombia y Antropólogo de la Universidad de Antioquia, apasionado por las ciencias sociales, los derechos humanos y la tecnología para gestionar y certificar proyectos basados en la naturaleza. Con experiencia en proyectos AFOLU (Agriculture Forestry and Other Land Uses) en Latinoamérica, Asia y África, Recientemente trabajo como consultor y asesor en temas de Carbon Compliance, remarcando casi 1 año consecutivo con Earthshot Lab, y el liderazgo en algunos proyectos en South Pole. Hablo español, inglés y portugués. <br> Tengo experiencia en SIG, en temas de carbono y evaluación de riesgos para proyectos. <br> Mi trabajo es el entendimiento y aplicacion de estandares de carbono como Gold Stantard, Verra y otros. <br> Actualmente me encuentro trabajando en proyectos personales que ayuden a tomar desiciones sobre el uso de datos y metodologias para el sector privado bajo Scope 3 y 4. 
     </p>
       <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="Perfil de LinkedIn"></a>
     </div>
@@ -78,39 +38,36 @@ custom_js:
       <p class="code" height=auto>
       <pre class ="mermaid">
       graph LR
-      C(Intereses) --> H[Silvicultura cuantitativa y ciencias sociales]
-      C --> I[Problemas SIG y modelado espacial]
+      C(Intereses) --> H[Contabilidad de carbono y Ciencias sociales]
+      C --> I[SIG para la toma de desiciones y modelado espacial]
       C --> J[Soluciones Climáticas Naturales]
       </pre> </p>
       <p class="code" height=auto>
       <pre class ="mermaid">
       graph LR
       D(Habilidades) --> K[Experto en resolución de problemas]
-      D --> L[SIG y temas técnicos de carbono]
-      D --> M[Modelado SIG y evaluación social y de impacto]
+      D --> L[Modelación SIG y Sostenibilidad]
+      D --> M[Contabilidad de carbono  y evaluación social y de impacto]
       D --> N[Idiomas: Español, Inglés, Portugués]
       </pre> </p>
       <p class="code" height=auto>
       <pre class ="mermaid">
       graph LR
-      E(Experiencia) --> O[Seis años de experiencia en el mercado voluntario de carbono]
-      E --> P[Posición actual: Experto en Cumplimiento de Carbono en Earthshot Lab]
-      E --> Q[Posición anterior: Líder Regional de Soluciones Basadas en la Naturaleza en South Pole]
+      E(Experiencia) --> O[Siete años de experiencia en el mercado voluntario de carbono]
+      E --> P[Posición actual: Asesor en proyectos de Carbono]
+      E --> Q[Posiciónes anteriores: Experto Carbono en Earthshot Lab, Líder Regional NBS en South Pole]
       </pre> </p>
     </div>
   </div>
 </div>
 
-
-[Hoja de Vida o Curriculum Vitae](https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf?raw=true)
+ Curriculum Vitae](https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf?raw=true)
 
 
 {: .notice--success}
 
 
-## 2- Cualificaciones
-
-# Cualificaciones
+## 2- Educación
 
 <div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Symbolfumg.jpg" alt="Imagen del Empleado" style="width: 100%; margin: 0 auto;">
