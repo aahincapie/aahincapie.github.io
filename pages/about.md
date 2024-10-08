@@ -76,6 +76,7 @@ mermaid: true
 - Mar 2015 - May 2017
 
 Topics: #ImproveedForestManagment #FinanceAnalysis #ForestManagement #Deforestation #Degradation
+<p class="code" height=auto>
 <pre classs ="mermaid">
 graph LR
     classDef highlight fill:#f9f,stroke:#333,stroke-width:2px
@@ -111,7 +112,7 @@ graph LR
     B -.-> E
     C -.-> F
     F -.-> G
-</pre>
+</pre> </p>
 
 <div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Escudo-UdeA.svg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
