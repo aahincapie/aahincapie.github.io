@@ -79,12 +79,7 @@ Topics: #ImproveedForestManagment #FinanceAnalysis #ForestManagement #Deforestat
 <p class="code" height=auto>
 <pre class="mermaid">
 graph LR
-    classDef highlight fill:#f9f,stroke:#333,stroke-width:2px
-    classDef skillbox fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    classDef practical fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
-    classDef communication fill:#fff3e0,stroke:#e65100,stroke-width:2px
 
-    
     subgraph Technical
     A[Analysis & Modeling]:::skillbox
     B[Statistical Methods]:::skillbox
