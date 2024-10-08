@@ -76,7 +76,7 @@ mermaid: true
 - Mar 2015 - May 2017
 
 Topics: #ImproveedForestManagment #FinanceAnalysis #ForestManagement #Deforestation #Degradation
-<pre classs ="mermaid">>
+<pre classs ="mermaid">
 graph LR
     classDef highlight fill:#f9f,stroke:#333,stroke-width:2px
     classDef skillbox fill:#e1f5fe,stroke:#01579b,stroke-width:2px
