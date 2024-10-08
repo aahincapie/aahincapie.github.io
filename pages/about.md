@@ -10,7 +10,7 @@ mermaid: true
   <div class="row align-items-center justify-content-between">
     <div class="col-md-6">
       <h1 class="font-weight-bold mb-4 serif-font">About me</h1>
-      <p class="lead mb-4" style="font-family: Roboto; font-size: 17px;"> I am Colombian Forestry Engineer and Anthropologist with a Brazilian Master’s in Environmental Systems. <br> I love  forestry and social sciences applications. I like explore complex problems to understanding deforestation and degradation dynamics, and GIS-based computational social sciences to find nature-based solutions for climate crisis.<br> I am skilled in GIS, carbon issues, and impact assessment. I have coordinated AFOLU projects in Latin America and Africa. I speak Spanish, English, and Portuguese. <br>I have five years of experience in the voluntary carbon market. Currently, I work as a <br> Carbon Compliance Expert at Earthshot Lab.<br> Before that, I was a Regional Lead for Nature-Based Solutions at South Pole. I enjoy helping others make a positive impact on the planet.
+      <p class="lead mb-4" style="font-family: Roboto; font-size: 17px;"> I am Colombian Forestry Engineer and Anthropologist with a Brazilian Master’s in Environmental Systems. <br> I love  forestry and social sciences applications. I like explore complex problems to understanding deforestation and degradation dynamics, and GIS-based computational social sciences to find nature-based solutions for climate crisis.<br> I am skilled in GIS, carbon issues, and impact assessment. I have coordinated AFOLU projects in Latin America and Africa. I speak Spanish, English, and Portuguese.
     </p>
       <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a>
     </div>
@@ -75,7 +75,43 @@ mermaid: true
 - Belo Horizonte, Brazil
 - Mar 2015 - May 2017
 
-During my master's program, I specialized in analyzing and modeling complex environmental systems, using various statistical and computational techniques. I also gained experience in conducting fieldwork and collecting environmental data, as well as presenting research findings to academic audiences.
+Topics: #ImproveedForestManagment #FinanceAnalysis #ForestManagement #Deforestation #Degradation
+<pre classs ="mermaid">>
+graph LR
+    classDef highlight fill:#f9f,stroke:#333,stroke-width:2px
+    classDef skillbox fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef practical fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    classDef communication fill:#fff3e0,stroke:#e65100,stroke-width:2px
+
+    
+    subgraph Technical
+    A[Analysis & Modeling]:::skillbox
+    B[Statistical Methods]:::skillbox
+    C[Computational Techniques]:::skillbox
+    end
+
+    subgraph Practical
+    D[Fieldwork Experience]:::practical
+    E[Environmental Data Collection]:::practical
+    F[Data Management]:::practical
+    end
+
+    subgraph Communication
+    G[Research Presentation]:::communication
+    H[Academic Writing]:::communication
+    I[Audience Engagement]:::communication
+    end
+
+
+
+    A --> B & C
+    D --> E --> F
+    G --> H & I
+
+    B -.-> E
+    C -.-> F
+    F -.-> G
+</pre>
 
 <div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Escudo-UdeA.svg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
@@ -148,8 +184,8 @@ table {
   <tr class="table-highlight">
     <td><strong>Carbon Compliance Expert, Carbon Development</strong></td>
     <td><a href="https://www.earthshot.eco/">Earthshot Lab</a></td>
-    <td>Nov 2023 - Actual</td>
-    <td>0.1</td>
+    <td>Oct 2023 - Sep 2024</td>
+    <td>1</td>
     <td>Private sector</td>
   </tr>
   <tr class="table-highlight">
