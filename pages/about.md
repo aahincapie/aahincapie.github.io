@@ -74,11 +74,12 @@ mermaid: true
 - [Federal University of Minas Gerais](https://ufmg.br/), Institute of Geosciences (IGC / UFMG)
 - Belo Horizonte, Brazil
 - Mar 2015 - May 2017
-[ Improved Forest Management ]({{site.baseurl}}/categories/#ImprovedForestManagement){: .btn .btn-outline-info .btn-sm }
-[ Finance Analysis ]({{site.baseurl}}/categories/#FinanceAnalysis){: .btn .btn-outline-info .btn-sm }
-[ Forest Management ]({{site.baseurl}}/categories/#ForestManagement){: .btn .btn-outline-info .btn-sm }
-[ Deforestation ]({{site.baseurl}}/categories/#Deforestation){: .btn .btn-outline-info .btn-sm }
-[ Degradation ]({{site.baseurl}}/categories/#Degradation){: .btn .btn-outline-info .btn-sm }
+
+[ Improved Forest Management ]({{site.baseurl}}/categories/#ImprovedForestManagement){: .btn .btn-outline-info .btn-sm .no-article-post }
+[ Finance Analysis ]({{site.baseurl}}/categories/#FinanceAnalysis){: .btn .btn-outline-info .btn-sm .no-article-post }
+[ Forest Management ]({{site.baseurl}}/categories/#ForestManagement){: .btn .btn-outline-info .btn-sm .no-article-post }
+[ Deforestation ]({{site.baseurl}}/categories/#Deforestation){: .btn .btn-outline-info .btn-sm .no-article-post }
+[ Degradation ]({{site.baseurl}}/categories/#Degradation){: .btn .btn-outline-info .btn-sm .no-article-post }
 <p class="code" height=auto>
 <pre class="mermaid">
 graph LR
@@ -122,8 +123,44 @@ graph LR
 - Medellín, Colombia
 - Dec 2005 - Dec 2013
 
-My undergraduate studies in anthropology provided me with a strong foundation in social and cultural theory, as well as research methods such as ethnography and qualitative analysis. I also developed skills in critical thinking, communication, and intercultural competence.
+[ Human Rights-based Approach ]({{site.baseurl}}/categories/#HumanRights){: .btn .btn-outline-info .btn-sm .no-article-post }
+[ FPIC]({{site.baseurl}}/categories/#FPIC){: .btn .btn-outline-info .btn-sm .no-article-post }
+[ Land Use Tenure ]({{site.baseurl}}/categories/#LandUseTenure){: .btn .btn-outline-info .btn-sm .no-article-post }
+[ Deforestation ]({{site.baseurl}}/categories/#Deforestation){: .btn .btn-outline-info .btn-sm .no-article-post }
+My undergraduate studies in anthropology provided me with a strong foundation in social and cultural theory, I was focused in human right based approach, focus in indigenous groups, in research I was focused in methods such as ethnography and qualitative analysis based in maps, land used and social change. Use theory  of change to set outcomes in projects but also develop  critical thinking, FPIC.
+<p class="code" height=auto>
+<pre class="mermaid">
+graph LR
+    subgraph Research_Methods
+    D[Ethnography]:::methods
+    E[Qualitative Analysis]:::methods
+    F[Participatory Methods]:::methods
+    end
 
+    subgraph Focus_Areas
+    G[Human Rights]:::focus
+    H[Indigenous Communities]:::focus
+    I[Social Change]:::focus
+    end
+
+    subgraph Applied_Skills
+    J[Land Use Mapping]:::applied
+    K[FPIC Implementation]:::applied
+    L[Theory of Change]:::applied
+    end
+
+    D & E --> J
+    H --> K
+    G & H --> F
+    F --> K
+    I --> L
+    
+    %% Interconnections
+    K -.-> H
+    J -.-> H
+    L -.-> I
+</pre>
+</p>
 
 <div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logotipo_de_la_Universidad_Nacional_de_Colombia.svg" alt="Employee Image" style="width: 100%; margin: 0 auto;">

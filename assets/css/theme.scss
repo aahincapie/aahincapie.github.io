@@ -291,6 +291,10 @@ span.post-name a,span.post-read-more a:hover {
 .link-dark {
 	color:rgba(0,0,0,.8);
 }
+.no-article-post {
+    color: inherit !important; 
+    box-shadow: none !important; 
+}
 .article-post>*{
     margin-bottom:1.5rem;
 }
