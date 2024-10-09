@@ -184,6 +184,7 @@ graph LR
 
 <p class="code" height=auto>
 <pre class="mermaid">
+graph LR
     subgraph Core_Knowledge
         A[Sustainable Forest Management]:::core
         B[Forest Science]:::core
@@ -227,22 +228,44 @@ graph LR
 </pre>
 </p>
 
-## 3- Research Interests
+## 3- Interests
 
-| **Topic**                                                           | Description                                                                                                                           | My most recent read Read                                                                                                           |
-|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| **Interactions among climate, land use and land cover change, and livelihoods**               | New models and tools that can better understand and predict these relationships.                                                     | ["The Impact of Climate Change on Livelihoods in the Sahel"](https://www.nature.com/articles/s41561-018-0244-1)              |
-| **Methods and tools for integrating social and forestry issues to unlock voluntary carbon market**    | Develop methods and tools that can be used to measure, monitor, and verify the social and environmental benefits of forestry projects. | ["Assessing the Social and Environmental Impacts of Forest Conservation and Restoration"](https://www.sciencedirect.com/science/article/pii/S0959378020300864) |
-| **Modeling, mapping and data visualization**                              | New methods and tools that can be used to understand and communicate complex environmental data.       |     |     |     |
-| Tree cover outside of forests | The authors show that more than one quarter of Africa's tree cover is found outside areas previously classified as forest. | [Reiner et al. (2023)](https://www.nature.com/articles/s41467-023-37880-4) |
-| Satellite data | The authors use satellite data to show the distribution of tree cover outside of forests. |  |
-| **Fires methodologies and regrowing carbon emissions** |     |     |     |
-| Savanna fires are a major source of GHG. | Savanna fires emit large amounts of greenhouse gases, including carbon dioxide, methane, and nitrous oxide. | [Russell-Smith et al. (2021)](https://doi.org/10.1016/j.jenvman.2021.112414) :|
-| Early dry season burning | Early dry season burning can reduce emissions by up to 50%, but it requires coordination between different stakeholders and can have negative impacts on biodiversity. |    |
-| Further research and development is needed | There is a need for more research on the effectiveness of early dry season burning and on the ways to mitigate its negative impacts on biodiversity. |    |
+<p class="code" height=auto>
+<pre class="mermaid">
+quadrantChart
+    title Topics and Interests Distribution
+    x-axis Medium Technical Complexity --> High Technical Complexity
+    y-axis Medium Interest --> High Interest
+    quadrant-1 High Interest Technical
+    quadrant-2 Core Research Focus
+    quadrant-3 Potential Growth Areas
+    quadrant-4 Supporting Knowledge
 
+    %% High Interest Technical (Upper Right: 0.5-1.0, 0.5-1.0)
+    Carbon Methodologies: [0.75, 0.95]
+    Carbon Accounting Modeling: [0.85, 0.85]
+    GHG Jurisdictional REDD: [0.55, 0.60]
+    Geospatial Analysis: [0.80, 0.75]
 
+    %% Core Research Focus (Upper Left: 0.0-0.5, 0.5-1.0)
+    Socio-environmental Monitoring: [0.35, 0.90]
+    Benefits Sharing Mechanisms: [0.45, 0.15]
+    Forestry Science: [0.50, 0.95]
+    Agriculture & Agroforestry: [0.50, 0.70]
 
+    %% Potential Growth Areas (Lower Left: 0.0-0.5, 0.0-0.5)
+    Human Rights: [0.25, 0.45]
+    FPIC: [0.15, 0.35]
+    Core Carbon Principles: [0.40, 0.35]
+    Article 6 & Carbon Credits: [0.55, 0.30]
+
+    %% Supporting Knowledge (Lower Right: 0.5-1.0, 0.0-0.5)
+    Remote Sensing Applications: [0.85, 0.45]
+    Fire Spatial Modeling: [0.70, 0.35]
+    Data Visualization: [0.60, 0.40]
+    Fire Management: [0.20, 0.20]
+</pre>
+</p>
 ## 4- Main skills
 
 |-------------------------------------------|------------------------------------------------------------|-------------------------------------------------------|
