@@ -122,6 +122,7 @@ graph LR
 - Medellín, Colombia
 - Dec 2005 - Dec 2013
 
+**Topics:**
 [ Human Rights-based Approach ]({{site.baseurl}}/categories/#HumanRights){: .btn .btn-outline-info .btn-sm .no-article-post }
 [ FPIC]({{site.baseurl}}/categories/#FPIC){: .btn .btn-outline-info .btn-sm .no-article-post }
 [ Land Use Tenure ]({{site.baseurl}}/categories/#LandUseTenure){: .btn .btn-outline-info .btn-sm .no-article-post }
@@ -130,34 +131,38 @@ graph LR
 <p class="code" height=auto>
 <pre class="mermaid">
 graph LR
-    subgraph Research Methods
-    D[Ethnography]:::methods
-    E[Qualitative Analysis]:::methods
-    F[Participatory Methods]:::methods
+    subgraph Research_Methods
+        D[Ethnography]:::methods
+        E[Qualitative Analysis]:::methods
+        F[Participatory Methods]:::methods
     end
 
-    subgraph Focus Areas
-    G[Human Rights]:::focus
-    H[Indigenous Communities]:::focus
-    I[Social Change]:::focus
+    subgraph Focus_Areas
+        G[Human Rights]:::focus
+        H[Indigenous Communities]:::focus
+        I[Social Change]:::focus
     end
 
-    subgraph Applied Skills
-    J[Land Use Mapping]:::applied
-    K[FPIC Implementation]:::applied
-    L[Theory of Change]:::applied
+    subgraph Applied_Skills
+        J[Land Use Mapping]:::applied
+        K[FPIC Implementation]:::applied
+        L[Theory of Change]:::applied
     end
 
-    D & E --> J
-    H --> K
-    G & H --> F
+    %% Main connections
+    D --> J & K
+    E --> J & L
     F --> K
-    I --> L
     
-    %% Interconnections
-    K -.-> H
+    %% Focus area connections
+    G --> K
+    H --> J & K
+    I --> L & F
+
+    %% Cross-area relationships
     J -.-> H
-    L -.-> I
+    K -.-> G & H
+    L -.-> I & F
 </pre>
 </p>
 
@@ -170,8 +175,57 @@ graph LR
 - Medellín, Colombia
 - Jan 2005 - Jun 2012
 
+**Topics:**
+[ Forest Inventory ]({{site.baseurl}}/categories/#ForestInventory){: .btn .btn-outline-info .btn-sm .no-article-post }
+[ LiDAR & Remote Sensing ]({{site.baseurl}}/categories/#LiDAR){: .btn .btn-outline-info .btn-sm .no-article-post }
+[ Sustainable Forest Management ]({{site.baseurl}}/categories/#SustainableForestManagement){: .btn .btn-outline-info .btn-sm .no-article-post }
+[ Forest Economics ]({{site.baseurl}}/categories/#ForestEconomics){: .btn .btn-outline-info .btn-sm .no-article-post }
+[ Forest Mapping ]({{site.baseurl}}/categories/#ForestMapping){: .btn .btn-outline-info .btn-sm .no-article-post }
 
-As a forestry student, I gained a deep understanding of ecological principles and sustainable natural resource management. I also acquired practical skills in forest inventory, GIS mapping, and forest product processing. My coursework emphasized the importance of balancing economic, social, and environmental objectives in forestry management.
+<p class="code" height=auto>
+<pre class="mermaid">
+    subgraph Core_Knowledge
+        A[Sustainable Forest Management]:::core
+        B[Forest Science]:::core
+    end
+
+    subgraph Technical_Skills
+        C[Forest Inventory]:::tech
+        D[LiDAR & Remote-Sensing]:::tech
+        E[Economic Outcomes]:::tech
+    end
+
+    subgraph Practical_Applications
+        F[Forest Mapping]:::practical
+        G[Harvesting Plan]:::practical
+        H[Resource Assessment]:::practical
+    end
+
+    subgraph Management_Approach
+        J[Sustainability Analysis]:::management
+        K[Environmental Impact Assessment]:::management
+    end
+
+    %% Main Connections
+    A & B --> C
+    C --> F & H
+    D & E --> F
+    
+    %% Integration Lines
+    F --> G
+    H --> K & J
+    B --> K
+    
+    %% Cross-domain Relationships
+    C -.-> H
+    F -.-> H
+    K -.-> G
+
+    %% Technology Integration
+    D -.-> H
+    E -.-> F
+</pre>
+</p>
 
 ## 3- Research Interests
 
