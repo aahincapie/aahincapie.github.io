@@ -75,7 +75,13 @@ mermaid: true
 - Belo Horizonte, Brazil
 - Mar 2015 - May 2017
 
-Topics: #ImproveedForestManagment #FinanceAnalysis #ForestManagement #Deforestation #Degradation
+#### Topics:
+[ #ImprovedForestManagement ]({{site.baseurl}}/categories/#ImprovedForestManagement){: .btn .btn-outline-info .btn-sm }
+[ #FinanceAnalysis ]({{site.baseurl}}/categories/#FinanceAnalysis){: .btn .btn-outline-info .btn-sm }
+[ #ForestManagement ]({{site.baseurl}}/categories/#ForestManagement){: .btn .btn-outline-info .btn-sm }
+[ #Deforestation ]({{site.baseurl}}/categories/#Deforestation){: .btn .btn-outline-info .btn-sm }
+[ #Degradation ]({{site.baseurl}}/categories/#Degradation){: .btn .btn-outline-info .btn-sm }
+
 <p class="code" height=auto>
 <pre class="mermaid">
 graph LR
@@ -93,7 +99,7 @@ graph LR
     end
 
     subgraph Communication
-    G[Research Presentation]:::communication
+    G[Research ]:::communication
     H[Academic Writing]:::communication
     I[Audience Engagement]:::communication
     end
