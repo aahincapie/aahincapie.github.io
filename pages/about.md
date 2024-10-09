@@ -229,22 +229,26 @@ graph LR
 </p>
 
 ## 3- Interests
-
+<p>
+  Here my approach to climate-based solutions, which involves accounting models and geospatial solutions to drive climate action,
+  always ensuring a human-rights-based approach.
+</p>
 <p class="code" height=auto>
 <pre class="mermaid">
 quadrantChart
     title Topics and Interests Distribution
     x-axis Medium Technical Complexity --> High Technical Complexity
     y-axis Medium Interest --> High Interest
-    quadrant-1 High Interest Technical
+    quadrant-1 Core Technical Focus
     quadrant-2 Core Research Focus
     quadrant-3 Potential Growth Areas
-    quadrant-4 Supporting Knowledge
+    quadrant-4 Potential Supporting Knowledge
 
-    %% High Interest Technical (Upper Right: 0.5-1.0, 0.5-1.0)
+    %% Core Technical (Upper Right: 0.5-1.0, 0.5-1.0)
     Carbon Methodologies: [0.75, 0.95]
     Carbon Accounting Modeling: [0.85, 0.85]
     GHG Jurisdictional REDD: [0.55, 0.60]
+    Scope 3 Removals & Reductions Analysis: [0.65, 0.75]
     Geospatial Analysis: [0.80, 0.75]
 
     %% Core Research Focus (Upper Left: 0.0-0.5, 0.5-1.0)
@@ -254,6 +258,7 @@ quadrantChart
     Agriculture & Agroforestry: [0.50, 0.70]
 
     %% Potential Growth Areas (Lower Left: 0.0-0.5, 0.0-0.5)
+    Project Safeguards: [0.25, 0.60]
     Human Rights: [0.25, 0.45]
     FPIC: [0.15, 0.35]
     Core Carbon Principles: [0.40, 0.35]
@@ -266,7 +271,6 @@ quadrantChart
     Fire Management: [0.20, 0.20]
 </pre>
 </p>
-## 4- Main skills
 
 |-------------------------------------------|------------------------------------------------------------|-------------------------------------------------------|
 | **Forestry and REDD:**                        | Forestry and Landscape projects                               | REDD and Agroforestry projects                        |
@@ -277,7 +281,7 @@ quadrantChart
 
 
 
-## 5- Short-experience 
+## 4- Short-experience 
 
 <style>
 table {
@@ -415,7 +419,7 @@ table {
   </tr>
 </table>
 
-## 6- References
+## 5- References
 
 ### Academic references
 
@@ -457,7 +461,7 @@ Throughout my journey, I've had the privilege of working with amazing colleagues
 **David Montoya González** David hold eight years of extensive experience in Remote Sensing and GIS. He leads the Remote Sensing and GIS team in TerraGlobal, using innovative software and tools that meet carbon market and impact standards and support community-based geospatial community monitoring. David worked for The National Department of Statistics (DANE) and South Pole for two years.
 
 
-## 7- Tools
+## 6- Tools
 
 
 | Category                | Tool/Platform                                                                                | Description |
