@@ -64,9 +64,7 @@ mermaid: true
 
 ## 2- Qualifications
 
-# Qualifications
-
-<div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 100px;">
+<div class="employee-image" style="border-radius: 50%; overflow: hidden; width: 100px; height: 102px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Symbolfumg.jpg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
 </div>
 
@@ -75,6 +73,7 @@ mermaid: true
 - Belo Horizonte, Brazil
 - Mar 2015 - May 2017
 
+**Topics:**
 [ Improved Forest Management ]({{site.baseurl}}/categories/#ImprovedForestManagement){: .btn .btn-outline-info .btn-sm .no-article-post }
 [ Finance Analysis ]({{site.baseurl}}/categories/#FinanceAnalysis){: .btn .btn-outline-info .btn-sm .no-article-post }
 [ Forest Management ]({{site.baseurl}}/categories/#ForestManagement){: .btn .btn-outline-info .btn-sm .no-article-post }
@@ -127,23 +126,23 @@ graph LR
 [ FPIC]({{site.baseurl}}/categories/#FPIC){: .btn .btn-outline-info .btn-sm .no-article-post }
 [ Land Use Tenure ]({{site.baseurl}}/categories/#LandUseTenure){: .btn .btn-outline-info .btn-sm .no-article-post }
 [ Deforestation ]({{site.baseurl}}/categories/#Deforestation){: .btn .btn-outline-info .btn-sm .no-article-post }
-My undergraduate studies in anthropology provided me with a strong foundation in social and cultural theory, I was focused in human right based approach, focus in indigenous groups, in research I was focused in methods such as ethnography and qualitative analysis based in maps, land used and social change. Use theory  of change to set outcomes in projects but also develop  critical thinking, FPIC.
+
 <p class="code" height=auto>
 <pre class="mermaid">
 graph LR
-    subgraph Research_Methods
+    subgraph Research Methods
     D[Ethnography]:::methods
     E[Qualitative Analysis]:::methods
     F[Participatory Methods]:::methods
     end
 
-    subgraph Focus_Areas
+    subgraph Focus Areas
     G[Human Rights]:::focus
     H[Indigenous Communities]:::focus
     I[Social Change]:::focus
     end
 
-    subgraph Applied_Skills
+    subgraph Applied Skills
     J[Land Use Mapping]:::applied
     K[FPIC Implementation]:::applied
     L[Theory of Change]:::applied
