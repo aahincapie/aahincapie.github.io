@@ -10,8 +10,9 @@ mermaid: true
   <div class="row align-items-center justify-content-between">
     <div class="col-md-6">
       <h1 class="font-weight-bold mb-4 serif-font">About me</h1>
-      <p class="lead mb-4" style="font-family: Roboto; font-size: 17px;"> I am Colombian Forestry Engineer and Anthropologist with a Brazilian Master’s in Environmental Systems. <br> I love  forestry and social sciences applications. I like explore complex problems to understanding deforestation and degradation dynamics, and GIS-based computational social sciences to find nature-based solutions for climate crisis.<br> I am skilled in GIS, carbon issues, and impact assessment. I have coordinated AFOLU projects in Latin America and Africa. I speak Spanish, English, and Portuguese.
-    </p>
+      <p class="lead mb-4" style="font-family: Roboto; font-size: 17px;"> I am a Forestry Engineer and Anthropologist with an interdisciplinary Master's in Geospatial Modeling. <br>
+  As a forestry and social scientist, I explore complex land-use problems including agriculture (palm oil, coffee, cocoa, and others). I am a GIS enthusiast and a human rights advocate,   dedicated to finding nature-based solutions for the climate crisis. <br>   I am an expert in carbon projects for voluntary markets and Scope 3, with experience coordinating AFOLU projects in Latin America and Africa.
+  I speak Spanish, English, and Portuguese.</p>
       <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a>
     </div>
     <div class="col-md-6 text-center pl-0 pl-lg-4">
@@ -236,7 +237,6 @@ graph LR
 <p class="code" height=auto>
 <pre class="mermaid">
 quadrantChart
-    title Topics and Interests Distribution
     x-axis Medium Technical Complexity --> High Technical Complexity
     y-axis Medium Interest --> High Interest
     quadrant-1 Core Technical Focus
