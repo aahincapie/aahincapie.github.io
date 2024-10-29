@@ -13,7 +13,7 @@ feed_items: 15
 feed_update_period: daily
 feed_update_frequency: 1
 mermaid:
-  src: '/assets/js/mermaid.min.js'
+  src: 'https://unpkg.com/mermaid@latest/dist/mermaid.min.js'
   theme: 'forest'
 markdown: kramdown
 kramdown:
