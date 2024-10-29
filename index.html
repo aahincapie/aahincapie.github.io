@@ -4,7 +4,7 @@ layout: default
 background: '/img/bg-index.jpg'
 ---
 
-<!-- Home Intro
+<!-- Home intro
 ================================================== -->
 {% if page.url == "/" %} 
 <div class="rounded mb-5 hero">
@@ -22,13 +22,19 @@ background: '/img/bg-index.jpg'
 </div>
 {% endif %}
 
-<!-- Home post
+<!-- Dialogue Section
 ================================================== -->
-<div class="row align-items-center justify-content-between">
-  <div class="col prevnextlinks text-right">
-    <img src="{{site.baseurl}}/assets/images/add_posts.svg" alt="Add Posts Image"> 
+<div class="dialogue-section mb-5">
+  <div class="image-container">
+      <img src="{{site.baseurl}}/assets/images/bubble_posts.svg" alt="Posts Illustration" class="background-image">
+      <div class="text-overlay">
+          <p class="lead mb-0">
+              The posts on this blog reflect my evolving perspectives. These articles are explorations of complex topics, and, as such, are always open to debate and further development.
+          </p>
+      </div>
   </div>
 </div>
+
 
 <!-- Featured
 ================================================== -->
