@@ -1,7 +1,13 @@
-<script src="{{ '/assets/js/mermaid.min.js' | relative_url }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>
-    mermaid.initialize({
-      startOnLoad: true,
-      theme: 'forest'
-    });
-  </script>
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'forest'
+  });
+</script>
+<script defer>
+  document.addEventListener("DOMContentLoaded", function() {
+    mermaid.initialize({ startOnLoad: true });
+  });
+</script>
+
