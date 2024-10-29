@@ -7,6 +7,8 @@
    viewBox="0 0 66.399078 66.399086"
    version="1.1"
    id="svg1"
+   sodipodi:docname="path_art_evocar_0.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -18,10 +20,19 @@
      borderopacity="1"
      inkscape:showpageshadow="2"
      inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
+     inkscape:pagecheckerboard="true"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:export-bgcolor="#ffffff00" />
+     inkscape:export-bgcolor="#ffffff00"
+     inkscape:zoom="2.4247165"
+     inkscape:cx="188.47564"
+     inkscape:cy="149.91443"
+     inkscape:window-width="2560"
+     inkscape:window-height="1494"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs1">
     <clipPath
@@ -39,7 +50,7 @@
      id="layer1"
      transform="translate(-72.724451,-3.8405153)">
     <path
-       id="path23573"
+       id="path1"
        d="m 0,0 c 0,-11.742 -9.518,-21.26 -21.26,-21.26 -11.741,0 -21.26,9.518 -21.26,21.26 0,11.741 9.519,21.26 21.26,21.26 C -9.518,21.26 0,11.741 0,0"
        style="fill:#e8be3a icc-color(sRGB-IEC61966-2, 0.1, 0.9099884, 0.74499512, 0.22698975);fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1.5615966,0,0,-1.5615966,139.12354,37.040059)"
