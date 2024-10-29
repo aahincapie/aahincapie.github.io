@@ -18,14 +18,6 @@ mermaid: true
     <div class="col-md-6 text-center pl-0 pl-lg-4">
       <p class="code" height=auto>
       <pre class ="mermaid">
-      graph
-      A((Andrés H)) --> B[Qualifications]
-      A --> C[Interests]
-      A --> D[Skills]
-      A --> E[Experience]
-      </pre> </p>
-      <p class="code" height=auto>
-      <pre class ="mermaid">
       graph LR
       B(Qualifications) --> F[Forestry Engineer and Anthropologist]
       B --> G[Master in Analysis and Modeling of Environmental Systems]
