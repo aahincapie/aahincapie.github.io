@@ -3,6 +3,18 @@ title: "Categories"
 layout: default
 permalink: "/categories.html"
 ---
+<!-- Dialogue Section
+================================================== -->
+<div class="dialogue-section mb-5">
+    <div class="image-container">
+        <img src="{{site.baseurl}}/assets/images/bubble_posts.svg" alt="Posts Illustration" class="background-image">
+        <div class="text-overlay">
+            <p class="lead mb-0">
+                The posts on this blog reflect my evolving perspectives. These articles are incomplete explorations of complex topics, and, as such, are always open to debate and further development.
+            </p>
+        </div>
+    </div>
+  </div>
 {% for category in site.categories %}
 <h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">In "{{ category[0] }}"</span></h4>
 <div class="row">
