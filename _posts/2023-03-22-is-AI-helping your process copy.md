@@ -7,6 +7,7 @@ image: assets/images/5.jpg
 ---
 
 In today's world, data is abundant and readily available, carbon market is traspassing for controversial times, and projects need to set actions strategies to improve and correct some action, but for where do you need start?.
+
 Rating carbon market companies are increasing each day, and maybe articles or news appers in the internet, maybe analyzing and summarizing it can be a challenge to undertand the priorities for your project. This is where ChatGPT comes in. ChatGPT is a language model that has the ability to summarize and create tables for data analysis. In this blog post, we will explore the capacities of ChatGPT for both summarization.
 
 ## Table of Contents:
