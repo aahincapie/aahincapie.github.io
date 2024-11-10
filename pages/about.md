@@ -49,8 +49,14 @@ mermaid: true
 </div>
 
 
-[Resume or Curriculum Vitae](https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf?raw=true)
-
+<div class="d-flex justify-content-center gap-3 my-4">
+  <a href="https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf?raw=true" class="btn btn-dark text-white px-5 btn-lg">
+    Carbon Project Development & Operations
+  </a>
+  <a href="https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf?raw=true" class="btn btn-dark text-white px-5 btn-lg">
+    Social Safeguards & Community Specialist
+  </a>
+</div>
 
 {: .notice--success}
 
@@ -410,6 +416,19 @@ table {
     <td></td>
   </tr>
 </table>
+
+### Experience by region
+<div id="my-react-component"></div>
+
+<script type="text/babel">
+  function MyComponent() {
+    return <h1>Hello, GitHub Pages with React!</h1>;
+  }
+
+  ReactDOM.render(<MyComponent />, document.getElementById("my-react-component"));
+</script>
+
+
 
 ## 5- References
 
