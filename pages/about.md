@@ -421,11 +421,200 @@ table {
 <div id="my-react-component"></div>
 
 <script type="text/babel">
-  function MyComponent() {
-    return <h1>Hello, GitHub Pages with React!</h1>;
-  }
+import React, { useState } from 'react';
 
-  ReactDOM.render(<MyComponent />, document.getElementById("my-react-component"));
+const ProjectWorldMap = () => {
+  const [selectedRegion, setSelectedRegion] = useState(null);
+
+  const projectData = {
+    africa: {
+      name: 'Africa',
+      projects: [
+        {
+          country: 'Ghana/Ivory Coast',
+          project: 'Scope 3 Assessment',
+          client: 'Lindt & Sprüngli',
+          role: 'Supply chain emissions modeling, land use change monitoring',
+          year: '2024'
+        },
+        {
+          country: 'DRC',
+          project: 'Isangi REDD+',
+          client: 'Safboi',
+          role: 'JNR strategy development, stakeholder engagement, GIS baseline',
+          year: '2020'
+        },
+        {
+          country: 'Kenya',
+          project: 'Chyulu Hills REDD+',
+          client: 'Maasai Wilderness',
+          role: 'Technical review (PDD/MR), baseline reassessment',
+          year: '2023'
+        },
+        {
+          country: 'Kenya',
+          project: 'Lake Naivasha',
+          client: 'JB Travel AB',
+          role: 'Baseline development, Gold Standard certification',
+          year: '2018'
+        }
+      ]
+    },
+    asia: {
+      name: 'Southeast Asia',
+      projects: [
+        {
+          country: 'Indonesia',
+          project: 'Flores REDD+/ARR',
+          client: 'BirdLife International',
+          role: 'Feasibility analysis, carbon accounting, VCS-CCB validation',
+          year: '2024'
+        },
+        {
+          country: 'Cambodia',
+          project: 'Lomphat Wildlife Sanctuary',
+          client: 'BirdLife International',
+          role: 'ERR estimations, leakage analysis, VCS-CCB validation',
+          year: '2023'
+        }
+      ]
+    },
+    latinAmerica: {
+      name: 'Latin America',
+      projects: [
+        {
+          country: 'Brazil',
+          project: 'Serra do Amolar REDD+',
+          client: 'Instituto Homem Pantaneiro',
+          role: 'Project management, VCS-CCB validation/verification',
+          year: '2019'
+        },
+        {
+          country: 'Brazil/Peru',
+          project: 'ISA Jaguar Fund',
+          client: 'Interconexión Eléctrica S.A.',
+          role: 'Due diligence, avoided deforestation projects',
+          year: '2018'
+        },
+        {
+          country: 'Colombia',
+          project: 'Morrosquillo Blue Carbon',
+          client: 'INVEMAR/Conservation International',
+          role: 'Carbon accounting, safeguards development',
+          year: '2020'
+        },
+        {
+          country: 'Colombia',
+          project: 'Sierra Nevada REDD+/ARR',
+          client: 'TNC',
+          role: 'JNR framework, deforestation analysis',
+          year: '2019'
+        },
+        {
+          country: 'Colombia',
+          project: 'Deforestation Study',
+          client: 'GIZ',
+          role: 'Spatial assessment, drivers analysis',
+          year: '2017'
+        }
+      ]
+    }
+  };
+
+  return (
+    <div className="max-w-6xl mx-auto p-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {/* Map Section */}
+        <div className="bg-white rounded-lg shadow-lg p-4">
+          <svg viewBox="0 0 1000 500" className="w-full h-auto">
+            {/* Africa Region */}
+            <path
+              d="M500 250 L550 200 L600 250 L550 300 Z"
+              fill={selectedRegion === 'africa' ? '#4a90e2' : '#d3d3d3'}
+              stroke="#fff"
+              strokeWidth="2"
+              className="cursor-pointer hover:opacity-80 transition-opacity"
+              onClick={() => setSelectedRegion('africa')}
+            >
+              <title>Africa</title>
+            </path>
+            
+            {/* Asia Region */}
+            <path
+              d="M700 200 L750 150 L800 200 L750 250 Z"
+              fill={selectedRegion === 'asia' ? '#4a90e2' : '#d3d3d3'}
+              stroke="#fff"
+              strokeWidth="2"
+              className="cursor-pointer hover:opacity-80 transition-opacity"
+              onClick={() => setSelectedRegion('asia')}
+            >
+              <title>Southeast Asia</title>
+            </path>
+            
+            {/* Latin America Region */}
+            <path
+              d="M300 300 L350 250 L400 300 L350 350 Z"
+              fill={selectedRegion === 'latinAmerica' ? '#4a90e2' : '#d3d3d3'}
+              stroke="#fff"
+              strokeWidth="2"
+              className="cursor-pointer hover:opacity-80 transition-opacity"
+              onClick={() => setSelectedRegion('latinAmerica')}
+            >
+              <title>Latin America</title>
+            </path>
+          </svg>
+        </div>
+
+        {/* Project Details Section */}
+        <div className="bg-white rounded-lg shadow-lg p-4">
+          {selectedRegion ? (
+            <div>
+              <h2 className="text-2xl font-bold mb-4">{projectData[selectedRegion].name}</h2>
+              <div className="space-y-4">
+                {projectData[selectedRegion].projects.map((project, index) => (
+                  <div key={index} className="border-l-4 border-blue-500 pl-4">
+                    <div className="font-bold">{project.country}</div>
+                    <div className="text-sm text-gray-600">
+                      <div><span className="font-semibold">Project:</span> {project.project}</div>
+                      <div><span className="font-semibold">Client:</span> {project.client}</div>
+                      <div><span className="font-semibold">Role:</span> {project.role}</div>
+                      <div><span className="font-semibold">Year:</span> {project.year}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <div className="text-center text-gray-500">
+              <p>Select a region on the map to view projects</p>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Timeline Section */}
+      <div className="mt-8 bg-white rounded-lg shadow-lg p-4">
+        <h2 className="text-2xl font-bold mb-4">Project Timeline</h2>
+        <div className="flex justify-between items-center">
+          {['2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'].map(year => (
+            <div
+              key={year}
+              className={`h-8 w-8 rounded-full ${
+                projectData[selectedRegion]?.projects.some(p => p.year === year)
+                  ? 'bg-blue-500'
+                  : 'bg-gray-200'
+              } flex items-center justify-center text-white text-sm`}
+            >
+              {year.slice(2)}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ProjectWorldMap;
 </script>
 
 
