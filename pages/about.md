@@ -49,12 +49,12 @@ mermaid: true
 </div>
 
 
-<div class="d-flex justify-content-center gap-3 my-4">
-  <a href="https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf?raw=true" class="btn btn-dark text-white px-5 btn-lg">
-    Carbon Project Development & Operations
+<div class="justify-content-center gap-3 my-4">
+  <a href="https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf?raw=true" class="btn btn-dark text-white px-5 btn-sm">
+    Download CV/resume <br> Carbon Development & Operations
   </a>
-  <a href="https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf?raw=true" class="btn btn-dark text-white px-5 btn-lg">
-    Social Safeguards & Community Specialist
+  <a href="https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf?raw=true" class="btn btn-dark text-white px-5 btn-sm">
+    Download CV/resume <br> Social Safeguards & Community Specialist
   </a>
 </div>
 
@@ -649,7 +649,7 @@ Throughout my journey, I've had the privilege of working with amazing colleagues
 **Beatriz Zapata:** Beatriz Zapata is a forest engineer with vast experience in carbon forest project initiatives. She has deep technical knowledge of methodologies, tools, and guidelines of the main standards used in the AFOLU sector, such as VCS, CCBS and Gold Standard. Beatriz work for South Pole since seven years ago.
 
 <div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 100px; height: 100px;">
-    <img src="https://verra.org/wp-content/uploads/claudia-milena-agudelo-palacio.jpg" alt="Employee Image" style="width: 100%;">
+    <img src="https://cdn.theorg.com/0cddd548-dd49-4a02-83d9-03aea86949bc_thumb.jpg" alt="Employee Image" style="width: 100%;">
 </div>
 
 **Milena Agudelo:** Milena is a manager for Nature Climate Solutions at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly and South Pole for five years.
