@@ -640,7 +640,7 @@ Throughout my journey, I've had the privilege of working with amazing colleagues
     <img src="https://uploads-ssl.webflow.com/636af6c7a6be384c24bea3d7/6393d225c7a3f2c03b710efd_637db6aff3ef8307cec3edfd_abel-p-500.jpeg" alt="Employee Image" style="width: 100%; margin: 0 auto;">
 </div>
 
-**Abel Marcarini:** Abel is a carbon project lead for Brazil at Earthshot Labs. He has more than 10 years working on Nature Based Solutions for the voluntary carbon market and academic background in forestry.Abel worked for Verra for the last two years and for South Pole for another seven years. 
+**Abel Marcarini:** Abel is a carbon project lead for Brazil at Earthshot Labs. He has more than 10 years working on Nature Based Solutions for the voluntary carbon market and academic background in forestry. Before Earthshot Lab, Abel worked for Verra for two years and for South Pole for seven years. 
 
 <div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 100px; height: 100px;">
     <img src="https://www.southpole.com/uploads/thumbs/bza_600x775.jpg" alt="Employee Image" style="width: 100%;">
@@ -652,7 +652,7 @@ Throughout my journey, I've had the privilege of working with amazing colleagues
     <img src="https://cdn.theorg.com/0cddd548-dd49-4a02-83d9-03aea86949bc_thumb.jpg" alt="Employee Image" style="width: 100%;">
 </div>
 
-**Milena Agudelo:** Milena is a manager for Nature Climate Solutions at Verra, contributing to the evolution of Verra programs. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies, particularly those related to ALM. Milena holds a bachelor's degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly and South Pole for five years.
+**Milena Agudelo:** Milena is a manager for Nature Climate Solutions at Verra, responsible for reviewing registration and verification requests ensuring quality and integrity of ALM and WRC projects. She helps develop updates to existing rules and procedures and provides technical input for the development of new methodologies. Milena holds a bachelor’s degree in Forest Engineering and a MSc in Forestry and Environmental Conservation. Previously, she supported Climate Friendly and South Pole for six years.
 
 <div class="employee-image" style="border-radius: 50%; overflow: hidden;width: 100px; height: 100px;">
     <img src="https://www.terraglobalcapital.com/sites/default/files/styles/square241px/public/5-5D8A8603_0.jpg" alt="Employee Image" style="width: 100%;">

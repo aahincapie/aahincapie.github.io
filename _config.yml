@@ -35,13 +35,13 @@ authors:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/in/aahincapie/
     description: "Geek author writing romance and mystery stories with a twist - carbon markets and climate change. Andres also likes to work on improving the methodology used to measure carbon. He likes to delve into the challenges of the market, such as the quality of projects, the role of governments, leakage and performance of the market."
-  john:
-    name: John
-    display_name: John
+  Copier:
+    name: John Doe
+    display_name: John Doe
     avatar: 'assets/images/john.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
+    email: john.doe@example.com
+    web:  https://example.com
+    twitter:  https://twitter.com/
     description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
 
 # Social
@@ -60,3 +60,17 @@ plugins:
 - jekyll-archives
 - jekyll-spaceship
 - jekyll-mermaid
+- jekyll-include-cache
+
+# React build directory configuration
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - src
+  - public
+include:
+  - _pages
+  - assets
+  - build
