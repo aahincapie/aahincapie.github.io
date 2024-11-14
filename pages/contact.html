@@ -20,9 +20,10 @@ comments: false
   </a>
 </div>
 
-<h3>Schedule a meeting:</h3>
+<h3>Schedule a meeting with me:</h3>
+
 <!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget lazy-load" data-url="https://calendly.com/aahincapie"></div>
+<div class="calendly-inline-widget" data-url="https://calendly.com/aahincapie" style="min-width:320px; height:600px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->
 
@@ -83,35 +84,3 @@ comments: false
 <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
 
-<script>
-  // Lazy Loading
-  document.addEventListener("DOMContentLoaded", function() {
-	var lazyloadImages = document.querySelectorAll(".lazy-load");
-	var lazyloadThrottleTimeout;
-
-	function lazyload() {
-	  if (lazyloadThrottleTimeout) {
-		clearTimeout(lazyloadThrottleTimeout);
-	  }
-
-	  lazyloadThrottleTimeout = setTimeout(function() {
-		var scrollTop = window.pageYOffset;
-		lazyloadImages.forEach(function(img) {
-		  if (img.offsetTop < (window.innerHeight + scrollTop)) {
-			img.src = img.dataset.src;
-			img.classList.add("loaded");
-		  }
-		});
-		if (lazyloadImages.length == 0) {
-		  document.removeEventListener("scroll", lazyload);
-		  window.removeEventListener("resize", lazyload);
-		  window.removeEventListener("orientationChange", lazyload);
-		}
-	  }, 20);
-	}
-
-	document.addEventListener("scroll", lazyload);
-	window.addEventListener("resize", lazyload);
-	window.addEventListener("orientationChange", lazyload);
-  });
-</script>
