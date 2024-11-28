@@ -4,6 +4,7 @@ title:  "Navigating Article 6: Understanding Carbon Trading and the Risks for bu
 author: Andrés Hincapié 
 categories: [ Carbon, Tool, Market ]
 image: assets/images/5.jpg
+disqus: false
 ---
 
 From COP26 to COP29vone of the main priorities for negotiations in Baku
