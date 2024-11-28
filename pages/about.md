@@ -50,7 +50,7 @@ mermaid: true
 
 
 <div class="justify-content-center gap-3 my-4">
-  <a href="https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/CV - A Andrés_Hincapié Nov 24 - CDBD.pdf?raw=true" class="btn btn-dark text-white px-5 btn-sm">
+  <a href="https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/CV%20-%20A%20Andre%CC%81s_Hincapie%CC%81%20Nov%2024%20-%20CDBD.pdf?raw=true" class="btn btn-dark text-white px-5 btn-sm">
     Download CV/resume <br> Carbon Development & Operations
   </a>
   <a href="https://github.com/aahincapie/aahincapie.github.io/blob/d61f16619efbd67e627f22aa43dfe45029336204/assets/images/2023_07_CV_AdolfoAndresHincapie.pdf?raw=true" class="btn btn-dark text-white px-5 btn-sm">
