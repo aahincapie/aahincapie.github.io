@@ -3,10 +3,10 @@
 
 // start content
 
-$green:   #08a057 !default;
-$blue:    #3d61fd !default;
+$green: #08a057 !default;
+$blue: #3d61fd !default;
 
-@import 'bootstrap/bootstrap';
+@use 'bootstrap/bootstrap';
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
@@ -698,6 +698,6 @@ span.navigation:before {
 }
 
 .hover-opacity:hover {
-    transition: all.3s;
+    transition: all .3s;
     opacity:.8;
 }
