@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: "/about/"
+permalink: "/about_ess/"
 author: Andres_Hincapie
 categories: [ Curriculum, Resume, HV, Contact, Social, Safeguards, Community ]
 mermaid: true

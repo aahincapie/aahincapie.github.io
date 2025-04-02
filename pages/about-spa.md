@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: "/about-es/"
+permalink: "/about-spa/"
 author: Andres_Hincapie
 categories: [ Curriculum, Resume, HV, Contact ]
 mermaid: true
