@@ -11,7 +11,7 @@ mermaid: true
     <div class="col-md-6">
       <h1 class="font-weight-bold mb-4 serif-font">About me</h1>
       <p class="lead mb-4" style="font-family: Roboto; font-size: 17px;">
-      I am a Forestry Engineer and Anthropologist with an interdisciplinary Master's in Geospatial Modeling, specializing in GIS and social aspects of nature-based solutions. My expertise includes the identification and assessment of indicators for enviromantal and social safeguard conformance in projects, assestment of benefit-sharing mechanisms, safeguard information systems, and stakeholder engagement strategies, including Free Prior and Informed Consent (FPIC). I have a strong analytical skillset focused on using GIS tools and workflow charts to optimize implementation of social and economical aspects. My understanding covers safeguards for Gold Standard (GS), REDD+ and Jurisdictional safeguards, and community approach for stand-alone projects. All my work is focused on looking horizontal structures and well designed mitigation measures, ensure high-quality consultations, and build capacity-building in field. I speak Spanish, Portuguese and English.I like to apply my skills and knowledge to meet these demands and contribute to the success of projects. I also like to jump in more tecnical aspects of the carbon methodologies(see:url: "about/" )
+      I am a Forestry Engineer and Anthropologist with an interdisciplinary Master's in Geospatial Modeling, specializing in GIS and social aspects of nature-based solutions. My expertise includes the identification and assessment of indicators for enviromantal and social safeguard conformance in projects, assestment of benefit-sharing mechanisms, safeguard information systems, and stakeholder engagement strategies, including Free Prior and Informed Consent (FPIC). I have a strong analytical skillset focused on using GIS tools and workflow charts to optimize implementation of social and economical aspects. My understanding covers safeguards for Gold Standard (GS), REDD+ and Jurisdictional safeguards, and community approach for stand-alone projects. All my work is focused on looking horizontal structures and well designed mitigation measures, ensure high-quality consultations, and build capacity-building in field. I speak Spanish, Portuguese and English.I like to apply my skills and knowledge to meet these demands and contribute to the success of projects. I also like to jump into more technical aspects of the carbon methodologies (see: <a href="/about/">My technical carbon skills</a>).
       </p>
       <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a>
     </div>
@@ -232,13 +232,7 @@ My work focuses on the intersection of social equity, environmental safeguards, 
 | **Human Rights Approach:** | Integrating human rights principles into all project phases, ensuring equitable benefit sharing, respecting community rights through FPIC, and designing grievance mechanisms.                                               |
 | **Data Analysis & Design:** | Applying analytical skills to design horizontal project structures that effectively manage risk, foster collaboration, and support robust monitoring and evaluation systems for social and environmental outcomes.              |
 
-|-------------------------------------------|------------------------------------------------------------|-------------------------------------------------------|
-| **Forestry and REDD:** | Forestry and Landscape projects                               | REDD and Agroforestry projects                        |
-| **Geospatial:** | Geospatial solutions and new developments                 |                                                       |
-| **Human Rights:** | Human Right based approaches                                   | Free, Prior and Informed Consent (FPIC)               |
-|                                           | Stakeholder and Theory of Change (ToC)                     |                                                       |
-| **Data Analysis:** | Complex data analysis and innovation                       | Spatial-explicit modeling scenarios                    |
-
+![ESG Areas CV Graphic](assets/images/cv-esgareas.png)
 
 ## 4- Short-experience
 

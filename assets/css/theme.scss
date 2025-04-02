@@ -123,6 +123,7 @@ small, .small {
 /* Sidebar
 ================================================== */
 .sidebar.sticky-top {
+    position: relative;
     top:96px;
     .dropdown-item {
         opacity:.6;
