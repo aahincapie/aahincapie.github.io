@@ -338,5 +338,3 @@ A lo largo de mi trayectoria, he tenido el privilegio de trabajar con colegas in
 | Básico    | [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)](https://www.python.org/)                        | - Un popular lenguaje de programación de propósito general para el análisis de datos geoespaciales.                         
 | Básico    | [![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r)](https://www.r-project.org/)                                  | - Un lenguaje de programación estadística ampliamente utilizado para el análisis y la visualización de datos.             
 | Básico    | [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript)](https://google.github.io/styleguide/javascriptguide.xml) | - Un lenguaje de programación versátil comúnmente utilizado para el desarrollo web y las aplicaciones de mapas interactivos.   
-
---- END OF FILE about.md ---
