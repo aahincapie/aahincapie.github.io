@@ -232,7 +232,7 @@ My work focuses on the intersection of social equity, environmental safeguards, 
 | **Human Rights Approach:** | Integrating human rights principles into all project phases, ensuring equitable benefit sharing, respecting community rights through FPIC, and designing grievance mechanisms.                                               |
 | **Data Analysis & Design:** | Applying analytical skills to design horizontal project structures that effectively manage risk, foster collaboration, and support robust monitoring and evaluation systems for social and environmental outcomes.              |
 
-![ESG Areas CV Graphic](https://aahincapie.github.io/assets/images/cv-esgareas.png)
+<img src="https://aahincapie.github.io/assets/images/cv-esgareas.png" alt="ESG Areas CV Graphic" style="width:90%;">
 
 ## 4- Short-experience
 
