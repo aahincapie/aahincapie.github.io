@@ -50,12 +50,25 @@ mermaid: true
 
 
 <div class="justify-content-center gap-3 my-4">
-  <a href="https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/CV%20-%20A%20Andre%CC%81s_Hincapie%CC%81%20Nov%2024%20-%20CDBD.pdf?raw=true" class="btn btn-dark text-white px-5 btn-sm">
+
+  <!-- Carbon Development & Operations -->
+  <a href="/about/" class="btn btn-dark text-white px-5 btn-sm">
+    About Me <br> Carbon Development & Operations
+  </a>
+
+  <a href="https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/CV%20-%20A%20Andre%CC%81s_Hincapie%CC%81%20Nov%2024%20-%20CDBD.pdf?raw=true" class="btn btn-secondary text-white px-5 btn-sm" target="_blank">
     Download CV/resume <br> Carbon Development & Operations
   </a>
-  <a href="https://github.com/aahincapie/aahincapie.github.io/blob/ef3c6509c9de3835d7f72e2d3586e8962c9e8489/assets/images/CV%20-%20A%20Andre%CC%81s_Hincapie%CC%81%20Nov%2024%20-%20SCo.pdf" class="btn btn-dark text-white px-5 btn-sm">
+
+  <!-- Social Safeguards & Community Specialist -->
+  <a href="/about_ess/" class="btn btn-dark text-white px-5 btn-sm">
+    About Me <br> Social Safeguards & Community Specialist
+  </a>
+
+  <a href="https://github.com/aahincapie/aahincapie.github.io/blob/ef3c6509c9de3835d7f72e2d3586e8962c9e8489/assets/images/CV%20-%20A%20Andre%CC%81s_Hincapie%CC%81%20Nov%2024%20-%20SCo.pdf" class="btn btn-secondary text-white px-5 btn-sm" target="_blank">
     Download CV/resume <br> Social Safeguards & Community Specialist
   </a>
+
 </div>
 
 {: .notice--success}
