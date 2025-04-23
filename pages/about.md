@@ -19,12 +19,12 @@ mermaid: true
       <div class="row g-3 mb-4">
         <div class="col-12 col-md-6 d-grid">
           <a href="/about/" class="btn btn-dark text-white btn-sm d-flex align-items-center justify-content-start">
-            🌿 Carbon Development & Operations
+            🌿 Carbon <br> Development & Operations
           </a>
         </div>
         <div class="col-12 col-md-6 d-grid">
           <a href="/about_ess/" class="btn btn-dark text-white btn-sm d-flex align-items-center justify-content-start">
-            🧭 Social Safeguards & Community
+            🧭 Social <br> Safeguards & Community
           </a>
         </div>
       </div>
