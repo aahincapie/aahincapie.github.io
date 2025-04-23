@@ -120,9 +120,22 @@ gtag('config', '{{site.ganalytics}}');
 
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener("DOMContentLoaded", function () {
     if (typeof mermaid !== "undefined") {
-      mermaid.initialize({ startOnLoad: true, theme: 'base' });
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: 'base',
+        themeVariables: {
+          primaryColor: '#6c757d',       
+          primaryBorderColor: '#3d61fd',       
+          lineColor: '#000000',             
+          secondaryColor: '#08a057',        
+          tertiaryColor: '#fdd93d',         
+          primaryTextColor: '#ffffff',         
+          fontSize: '16px',
+          edgeLabelBackground: '#08a057'   
+        }
+      });
     } else {
       console.error("Mermaid library not loaded.");
     }
