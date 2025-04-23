@@ -25,6 +25,11 @@ mermaid: true
     <a href="/about_ess/" class="btn btn-outline-success btn-lg text-start">
       🧭 Social Safeguards & Community
     </a>
+  </div>
+
+  <a href="https://www.linkedin.com/in/aahincapie" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile">
+  </a>
     </div>
     <div class="col-md-6 text-center pl-0 pl-lg-4">
       <p class="code" height=auto>
