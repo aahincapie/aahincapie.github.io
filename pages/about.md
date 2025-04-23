@@ -25,7 +25,7 @@ mermaid: true
       🧭 Social Safeguards & Community
     </a>
   </div>
-
+  <div class="d-grid gap-3 mb-4">
   <a href="https://www.linkedin.com/in/aahincapie" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile">
   </a>
@@ -58,7 +58,8 @@ mermaid: true
       E(Experience) --> O[Six years of experience in the voluntary carbon market]
       E --> P[Current position: Carbon Compliance Expert at Earthshot Lab]
       E --> Q[Previous position: Regional Lead for Nature-Based Solutions at South Pole]
-      </pre> </p>
+      </pre> 
+      </p>
     </div>
   </div>
 </div>
