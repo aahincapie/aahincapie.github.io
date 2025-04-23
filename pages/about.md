@@ -15,14 +15,13 @@ mermaid: true
     As a forestry and social scientist, I explore complex land-use problems including agriculture (palm oil, coffee, cocoa, and others). I am a GIS enthusiast and a human rights advocate, dedicated to finding nature-based solutions for the climate crisis.<br>
     I am an expert in carbon certification projects for voluntary markets (including VCS, CCB, and GS) and Scope 3 (GHG Protocol, SBTI), with experience coordinating AFOLU projects (REDD+, ARR, ALM, and IFM) in Latin America, Africa, and Southeast Asia.<br>
    <br>
-    Please explore my areas of expertise:
-  </p>
+    <strong>Please explore my areas of expertise:<strong> </p>
 
   <div class="d-grid gap-3 mb-4">
-    <a href="/about/" class="btn btn-dark text-white btn-sm td-flex align-items-center justify-content-start w-50">
+    <a href="/about/" class="btn btn-dark text-white btn-sm td-flex align-items-center justify-content-start">
       🌿 Carbon Development & Operations
     </a>
-    <a href="/about_ess/" class="btn btn-dark text-white btn-sm d-flex align-items-center justify-content-start w-50">
+    <a href="/about_ess/" class="btn btn-dark text-white btn-sm d-flex align-items-center justify-content-start">
       🧭 Social Safeguards & Community
     </a>
   </div>
@@ -65,14 +64,21 @@ mermaid: true
 </div>
 
 
-<div class="justify-content-center gap-4">
-
-  <a href="https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/CV%20-%20A%20Andre%CC%81s_Hincapie%CC%81%20Nov%2024%20-%20CDBD.pdf?raw=true" class="btn btn-secondary text-white px-5 btn-sm w-50" target="_blank">
-    Download CV/resume <br> Carbon Development & Operations
-  </a>
-  <a href="https://github.com/aahincapie/aahincapie.github.io/blob/ef3c6509c9de3835d7f72e2d3586e8962c9e8489/assets/images/CV%20-%20A%20Andre%CC%81s_Hincapie%CC%81%20Nov%2024%20-%20SCo.pdf" class="btn btn-secondary text-white px-5 btn-sm w-50" target="_blank">
-    Download CV/resume <br> Social Safeguards & Community Specialist
-  </a>
+<div class="row justify-content-center g-3 mb-4">
+  <div class="col-12 col-md-6 d-grid">
+    <a href="https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/CV%20-%20A%20Andre%CC%81s_Hincapie%CC%81%20Nov%2024%20-%20CDBD.pdf?raw=true"
+       class="btn btn-secondary text-white px-4 py-3 btn-sm w-100 text-center"
+       target="_blank">
+      📄 Download CV/resume <br><strong>Carbon Development & Operations</strong>
+    </a>
+  </div>
+  <div class="col-12 col-md-6 d-grid">
+    <a href="https://github.com/aahincapie/aahincapie.github.io/blob/ef3c6509c9de3835d7f72e2d3586e8962c9e8489/assets/images/CV%20-%20A%20Andre%CC%81s_Hincapie%CC%81%20Nov%2024%20-%20SCo.pdf"
+       class="btn btn-secondary text-white px-4 py-3 btn-sm w-100 text-center"
+       target="_blank">
+      📄 Download CV/resume <br><strong>Social Safeguards & Community</strong>
+    </a>
+  </div>
 </div>
 
 {: .notice--success}
