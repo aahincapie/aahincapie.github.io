@@ -11,9 +11,13 @@ mermaid: true
     <div class="col-md-6">
       <h1 class="font-weight-bold mb-4 serif-font">About me</h1>
       <p class="lead mb-4" style="font-family: Roboto; font-size: 17px;"> I am a Forestry Engineer and Anthropologist with an interdisciplinary Master's in Geospatial Modeling. <br>
-  As a forestry and social scientist, I explore complex land-use problems including agriculture (palm oil, coffee, cocoa, and others). I am a GIS enthusiast and a human rights advocate,   dedicated to finding nature-based solutions for the climate crisis. <br>   I am an expert in carbon projects for voluntary markets and Scope 3, with experience coordinating AFOLU projects in Latin America and Africa.
-  I speak Spanish, English, and Portuguese.</p>
-      <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a>
+  As a forestry and social scientist, I explore complex land-use problems including agriculture (palm oil, coffee, cocoa, and others). I am a GIS enthusiast and a human rights advocate,   dedicated to finding nature-based solutions for the climate crisis. <br>   I am an expert in carbon certification projects for voluntary markets (including VCS, CCB, and GS) and Scope 3 (GHG Protocol, SBTI), with experience coordinating AFOLU projects (REDD+, ARR, ALM and IFM) in Latin America, Africa and SEA.<br>
+  Please explore my areas of expertise:</p>
+  <!-- Carbon Development & Operations -->
+  <a href="/about/" class="btn btn-outline-primary"> <br> Carbon Development & Operations </a>
+  <!-- Social Safeguards & Community Specialist -->
+  <a href="/about_ess/" class="btn btn-outline-success"> <br> Social Safeguards & Community </a>
+  <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a>
     </div>
     <div class="col-md-6 text-center pl-0 pl-lg-4">
       <p class="code" height=auto>
@@ -51,24 +55,12 @@ mermaid: true
 
 <div class="justify-content-center gap-3 my-4">
 
-  <!-- Carbon Development & Operations -->
-  <a href="/about/" class="btn btn-dark text-white px-5 btn-sm">
-    About Me <br> Carbon Development & Operations
-  </a>
-
   <a href="https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/CV%20-%20A%20Andre%CC%81s_Hincapie%CC%81%20Nov%2024%20-%20CDBD.pdf?raw=true" class="btn btn-secondary text-white px-5 btn-sm" target="_blank">
     Download CV/resume <br> Carbon Development & Operations
   </a>
-
-  <!-- Social Safeguards & Community Specialist -->
-  <a href="/about_ess/" class="btn btn-dark text-white px-5 btn-sm">
-    About Me <br> Social Safeguards & Community Specialist
-  </a>
-
   <a href="https://github.com/aahincapie/aahincapie.github.io/blob/ef3c6509c9de3835d7f72e2d3586e8962c9e8489/assets/images/CV%20-%20A%20Andre%CC%81s_Hincapie%CC%81%20Nov%2024%20-%20SCo.pdf" class="btn btn-secondary text-white px-5 btn-sm" target="_blank">
     Download CV/resume <br> Social Safeguards & Community Specialist
   </a>
-
 </div>
 
 {: .notice--success}
