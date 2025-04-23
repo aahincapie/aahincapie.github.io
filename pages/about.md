@@ -15,7 +15,7 @@ mermaid: true
     As a forestry and social scientist, I explore complex land-use problems including agriculture (palm oil, coffee, cocoa, and others). I am a GIS enthusiast and a human rights advocate, dedicated to finding nature-based solutions for the climate crisis.<br>
     I am an expert in carbon certification projects for voluntary markets (including VCS, CCB, and GS) and Scope 3 (GHG Protocol, SBTI), with experience coordinating AFOLU projects (REDD+, ARR, ALM, and IFM) in Latin America, Africa, and Southeast Asia.<br>
    <br>
-    <strong>Please explore my areas of expertise:<strong> </p>
+    <strong>Please explore my areas of expertise </strong> </p>
 
   <div class="d-grid gap-3 mb-4">
     <a href="/about/" class="btn btn-dark text-white btn-sm td-flex align-items-center justify-content-start">
