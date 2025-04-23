@@ -1,7 +1,22 @@
+  <!-- Theme only here.-->
 <script src="https://unpkg.com/mermaid@latest/dist/mermaid.min.js"></script>
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    mermaid.initialize({ startOnLoad: true, theme: 'Neutral'});
+  document.addEventListener("DOMContentLoaded", function () {
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'base',
+      themeVariables: {
+        primaryColor: '#3d61fd',                // Accent blue
+        primaryBorderColor: '#3d61fd',          // Border same as primary
+        lineColor: '#999999',                   // Soft neutral for connections
+        secondaryColor: '#f8f9fa',              // Light background elements
+        tertiaryColor: '#ffffff',               // Clean white for contrast
+        textColor: '#333333',                   // Main text tone
+        fontFamily: 'Roboto, Arial, sans-serif',// Match your site font
+        fontSize: '16px',                       // Harmonized size
+        edgeLabelBackground: '#ffffff'          // Label clarity
+      }
+    });
   });
 </script>
 
