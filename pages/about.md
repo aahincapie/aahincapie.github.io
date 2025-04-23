@@ -9,61 +9,68 @@ mermaid: true
 <div class="rounded mb-5 hero">
   <div class="row align-items-center justify-content-between">
     <div class="col-md-6">
-  <h1 class="font-weight-bold mb-4 serif-font">About Me</h1>
-  <p class="lead mb-4" style="font-family: Roboto; font-size: 17px;">
-    I am a Forestry Engineer and Anthropologist with an interdisciplinary Master's in Geospatial Modeling.<br>
-    As a forestry and social scientist, I explore complex land-use problems including agriculture (palm oil, coffee, cocoa, and others). I am a GIS enthusiast and a human rights advocate, dedicated to finding nature-based solutions for the climate crisis.<br>
-    I am an expert in carbon certification projects for voluntary markets (including VCS, CCB, and GS) and Scope 3 (GHG Protocol, SBTI), with experience coordinating AFOLU projects (REDD+, ARR, ALM, and IFM) in Latin America, Africa, and Southeast Asia.<br>
-   <br>
-    <strong>Please explore my areas of expertise </strong> </p>
-
-  <div class="d-grid gap-3 mb-4">
-    <a href="/about/" class="btn btn-dark text-white btn-sm td-flex align-items-center justify-content-start">
-      🌿 Carbon Development & Operations
-    </a>
-    <a href="/about_ess/" class="btn btn-dark text-white btn-sm d-flex align-items-center justify-content-start">
-      🧭 Social Safeguards & Community
-    </a>
-  </div>
-  <div class="d-grid gap-3 mb-4">
-  <a href="https://www.linkedin.com/in/aahincapie" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile">
-  </a>
-    </div>
-    <div class="col-md-6 text-center pl-0 pl-lg-4">
-      <p class="code" height=auto>
-      <pre class ="mermaid">
-      graph LR
-      B(Qualifications) --> F[Forestry Engineer and Anthropologist]
-      B --> G[Master in Analysis and Modeling of Environmental Systems]
-      </pre> </p>
-      <p class="code" height=auto>
-      <pre class ="mermaid">
-      graph LR
-      C(Interests) --> H[Quantitative forestry and social sciences]
-      C --> I[GIS problems and spatial modeling]
-      C --> J[Nature Climate Solutions]
-      </pre> </p>
-      <p class="code" height=auto>
-      <pre class ="mermaid">
-      graph LR
-      D(Skills) --> K[Problem-solving pro]
-      D --> L[GIS and technical carbon issues]
-      D --> M[GIS modeling and social and impact assessment]
-      D --> N[Languages: Spanish, English, Portuguese]
-      </pre> </p>
-      <p class="code" height=auto>
-      <pre class ="mermaid">
-      graph LR
-      E(Experience) --> O[Six years of experience in the voluntary carbon market]
-      E --> P[Current position: Carbon Compliance Expert at Earthshot Lab]
-      E --> Q[Previous position: Regional Lead for Nature-Based Solutions at South Pole]
-      </pre> 
+      <h1 class="font-weight-bold mb-4 serif-font">About Me</h1>
+      <p class="lead mb-4" style="font-family: Roboto; font-size: 17px;">
+        I am a Forestry Engineer and Anthropologist with an interdisciplinary Master's in Geospatial Modeling.<br>
+        As a forestry and social scientist, I explore complex land-use problems including agriculture (palm oil, coffee, cocoa, and others). I am a GIS enthusiast and a human rights advocate, dedicated to finding nature-based solutions for the climate crisis.<br>
+        I am an expert in carbon certification projects for voluntary markets (including VCS, CCB, and GS) and Scope 3 (GHG Protocol, SBTI), with experience coordinating AFOLU projects (REDD+, ARR, ALM, and IFM) in Latin America, Africa, and Southeast Asia.
       </p>
+      <p class="font-weight-bold mb-3" style="font-family: Roboto;">Please explore my areas of expertise:</p>
+      <div class="row g-3 mb-4">
+        <div class="col-12 col-md-6 d-grid">
+          <a href="/about/" class="btn btn-dark text-white btn-sm d-flex align-items-center justify-content-start">
+            🌿 Carbon Development & Operations
+          </a>
+        </div>
+        <div class="col-12 col-md-6 d-grid">
+          <a href="/about_ess/" class="btn btn-dark text-white btn-sm d-flex align-items-center justify-content-start">
+            🧭 Social Safeguards & Community
+          </a>
+        </div>
+      </div>
+      <div class="mb-4">
+        <a href="https://www.linkedin.com/in/aahincapie" target="_blank" rel="noopener">
+          <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile">
+        </a>
+      </div>
     </div>
+    <div class="col-md-6 text-center ps-md-4 mt-4 mt-md-0">
+      <div class="code">
+        <pre class="mermaid">
+graph LR
+B(Qualifications) --> F[Forestry Engineer and Anthropologist]
+B --> G[Master in Analysis and Modeling of Environmental Systems]
+        </pre>
+      </div>
+      <div class="code mt-3">
+        <pre class="mermaid">
+graph LR
+C(Interests) --> H[Quantitative forestry and social sciences]
+C --> I[GIS problems and spatial modeling]
+C --> J[Nature Climate Solutions]
+        </pre>
+      </div>
+      <div class="code mt-3">
+        <pre class="mermaid">
+graph LR
+D(Skills) --> K[Problem-solving pro]
+D --> L[GIS and technical carbon issues]
+D --> M[GIS modeling and social and impact assessment]
+D --> N[Languages: Spanish, English, Portuguese]
+        </pre>
+      </div>
+      <div class="code mt-3">
+        <pre class="mermaid">
+graph LR
+E(Experience) --> O[Six years of experience in the voluntary carbon market]
+E --> P[Current position: Carbon Compliance Expert at Earthshot Lab]
+E --> Q[Previous position: Regional Lead for Nature-Based Solutions at South Pole]
+        </pre>
+      </div>
+    </div>
+
   </div>
 </div>
-
 
 <div class="row justify-content-center g-3 mb-4">
   <div class="col-12 col-md-6 d-grid">
