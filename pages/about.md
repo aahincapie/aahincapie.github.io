@@ -19,10 +19,10 @@ mermaid: true
   </p>
 
   <div class="d-grid gap-3 mb-4">
-    <a href="/about/" class="btn btn-outline-primary btn-lg text-start">
+    <a href="/about/" class="btn btn-dark btn-sm td-flex align-items-center justify-content-start">
       🌿 Carbon Development & Operations
     </a>
-    <a href="/about_ess/" class="btn btn-outline-success btn-lg text-start">
+    <a href="/about_ess/" class="btn btn-dark btn-sm d-flex align-items-center justify-content-start">
       🧭 Social Safeguards & Community
     </a>
   </div>
