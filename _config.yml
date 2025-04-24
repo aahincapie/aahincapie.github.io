@@ -20,11 +20,11 @@ mermaid:
     themeVariables:
       primaryColor: '#6c757d'
       primaryBorderColor: '#3d61fd'
+      primaryTextColor: '#ffffff'
       lineColor: '#000000'
       secondaryColor: '#08a057'
       tertiaryColor: '#fdd93d'
-      primaryTextColor: '#ffffff'
-      fontSize: '16px'
+      fontSize: '18px'
       edgeLabelBackground: '#08a057'
 markdown: kramdown
 kramdown:
