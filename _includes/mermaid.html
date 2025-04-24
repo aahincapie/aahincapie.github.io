@@ -1,39 +1,28 @@
-  <!-- Theme only here.-->
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<!-- Load Mermaid.js library -->
+<script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
+
+<!-- Initialize Mermaid with custom theme -->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    mermaid.initialize({
-      startOnLoad: true,
+    if (window.mermaid) {
+      mermaid.initialize({
+        startOnLoad: true,
         theme: 'base',
         themeVariables: {
-          primaryColor: '#6c757d',       
+          primaryColor: '#6c757d',             
           primaryBorderColor: '#3d61fd',       
-          lineColor: '#000000',             
-          secondaryColor: '#08a057',        
-          tertiaryColor: '#fdd93d',         
+          lineColor: '#000000',                
+          secondaryColor: '#08a057',           
+          tertiaryColor: '#fdd93d',            
           primaryTextColor: '#ffffff',         
-          fontSize: '16px',
+          fontSize: '16px',                    
           edgeLabelBackground: '#08a057'   
-      }
-    });
+        }
+      });
+    } else {
+      console.error('Mermaid library not loaded.');
+    }
   });
 </script>
-<script defer>
-  document.addEventListener("DOMContentLoaded", function() {
-    mermaid.initialize({
-      startOnLoad: true,
-        theme: 'base',
-        themeVariables: {
-          primaryColor: '#6c757d',       
-          primaryBorderColor: '#3d61fd',       
-          lineColor: '#000000',             
-          secondaryColor: '#08a057',        
-          tertiaryColor: '#fdd93d',         
-          primaryTextColor: '#ffffff',         
-          fontSize: '16px',
-          edgeLabelBackground: '#08a057'   
-      }
-    });
-  });
-</script>
+
 
