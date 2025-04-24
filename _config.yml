@@ -12,20 +12,6 @@ lang: en_us
 feed_items: 15
 feed_update_period: daily
 feed_update_frequency: 1
-mermaid:
-  src: 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js'
-  theme: 'base'
-  config:
-    startOnLoad: true
-    themeVariables:
-      primaryColor: '#6c757d'
-      primaryBorderColor: '#3d61fd'
-      primaryTextColor: '#ffffff'
-      lineColor: '#000000'
-      secondaryColor: '#08a057'
-      tertiaryColor: '#fdd93d'
-      fontSize: '18px'
-      edgeLabelBackground: '#08a057'
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
