@@ -110,36 +110,36 @@ gtag('config', '{{site.ganalytics}}');
 
 <!-- JavaScript
 ================================================== -->    
-<script src="https://unpkg.com/react/umd/react.development.js"></script>
-<script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>   
 <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>   
 <script src="{{ site.baseurl }}/assets/js/theme.js"></script>    
-<script src="https://unpkg.com/mermaid@latest/dist/mermaid.min.js"></script>
+<script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
 
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    if (typeof mermaid !== "undefined") {
-      mermaid.initialize({
-        startOnLoad: true,
-        theme: 'base',
-        themeVariables: {
-          primaryColor: '#6c757d',       
-          primaryBorderColor: '#3d61fd',       
-          lineColor: '#000000',             
-          secondaryColor: '#08a057',        
-          tertiaryColor: '#fdd93d',         
-          primaryTextColor: '#ffffff',         
-          fontSize: '16px',
-          edgeLabelBackground: '#08a057'   
-        }
-      });
-    } else {
-      console.error("Mermaid library not loaded.");
-    }
-  });
+document.addEventListener("DOMContentLoaded", function () {
+  if (window.mermaid) {
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'base',
+      themeVariables: {
+        primaryColor: '#6c757d',
+        primaryBorderColor: '#3d61fd',
+        lineColor: '#000000',
+        secondaryColor: '#08a057',
+        tertiaryColor: '#fdd93d',
+        primaryTextColor: '#ffffff',
+        fontSize: '16px',
+        edgeLabelBackground: '#08a057'
+      }
+    });
+  } else {
+    console.error('Mermaid not loaded');
+  }
+});
 </script>
 
 
