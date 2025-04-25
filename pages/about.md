@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 permalink: "/about/"
 author: Andres_Hincapie
 categories: [ Curriculum, Resume, HV, Contact ]
