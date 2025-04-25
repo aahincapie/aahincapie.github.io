@@ -1,0 +1,21 @@
+---
+layout: about
+---
+
+{% if page.mermaid %}
+  {% include mermaid.html %}
+{% endif %}
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <header class="mainheading text-center mb-5">
+        <h1 class="posttitle">{{ page.title }}</h1>
+      </header>
+
+      <article class="article-post serif-font">
+        {{ content }}
+      </article>
+    </div>
+  </div>
+</div>
