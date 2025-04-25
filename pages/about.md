@@ -3,7 +3,6 @@ layout: post
 permalink: "/about/"
 author: Andres_Hincapie
 categories: [ Curriculum, Resume, HV, Contact ]
-mermaid: true
 ---
 
 <div class="rounded mb-5 hero">

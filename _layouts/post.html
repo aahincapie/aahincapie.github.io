@@ -14,7 +14,7 @@ post_class: post-template
     
       <!-- Post Section -->
       {% assign author = site.authors[page.author] %}
-      <div class="col-lg-10 px-4">
+      <div class="col-sm-8">
   
         <!-- Post Featured Image -->
         {% if page.image %}
@@ -51,6 +51,9 @@ post_class: post-template
           {{ content }}
           <div class="clearfix"></div>
         </div>
+        {% if page.mermaid %}
+        {% include mermaid.html %}
+        {% endif %}
   
         <!-- Post Date -->
         <p class="mt-3">
