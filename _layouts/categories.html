@@ -3,70 +3,32 @@ title: "Categories"
 layout: default
 permalink: "/categories.html"
 ---
+<!-- Dialogue Section
+================================================== -->
 <div class="dialogue-section mb-5">
-  <div class="image-container">
-    <img src="{{site.baseurl}}/assets/images/bubble_posts.svg" alt="Posts Illustration" class="background-image">
-    <div class="text-overlay">
-      <p class="lead mb-0">
-        The posts on this blog reflect evolving perspectives. These articles are incomplete explorations of complex topics, and, as such, are always open to debate and further development.
-      </p>
+    <div class="image-container">
+        <img src="{{site.baseurl}}/assets/images/bubble_posts.svg" alt="Posts Illustration" class="background-image">
+        <div class="text-overlay">
+            <p class="lead mb-0">
+                The posts on this blog reflect evolving perspectives. These articles are incomplete explorations of complex topics, and, as such, are always open to debate and further development.
+            </p>
+        </div>
     </div>
   </div>
+{% for category in site.categories %}
+<h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">In "{{ category[0] }}"</span></h4>
+<div class="row">
+{% assign pages_list = category[1] | sort: 'date' | reverse %}
+{% for post in pages_list %}
+{% if post.title != null %}
+{% if group == null or group == post.group %}
+<div class="col-md-4 mb-5">
+{% include postbox.html %}
 </div>
-
-{% comment %}
-  Prepare categories for sorting by their most recent post date.
-  We create a temporary array of objects, where each object contains the category name
-  and the date of its latest post.
-{% endcomment %}
-{% assign sorted_categories_data = "" | split: "," %}
-
-{% for category_name in site.categories %}
-  {% assign current_category_name = category_name[0] %}
-  {% assign posts_in_category = category_name[1] %}
-  {% assign latest_post_date = null %}
-
-  {% for post_in_category in posts_in_category %}
-    {% if latest_post_date == null or post_in_category.date > latest_post_date %}
-      {% assign latest_post_date = post_in_category.date %}
-    {% endif %}
-  {% endfor %}
-
-  {% comment %}
-    Add the category name and its latest post date to our temporary array.
-    We push them as a nested array for easier sorting.
-    Example: [["CategoryA", "2023-01-15"], ["CategoryB", "2023-03-20"]]
-  {% endcomment %}
-  {% assign category_entry = "" | split: "," %}
-  {% assign category_entry = category_entry | push: current_category_name %}
-  {% assign category_entry = category_entry | push: latest_post_date %}
-  {% assign sorted_categories_data = sorted_categories_data | push: category_entry %}
+{% endif %}
+{% endif %}
 {% endfor %}
-
-{% comment %}
-  Sort the temporary array by the latest_post_date (the second element in each nested array)
-  in reverse order to get most recent first.
-{% endcomment %}
-{% assign sorted_categories_data = sorted_categories_data | sort: 1 | reverse %}
-
-{% comment %}
-  Now iterate through the truly sorted categories to display them.
-{% endcomment %}
-{% for category_item in sorted_categories_data %}
-  {% assign category_name = category_item[0] %}
-  <h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category_name | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">In "{{ category_name }}"</span></h4>
-  <div class="row">
-    {% assign pages_list = site.categories[category_name] | sort: 'date' | reverse %}
-    {% for post in pages_list %}
-      {% if post.title != null %}
-        {% if group == null or group == post.group %}
-          <div class="col-md-4 mb-5">
-            {% include postbox.html %}
-          </div>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-    {% assign pages_list = nil %}
-    {% assign group = nil %}
-  </div>
+{% assign pages_list = nil %}
+{% assign group = nil %}
+</div>
 {% endfor %}
