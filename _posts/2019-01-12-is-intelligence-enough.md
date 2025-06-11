@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Is Intelligence Enough"
+title:  "Markdown Text Enough"
 author: sal
 categories: [ Opinion ]
 image: assets/images/5.jpg

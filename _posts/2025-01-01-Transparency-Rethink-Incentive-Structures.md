@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Why Conflict of Interest is the Hidden Detail Holding Back Nature Investment"
+title:  "Conflict of Interest - Transparency: The Hidden Detail Holding Back NBS"
 author: Andrés Hincapié 
-categories: [ Carbon, Policy, Market ]
-image: assets/images/6.jpg
+categories: [ Opinion, Carbon, Policy, Market ]
+image: assets/images/4.jpg
 ---
 
 'For Transparency lover' 
