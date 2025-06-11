@@ -2,7 +2,7 @@
 layout: post
 title:  "Is Intelligence Enough"
 author: sal
-categories: [ tutorial ]
+categories: [ Opinion ]
 image: assets/images/5.jpg
 ---
 

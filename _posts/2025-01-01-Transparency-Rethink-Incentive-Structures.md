@@ -8,8 +8,6 @@ image: assets/images/6.jpg
 
 'For Transparency lover' 
 
-# 🌍 Why Conflict of Interest is the Hidden Detail Holding Back Nature Investment
-
 Nature finance holds great potential. In recent years, interest in investments tied to nature — such as carbon credits and biodiversity offsets — has grown rapidly. Despite a vibrant ecosystem of NGOs, funds, and developers, **nature markets like the voluntary carbon market (VCM)** have stagnated under $2 billion since 2021.
 
 One key reason? **Lack of trust**, fueled by **conflicts of interest**.
@@ -69,7 +67,7 @@ To unlock nature investment, we must **acknowledge, expose, and change** these d
 
 ## 🧭 Final Thoughts
 
-On this International Day for Biological Diversity, we are reminded: **transparency and trust are prerequisites for unlocking nature-positive capital flows**.
+**transparency and trust are prerequisites for unlocking nature-positive capital flows**.
 
 > Until trust becomes the norm, capital will stay on the sidelines. But if trust is abundant, capital will flow — and nature will thrive.
 
