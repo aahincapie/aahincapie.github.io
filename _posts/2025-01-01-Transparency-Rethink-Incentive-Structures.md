@@ -8,13 +8,13 @@ image: assets/images/4.jpg
 
 'For Transparency lover' 
 
-Nature finance holds great potential. In recent years, interest in investments tied to nature — such as carbon credits and biodiversity offsets — has grown rapidly. Despite a vibrant ecosystem of NGOs, funds, and developers, **nature markets like the voluntary carbon market (VCM)** have stagnated under $2 billion since 2021.
+The NBS finance holds great potential. In recent years, interest in investments tied to nature — such as net zero, carbon credits and biodiversity offsets — has grown rapidly. Despite a vibrant ecosystem of NGOs, funds, and developers, **nature markets like the voluntary carbon market (VCM)** have stagnated under $2 billion since 2021.
 
 One key reason? **Lack of trust**, fueled by **conflicts of interest**.
 
 ---
 
-## ⚠️ What Are Conflicts of Interest in Nature Markets?
+## ⚠️ What Are Conflicts of Interest in NBS Market Stakeholders?
 
 These misaligned incentives often go undetected but profoundly influence project credibility and investment willingness. Here's a table summarizing the major types:
 
@@ -27,9 +27,31 @@ These misaligned incentives often go undetected but profoundly influence project
 | Project Developers               | Paid per credit → Incentivized to find loopholes and inflate credit volume                |
 | Self-Assessments                 | Developers analyze their own projects → "Marking their own homework"                      |
 | Carbon experts               | Experts analyze their own projects → "Marking others homework and inflating bad projects"                      |
+| Model experts             | Modellers are contracted by projects/VVBs to validate own models → "Marking others homework, acting as a independent modeling expert (IME) looking to inflating project estimations"                      |
 | Methodology Authors              | Developers write own standards → Incentivized to lower requirements for easier approval   |
 
 ---
+
+---
+
+## ⚠️ Where are the Conflicts of Interest in NBS Market Sources and Information and Knowledge?
+
+These misaligned incentives often go undetected but profoundly influence project credibility and investment willingness. Here's a table summarizing the major types:
+
+| **Actor**                        | **Conflict of Interest**                                                                 |
+|----------------------------------|-------------------------------------------------------------------------------------------|
+| Standards & Registries           | Paid per credit issued → Incentive to approve more projects, regardless of quality        |
+| Validators & Verifiers           | Paid by project developers → Bias toward “pleasing” or retention clients instead of rigorous review    |
+| Rating Agencies                  | Paid by investor and developers → Incentive to inflate ratings to attract more business or focus review                |
+| Brokers / Market Intermediaries | Provide buyer guidance while earning commissions → Biased advice                          |
+| Project Developers               | Paid per credit → Incentivized to find loopholes and inflate credit volume                |
+| Self-Assessments                 | Developers analyze their own projects → "Marking their own homework"                      |
+| Carbon experts               | Experts analyze their own projects → "Marking others homework and inflating bad projects"                      |
+| Model experts             | Modellers are contracted by projects/VVBs to validate own models → "Marking others homework, acting as a independent modeling expert (IME) looking to inflating project estimations"                      |
+| Methodology Authors              | Developers write own standards → Incentivized to lower requirements for easier approval   |
+
+---
+
 
 ## 🔍 Why It Matters
 
