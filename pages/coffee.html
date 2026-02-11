@@ -2,191 +2,348 @@
 layout: single
 permalink: "/coffee"
 ---
-<div class="container mt-4">
-  <div class="hero-image">
-    <img src="assets/images/path_art_evocar_0.svg" alt="Background Image" class="background-image">
-    <img src="assets/images/path_art_evocar_1.svg" alt="Overlay Image" class="overlay-image">
-  </div>
-  <div class="jumbotron">
-    <p class="text-center">
-      ¡Elegiste un café delicioso! Nuestro café orgánico, con indicación geográfica, es un experimento orgánico localizado en el municipio de Concepción.
-    </p>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="btn btn-success btn-lg" href="tucompra" role="button">Paga con QR</a>
-      </div>
-      <div class="col-auto">
-        <a class="btn btn-lg btn-warning" href="tucompra" role="button">Suscríbete aquí</a>
-      </div>
+<style>
+  .hero-section {
+    position: relative;
+    min-height: 300px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-content {
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    z-index: 2;
+  }
+
+  .hero-image-container {
+    max-width: 200px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .hero-image-container img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+
+  .btn-group-hero {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+
+  .btn-custom {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border: none;
+  }
+
+  .btn-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    height: 100%;
+  }
+
+  .feature-card h3 {
+    color: #667eea;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .feature-card p {
+    line-height: 1.7;
+    color: #555;
+  }
+
+  .price-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 1.5rem;
+  }
+
+  .price-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .price-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .price-header h4 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+
+  .price-body {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .price-amount {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-section {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+  }
+
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 1.5rem;
+    }
+
+    .hero-content p {
+      font-size: 1rem;
+    }
+
+    .btn-custom {
+      padding: 0.6rem 1.5rem;
+      font-size: 0.9rem;
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+
+    .btn-group-hero {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+    }
+
+    .feature-card {
+      padding: 1.5rem;
+    }
+  }
+</style>
+
+<!-- Hero Section -->
+<div class="hero-section">
+  <div class="hero-content">
+    <div class="hero-image-container">
+      <img src="/assets/images/path_art_evocar_1.svg" alt="Café Evocar Logo">
+    </div>
+    <h1>¡Elegiste un café delicioso!</h1>
+    <p>Nuestro café orgánico, con indicación geográfica, es un experimento orgánico localizado en el municipio de Concepción.</p>
+    <div class="btn-group-hero">
+      <a class="btn btn-success btn-custom" href="tucompra">Paga con QR</a>
+      <a class="btn btn-warning btn-custom" href="tucompra">Suscríbete aquí</a>
+      <a class="btn btn-info btn-custom" href="https://www.instagram.com/cafe.evocar/" target="_blank">Instagram</a>
     </div>
   </div>
+</div>
 
-      <div class="jumbotron">
-        <img src="assets/images/path_art_evocar_1.svg" alt="Evocar Coffee" class="img-fluid rounded mx-auto d-block mb-4">
-        <p class="text-center">
-          ¡Qeremos que vuelvas, Evocar es una marca en permanente construcción!
+<!-- Why Special Section -->
+<div class="container my-5">
+  <div class="row">
+    <div class="col-lg-6 col-md-12 mb-4">
+      <div class="feature-card">
+        <h3>¿Por qué somos un café especial?</h3>
+        <p>
+          Nuestro café es especial porque se cultiva a 1.950 metros sobre el nivel del mar, una altura que le confiere un sabor y aroma únicos. Además, es un café orgánico, cultivado sin la ayuda de insumos fertilizantes artificiales.
         </p>
-        <div class="row justify-content-center">
-          <div class="col-auto">
-            <a class="btn btn-success btn-lg" href="tucompra" role="button">Prueba gratis</a>
-          </div>
-          <div class="col-auto">
-            <a class="btn btn-lg btn-warning" href="#buy_me_coffee" role="button">Compra aquí</a>
-          </div>
-          <div class="col-auto">
-            <a class="btn btn-lg btn-info" href="https://www.instagram.com/cafe.evocar/" role="button">Instagram</a>
-          </div>
-        </div>
+        <p>
+          El café se siembra a la sombra de otros árboles de mayor altura, como Tibouchina lepidota (Sietecueros), Croton draco (Drago) y otras especies. Esto le proporciona sombra y humedad, y ayuda a la retención de azúcares para la producción de un café dulce, natural y de alta calidad.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12 mb-4">
+      <div class="feature-card">
+        <h3>¿Por qué evocar?</h3>
+        <p>
+          El café es un ritual de la empatía y de la simpatía. Su poder místico es el éxito de la concentración para enfocar la mente en un propósito deseado.
+        </p>
+        <p>
+          La excelencia de Evocar induce, transmite y ayuda a sus probadores a aceptar algo, recordar algo, pensar en algo e ir hacia ello.
+        </p>
+        <p>
+          Evocar es dirigir las energías necesarias para atraer lo que se desea, y ayudar a disipar las malas energías o los sentimientos de vacío y soledad.
+        </p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="container-fluid hero">
+<!-- Product Details Section -->
+<div class="container my-5">
+  <h2 class="section-title">Detalles del Producto</h2>
   <div class="row">
-    <div class="text-center col-md-6">
-      <h3>¿Por qué somos un café especial?</h3>
-      <p>
-        Nuestro café es especial porque se cultiva a 1.950 metros sobre el nivel del mar, una altura que le confiere un sabor y aroma únicos. Además, es un café orgánico, cultivado sin la ayuda de insumos fertilizantes artificiales.
-      </p>
-      <p>
-        El café se siembra a la sombra de otros árboles de mayor altura, como Tibouchina lepidota (Sietecueros), Croton draco (Drago) y otras especies. Esto le proporciona sombra y humedad, y ayuda a la retención de azúcares para la producción de un café dulce, natural y de alta calidad.
-      </p>
+    <div class="col-lg-3 col-md-6 col-12 mb-4">
+      <div class="feature-card">
+        <h3>Preparación</h3>
+        <p>
+          Para preparar una taza de Evocar, recomendamos una relación de 18 gramos de café por 180 mililitros de agua. Para una taza más suave, puedes usar una relación de 15 gramos de café por 150 mililitros de agua.
+        </p>
+        <p>
+          Puedes preparar Evocar en cualquier método de preparación de café, pero recomendamos usar un método que permita controlar la temperatura del agua y el tiempo de extracción.
+        </p>
+      </div>
     </div>
-    <div class="text-center col-md-6">
-      <h3>¿Por qué evocar?</h3>
-      <p>
-        El café es un ritual de la empatía y de la simpatía. Su poder místico es el éxito de la concentración para enfocar la mente en un propósito deseado.
-      </p>
-      <p>
-        La excelencia de Evocar induce, transmite y ayuda a sus probadores a aceptar algo, recordar algo, pensar en algo e ir hacia ello.
-      </p>
-      <p>
-        Evocar es dirigir las energías necesarias para atraer lo que se desea, y ayudar a disipar las malas energías o los sentimientos de vacío y soledad.
-      </p>
+    <div class="col-lg-3 col-md-6 col-12 mb-4">
+      <div class="feature-card">
+        <h3>Cantidades</h3>
+        <p>
+          Evocar está disponible en tres cantidades: 250 gramos, 360 gramos y 500 gramos.
+        </p>
+        <p>
+          Las bolsas de 250 gramos son ideales para una persona que consume café regularmente. Las bolsas de 360 gramos son ideales para una familia pequeña. Las bolsas de 500 gramos son ideales para una familia grande.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-12 mb-4">
+      <div class="feature-card">
+        <h3>Perfilación</h3>
+        <p>
+          El café Evocar es un café de altura, orgánico y cultivado a la sombra. Esto significa que tiene un sabor complejo y equilibrado, con notas de chocolate, frutos secos y especias.
+        </p>
+        <p>
+          El perfil de sabor de Evocar puede variar ligeramente de cosecha a cosecha, ya que el café es un producto natural y las condiciones climáticas pueden afectar su sabor.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-12 mb-4">
+      <div class="feature-card">
+        <h3>Prácticas Orgánicas</h3>
+        <p>
+          El café Evocar se cultiva sin utilizar fertilizantes ni pesticidas químicos, siendo una opción más sostenible y saludable para los consumidores.
+        </p>
+        <p>
+          El control de plagas y enfermedades se realiza de forma manual, ayudando a preservar la biodiversidad y la salud del suelo.
+        </p>
+        <p>
+          En algunos casos, se utilizan bioinsumos naturales para mejorar la salud del suelo sin productos químicos.
+        </p>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="container mt-4">
-  <div class="row">
-    <div class="col-lg-3 col-md-6 col-12">
-      <h2>Preparación</h2>
-      <p>
-        Para preparar una taza de Evocar, recomendamos una relación de 18 gramos de café por 180 mililitros de agua. Para una taza más suave, puedes usar una relación de 15 gramos de café por 150 mililitros de agua.
-      </p>
-      <p>
-        Puedes preparar Evocar en cualquier método de preparación de café, pero recomendamos usar un método que permita controlar la temperatura del agua y el tiempo de extracción.
-      </p>
-    </div>
-    <div class="col-lg-3 col-md-6 col-12">
-      <h2>Cantidades</h2>
-      <p>
-        Evocar está disponible en tres cantidades: 250 gramos, 360 gramos y 500 gramos.
-      </p>
-      <p>
-        Las bolsas de 250 gramos son ideales para una persona que consume café regularmente. Las bolsas de 360 gramos son ideales para una familia pequeña o para alguien que quiere tener café a mano durante unos días. Las bolsas de 500 gramos son ideales para una familia grande o para alguien que quiere abastecerse de café durante varias semanas.
-      </p>
-    </div>
-    <div class="col-lg-3 col-md-6 col-12">
-      <h2>Perfilación</h2>
-      <p>
-        El café Evocar es un café de altura, orgánico y cultivado a la sombra. Esto significa que tiene un sabor complejo y equilibrado, con notas de chocolate, frutos secos y especias.
-      </p>
-      <p>
-        Sin embargo, el perfil de sabor de Evocar puede variar ligeramente de cosecha a cosecha. Esto se debe a que el café es un producto natural y las condiciones climáticas y de cultivo pueden afectar su sabor.
-      </p>
-    </div>
-    <div class="col-lg-3 col-md-6 col-12">
-      <h2>Prácticas agrícolas orgánicas en el café</h2>
-      <p>
-        El café Evocar se cultiva sin utilizar fertilizantes ni pesticidas químicos. Esto lo convierte en una opción más sostenible y saludable para los consumidores.
-      </p>
-      <p>
-        El control de plagas y enfermedades en el cultivo de Evocar se realiza de forma manual. Esto ayuda a preservar la biodiversidad y la salud del suelo.
-      </p>
-      <p>
-        En algunos casos, se pueden utilizar bioinsumos para mejorar la salud del suelo y el rendimiento del cultivo. Sin embargo, estos bioinsumos se producen a partir de fuentes naturales y no contienen productos químicos.
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid hero mt-4">
+<!-- Pricing Section -->
+<div class="container my-5" id="buy_me_coffee">
+  <h2 class="section-title">Precios</h2>
   <div class="row justify-content-center">
-    <div class="col-md-8">
-      <h2 class="text-center">Precio</h2>
-      <hr>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card text-center">
-            <div class="card-header bg-info text-white">
-              <h4 class="my-0">250g</h4>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-uppercase font-weight-bold">$25.000 + Domicilio</h5>
-              <a href="#buy_me_coffee" class="btn btn-success btn-block">Comprar</a>
-            </div>
-          </div>
+    <div class="col-lg-4 col-md-6 col-12 mb-4">
+      <div class="price-card">
+        <div class="price-header">
+          <h4>250g</h4>
         </div>
-        <div class="col-md-4">
-          <div class="card text-center">
-            <div class="card-header bg-info text-white">
-              <h4 class="my-0">360g</h4>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-uppercase font-weight-bold">$33.000 + Domicilio</h5>
-              <a href="#buy_me_coffee" class="btn btn-success btn-block">Comprar</a>
-            </div>
-          </div>
+        <div class="price-body">
+          <div class="price-amount">$25.000<br><small>+ Domicilio</small></div>
+          <a href="tucompra" class="btn btn-success btn-custom" style="width: 100%;">Comprar</a>
         </div>
-        <div class="col-md-4">
-          <div class="card text-center">
-            <div class="card-header bg-info text-white">
-              <h4 class="my-0">500g</h4>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-uppercase font-weight-bold">No disponible (Solo bajo pedido)</h5>
-              <a href="#buy_me_coffee" class="btn btn-success btn-block">Comprar</a>
-            </div>
-          </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-12 mb-4">
+      <div class="price-card">
+        <div class="price-header">
+          <h4>360g</h4>
+        </div>
+        <div class="price-body">
+          <div class="price-amount">$33.000<br><small>+ Domicilio</small></div>
+          <a href="tucompra" class="btn btn-success btn-custom" style="width: 100%;">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-12 mb-4">
+      <div class="price-card">
+        <div class="price-header">
+          <h4>500g</h4>
+        </div>
+        <div class="price-body">
+          <div class="price-amount" style="font-size: 1.2rem;">Solo bajo pedido</div>
+          <a href="tucompra" class="btn btn-success btn-custom" style="width: 100%;">Solicitar</a>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="container mt-4">
+<!-- Contact Section -->
+<div class="container contact-section my-5">
   <div class="row">
-    <div class="col-lg-4 col-md-6 col-12 mb-4">
-      <h2>Contact Us</h2>
-      <address>
-        <strong>Montaña Azul&nbsp;&nbsp;</strong><br>
-        Concepción Ant, Colombia<br>
-        <abbr title="Phone">P:</abbr> 350 7439527
-      </address>
-      <h4>Social</h4>
-      <div class="row">
-        <div class="col-2"><img class="rounded-circle" src="assets/images/32X32.gif" alt=""></div>
-        <div class="col-2"><img class="rounded-circle" src="assets/images/32X32.gif" alt=""></div>
-        <div class="col-2"><img class="rounded-circle" src="assets/images/32X32.gif" alt=""></div>
-        <div class="col-2"><img class="rounded-circle" src="assets/images/32X32.gif" alt=""></div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-6 col-12 mb-4">
-      <h2>Testimonials</h2>
-      <div class="media">
-        <img class="mr-3 rounded-circle" src="assets/images/35X35.gif" alt="Generic placeholder image">
-        <div class="media-body">
-          <h5 class="mt-0 mb-1">Heading 1</h5>
-          <p class="mb-0">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+    <div class="col-lg-6 col-md-12 mb-4">
+      <div class="feature-card">
+        <h3>Contáctanos</h3>
+        <address>
+          <strong>Montaña Azul</strong><br>
+          Concepción, Antioquia<br>
+          Colombia<br><br>
+          <abbr title="Teléfono">📞</abbr> <a href="tel:3507439527">350 7439527</a>
+        </address>
+        <h4>Síguenos</h4>
+        <div class="mt-3">
+          <a href="https://www.instagram.com/cafe.evocar/" target="_blank" class="btn btn-info btn-custom">
+            Instagram
+          </a>
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-12 mb-4">
-      <h2>About Us</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, voluptates, soluta velit nostrum ut iste exercitationem vitae ipsum repellendus laudantium ab possimus nemo odio cumque illum nulla laborum blanditiis unde.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, voluptates, soluta velit nostrum ut iste exercitationem vitae ipsum repellendus laudantium ab possimus nemo odio cumque illum nulla laborum blanditiis unde.</p>
+    <div class="col-lg-6 col-md-12 mb-4">
+      <div class="feature-card">
+        <h3>Sobre Nosotros</h3>
+        <p>
+          Café Evocar es un proyecto orgánico que nace en las montañas de Concepción, Antioquia. Nuestra misión es ofrecer un café de la más alta calidad, cultivado de manera sostenible y responsable con el medio ambiente.
+        </p>
+        <p>
+          Cada taza de Evocar es el resultado del trabajo apasionado de productores locales que creen en la agricultura orgánica y en el poder transformador de un buen café.
+        </p>
+        <p>
+          ¡Queremos que vuelvas! Evocar es una marca en permanente construcción, comprometida con la excelencia y la innovación.
+        </p>
+      </div>
     </div>
   </div>
 </div>
