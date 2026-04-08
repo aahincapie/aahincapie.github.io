@@ -12,9 +12,10 @@ mermaid: true
       <h1 class="font-weight-bold mb-4 serif-font">About me</h1>
       <p class="lead mb-4" style="font-family: Roboto; font-size: 17px;">
       Interdisciplinary Forestry Engineer & Anthropologist (MSc Environmental Modeling) driving safeguard compliance and M&E for complex carbon projects (Agroforestry, ARR, REDD+, IFM, ANR activities). I integrate deep technical expertise in geospatial data tools and carbon methodologies with social science to optimize benefit-sharing, FPIC, and equitable mitigation strategies, and am dedicated to translating technical frameworks into actionable, community-driven results.
-      <li><strong>Safeguard Leadership:</strong> Directs compliance across Gold Standard, VCS, and jurisdictional frameworks, ensuring rigorous adherence to environmental and social standards project activitivies</li>
-      <li><strong>M&E & Data Tools:</strong> Leverages advanced GIS and geospatial modeling to design robust Safeguard Systems (SIS) and track socio-economic indicators in implementation.</li>
-      <li><strong>Stakeholder Engagement:</strong> Train to facilita high-quality consultations, Free Prior and Informed Consent (FPIC), horizontal project structures, and on-the-ground capacity building.</li>
+      <strong>Safeguard Leadership:</strong> Directs compliance across Gold Standard, VCS, and jurisdictional frameworks, ensuring rigorous adherence to environmental and social standards project activitivies
+      <strong>M&E & Data Tools:</strong> Leverages advanced GIS and geospatial modeling to design robust Safeguard Systems (SIS) and track socio-economic indicators in implementation.
+      <strong>Stakeholder Engagement:</strong> Train to facilita high-quality consultations, Free Prior and Informed Consent (FPIC), horizontal project structures, and on-the-ground capacity building.
+      
       Fluent in English, Spanish, and Portuguese. (see: <a href="/about/">My technical carbon skills</a>).
       </p>
       <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a>
