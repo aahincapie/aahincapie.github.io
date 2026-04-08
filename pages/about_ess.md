@@ -12,9 +12,12 @@ mermaid: true
       <h1 class="font-weight-bold mb-4 serif-font">About me</h1>
       <p class="lead mb-4" style="font-family: Roboto; font-size: 17px;">
       Interdisciplinary Forestry Engineer & Anthropologist (MSc Environmental Modeling) driving safeguard compliance and M&E for complex carbon projects (Agroforestry, ARR, REDD+, IFM, ANR activities). I integrate deep technical expertise in geospatial data tools and carbon methodologies with social science to optimize benefit-sharing, FPIC, and equitable mitigation strategies, and am dedicated to translating technical frameworks into actionable, community-driven results.
-    * **Safeguard Leadership:** Directs compliance across Gold Standard, REDD+, and jurisdictional frameworks, ensuring rigorous adherence to environmental and social standards.
-    * **M&E & Data Tools:** Leverages advanced GIS and geospatial modeling to design robust Safeguard Information Systems (SIS) and track socio-economic indicators.
-    * **Stakeholder Engagement:** Facilitates high-quality consultations, ensuring Free Prior and Informed Consent (FPIC), horizontal project structures, and on-the-ground capacity building. (see: <a href="/about/">My technical carbon skills</a>).
+    <ul>
+      <li><strong>Safeguard Leadership:</strong> Directs compliance across Gold Standard, REDD+, and jurisdictional frameworks, ensuring rigorous adherence to environmental and social standards.</li>
+      <li><strong>M&E & Data Tools:</strong> Leverages advanced GIS and geospatial modeling to design robust Safeguard Information Systems (SIS) and track socio-economic indicators.</li>
+      <li><strong>Stakeholder Engagement:</strong> Facilitates high-quality consultations, ensuring Free Prior and Informed Consent (FPIC), horizontal project structures, and on-the-ground capacity building.</li>
+      <li><strong>Languages:</strong> Fluent in English, Spanish, and Portuguese.</li>
+    </ul> (see: <a href="/about/">My technical carbon skills</a>).
       </p>
       <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a>
     </div>
@@ -261,7 +264,7 @@ table {
     <td><strong>Freelance Consultant, Carbon Standards & NCS Advisory</strong></td>
     <td>Multiple Clients</td>
     <td>Oct 2024 – Present</td>
-    <td>0.5+</td>
+    <td>1.5+</td>
     <td>Private sector</td>
   </tr>
   <tr class="table-highlight">
