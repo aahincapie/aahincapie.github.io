@@ -12,12 +12,10 @@ mermaid: true
       <h1 class="font-weight-bold mb-4 serif-font">About me</h1>
       <p class="lead mb-4" style="font-family: Roboto; font-size: 17px;">
       Interdisciplinary Forestry Engineer & Anthropologist (MSc Environmental Modeling) driving safeguard compliance and M&E for complex carbon projects (Agroforestry, ARR, REDD+, IFM, ANR activities). I integrate deep technical expertise in geospatial data tools and carbon methodologies with social science to optimize benefit-sharing, FPIC, and equitable mitigation strategies, and am dedicated to translating technical frameworks into actionable, community-driven results.
-    <ul>
-      <li><strong>Safeguard Leadership:</strong> Directs compliance across Gold Standard, REDD+, and jurisdictional frameworks, ensuring rigorous adherence to environmental and social standards.</li>
-      <li><strong>M&E & Data Tools:</strong> Leverages advanced GIS and geospatial modeling to design robust Safeguard Information Systems (SIS) and track socio-economic indicators.</li>
-      <li><strong>Stakeholder Engagement:</strong> Facilitates high-quality consultations, ensuring Free Prior and Informed Consent (FPIC), horizontal project structures, and on-the-ground capacity building.</li>
-      <li><strong>Languages:</strong> Fluent in English, Spanish, and Portuguese.</li>
-    </ul> (see: <a href="/about/">My technical carbon skills</a>).
+      <li><strong>Safeguard Leadership:</strong> Directs compliance across Gold Standard, VCS, and jurisdictional frameworks, ensuring rigorous adherence to environmental and social standards project activitivies</li>
+      <li><strong>M&E & Data Tools:</strong> Leverages advanced GIS and geospatial modeling to design robust Safeguard Systems (SIS) and track socio-economic indicators in implementation.</li>
+      <li><strong>Stakeholder Engagement:</strong> Train to facilita high-quality consultations, Free Prior and Informed Consent (FPIC), horizontal project structures, and on-the-ground capacity building.</li>
+      Fluent in English, Spanish, and Portuguese. (see: <a href="/about/">My technical carbon skills</a>).
       </p>
       <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a>
     </div>
@@ -395,11 +393,7 @@ table {
 ## 5- References
 
 ### Academic references
-
-I have had the opportunity to share closely with incredible people in the public, private and academic sectors.
-
-I highlight the role in my bachelor carrer of a Antropologist **Rober Dover** who pass away. Robert teaches me soft skills to work with traditional communities. [Who was he?](https://www.youtube.com/watch?v=Ev8FddReiPk&t=69s),
-
+I highlight the role in my bachelor carrer of a Antropologist **Rober Dover** who pass away. Robert teaches me solve-thinking skills to work with traditional communities. [Who was he?](https://www.youtube.com/watch?v=Ev8FddReiPk),
 I highlight the fact to had the possibility of having a classroom with ones of those teachers that think outside the black box and always are in the knowledge frontier:
 * **Britaldo Soares-Filho** [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-0077B5?style=flat-square&logo=google-scholar)](https://scholar.google.com/citations?user=0r083BYAAAAJ&hl)
 * **Sonia Maria Carvalho** [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-0077B5?style=flat-square&logo=google-scholar)](https://scholar.google.com/citations?user=FwrTKjQAAAAJ&hl)
