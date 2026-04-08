@@ -11,7 +11,7 @@ mermaid: true
     <div class="col-md-6">
       <h1 class="font-weight-bold mb-4 serif-font">About me</h1>
       <p class="lead mb-4" style="font-family: Roboto; font-size: 17px;">
-      I am a Forestry Engineer and Anthropologist with an interdisciplinary Master's in Geospatial Modeling, specializing in GIS and social aspects of nature-based solutions. My expertise includes the identification and assessment of indicators for enviromantal and social safeguard conformance in projects, assestment of benefit-sharing mechanisms, safeguard information systems, and stakeholder engagement strategies, including Free Prior and Informed Consent (FPIC). I have a strong analytical skillset focused on using GIS tools and workflow charts to optimize implementation of social and economical aspects. My understanding covers safeguards for Gold Standard (GS), REDD+ and Jurisdictional safeguards, and community approach for stand-alone projects. All my work is focused on looking horizontal structures and well designed mitigation measures, ensure high-quality consultations, and build capacity-building in field. I speak Spanish, Portuguese and English.I like to apply my skills and knowledge to meet these demands and contribute to the success of projects. I also like to jump into more technical aspects of the carbon methodologies (see: <a href="/about/">My technical carbon skills</a>).
+      I am a Forestry Engineer and Anthropologist with an interdisciplinary Master's in Geospatial Modeling, specializing in GIS and social dimensions of nature-based solutions. My expertise spans the full project cycle — from feasibility and design through implementation, monitoring, and evaluation — with a focus on environmental and social safeguard conformance, benefit-sharing mechanisms, safeguard information systems, and stakeholder engagement strategies, including Free Prior and Informed Consent (FPIC). I have led safeguard and community workstreams across REDD+, ARR, and jurisdictional programmes, ensuring compliance with VCS, CCB, Gold Standard (GS), Social Carbon, and VCI standards. I bring a strong analytical skillset combining GIS tools, workflow design, and basic programming skills in Python, R, and JavaScript to develop and maintain tools for sustainability data analysis, automate safeguard and SDG reporting, and translate complex analysis into actionable insights. My understanding covers social impact assessment, grievance redress mechanisms, gender-responsive planning, and community-led approaches for stand-alone and jurisdictional projects. All my work is focused on building horizontal structures, well-designed mitigation measures, high-quality consultations, and capacity-building in the field. I speak Spanish, Portuguese, and English. I like to apply my skills and knowledge to meet these demands and contribute to the success of projects. I also like to jump into more technical aspects of the carbon methodologies (see: <a href="/about/">My technical carbon skills</a>).
       </p>
       <a href="https://www.linkedin.com/in/aahincapie"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"></a>
     </div>
@@ -25,17 +25,19 @@ mermaid: true
        <p class="code" height=auto>
       <pre class ="mermaid">
       graph LR
-      D(Skills) --> K[Problem-solving pro]
-      D --> L[GIS and technical carbon issues]
-      D --> M[GIS modeling and social and impact assessment]
-      D --> N[Languages: Spanish, English, Portuguese]
+      D(Skills) --> K[Safeguard compliance & social impact assessment]
+      D --> L[GIS modeling, remote sensing & data analysis]
+      D --> M[Lead implementation, monitoring & evaluation]
+      D --> N[Python, R & GIS automation tools]
+      D --> O[Languages: Spanish, English, Portuguese]
       </pre> </p>
        <p class="code" height=auto>
       <pre class ="mermaid">
       graph LR
-      E(Experience) --> O[Six years of experience in the voluntary carbon market]
-      E --> P[Current position: Carbon Compliance Expert at Earthshot Lab]
-      E --> Q[Previous position: Regional Lead for Nature-Based Solutions at South Pole]
+      E(Experience) --> O[Seven+ years in the voluntary carbon market]
+      E --> P[Current: Freelance Consultant for carbon project developers]
+      E --> Q[Previous: Carbon Compliance Expert at Earthshot Lab]
+      E --> R[Previous: Regional Lead NBS at South Pole]
       </pre> </p>
     </div>
   </div>
@@ -226,11 +228,12 @@ My work focuses on the intersection of social equity, environmental safeguards, 
 
 | **Area** | Focus                                                                                                                                                                                                                         |
 | :---------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Social & Safeguards:** | Designing and implementing safeguard information systems, benefit-sharing mechanisms, stakeholder engagement (including FPIC), and ensuring conformance with GS, REDD+, and jurisdictional safeguard standards in projects. |
-| **Community Projects:** | Developing and supporting community-led initiatives within the framework of nature-based solutions, focusing on risk mitigation, high-quality consultations, and capacity building designed through horizontal structures. |
-| **Geospatial & Analytical:** | Utilizing GIS tools and workflow charts for the identification and assessment of safeguard indicators, risk analysis, social impact assessment, and supporting stakeholder engagement processes.                               |
-| **Human Rights Approach:** | Integrating human rights principles into all project phases, ensuring equitable benefit sharing, respecting community rights through FPIC, and designing grievance mechanisms.                                               |
-| **Data Analysis & Design:** | Applying analytical skills to design horizontal project structures that effectively manage risk, foster collaboration, and support robust monitoring and evaluation systems for social and environmental outcomes.              |
+| **Social Safeguards & Compliance:** | Leading safeguard conformance across VCS, CCB, Gold Standard, Social Carbon, and VCI. Designing safeguard information systems, benefit-sharing mechanisms, grievance redress, and gender-responsive planning for REDD+, ARR, and jurisdictional programmes. |
+| **Community & Stakeholder Engagement:** | Leading community-driven consultation processes, FPIC implementation, capacity building, and inter-ethnic dialogue platforms. Designing horizontal structures for risk mitigation and high-quality participatory engagement. |
+| **Implementation, Monitoring & Evaluation:** | Leading project implementation and M&E workstreams, including indicator selection, monitoring strategy design, verification support, and compliance reviews with international climate mitigation rules. |
+| **Geospatial & Analytical:** | Utilizing GIS tools, remote sensing, and workflow design for safeguard indicator assessment, risk analysis, social impact assessment, and land-use planning across Indigenous and local community territories.                               |
+| **Data Tools & Automation:** | Developing and maintaining tools and systems to analyse sustainability data. Designing automated tools for safeguard and SDG reporting using Python, R, and GIS. Structuring information clearly and translating complex analysis into actionable insights. |
+| **Human Rights Approach:** | Integrating human rights principles into all project phases, ensuring equitable benefit sharing, respecting community rights through FPIC, and designing culturally appropriate grievance mechanisms across Africa, Latin America, and Southeast Asia. |
 
 <img src="https://aahincapie.github.io/assets/images/cv-esgareas.png" alt="ESG Areas CV Graphic" style="width:80%;">
 
@@ -250,6 +253,16 @@ table {
     <th>Period</th>
     <th>Time (Years)</th>
     <th>Type</th>
+  </tr>
+  <tr class="table-highlight">
+    <td><strong>Freelance Consultant, Carbon Standards & NCS Advisory</strong></td>
+    <td>Multiple Clients</td>
+    <td>Oct 2024 – Present</td>
+    <td>0.5+</td>
+    <td>Private sector</td>
+  </tr>
+  <tr>
+    <td colspan="5" style="font-size:75%; padding-left:20px;">Technical and strategic advice to carbon project developers ensuring compliance with VCS, GS, Social Carbon, and VCI. Support on feasibilities, project documents, monitoring, and verification for REDD+ and ARR projects. Clients include Verra, Forliance, Xilva, Enviroaccounts, Klymare, Carbon Credit Consulting, Treevaluation, among others. Services: documentation review, GIS analysis, recommendations, due diligence, and compliance reviews with international rules in climate mitigation and emissions accounting.</td>
   </tr>
   <tr class="table-highlight">
     <td><strong>Carbon Compliance Expert, Carbon Development</strong></td>
