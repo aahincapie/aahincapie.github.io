@@ -14,18 +14,18 @@ $green: #08a057 !default;
 /* add additional CSS rules below */
 html {
     scroll-behavior: smooth;
-  }
-  
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 body {
     background:#fff;
     font-size:17px;
-    transition: all 200ms linear;
+    transition: background-color 0.3s ease, color 0.3s ease;
     font-family: Roboto, Arial, Helvetica, "sans-serif";
     line-height:1.5;
     color: #333;
     overflow-x:hidden;
     padding-top:116px;
-    
 }
 .serif-font {
     font-family:Roboto;
@@ -103,16 +103,55 @@ small, .small {
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
 }
-.navigation-wrap {	
+.navigation-wrap {
 	width: 100%;
 	top: 0;
 	left: 0;
 	z-index: 9999;
-	-webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out;
-    position:fixed;
-    background:#fff;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+    position: fixed;
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
 }
+
+/* Dark Mode Toggle Button
+================================================== */
+.dark-mode-btn {
+    background: none;
+    border: 1.5px solid #ddd;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 12px;
+    color: #333;
+    transition: all 0.3s ease;
+    padding: 0;
+    flex-shrink: 0;
+    &:hover {
+        background: #fdd93d;
+        border-color: #fdd93d;
+        color: #000;
+        transform: rotate(20deg);
+    }
+    svg {
+        width: 16px;
+        height: 16px;
+        display: block;
+    }
+    .icon-sun { display: none; }
+    .icon-moon { display: block; }
+}
+
+html[data-theme="dark"] .dark-mode-btn {
+    .icon-sun { display: block; }
+    .icon-moon { display: none; }
+}
+
 .social-icon {
     display: inline-block !important;
     width: 20px;
@@ -438,12 +477,18 @@ blockquote {
 }
 
 
-.card {	
-    border:0;
+.card {
+    border: 0;
+    border-radius: 8px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.3s ease;
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    }
 }
 .card .img-thumb {
-	border-top-right-radius:4px;
-	border-top-left-radius:4px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 ul.tags {
 	list-style:none;
@@ -690,15 +735,159 @@ span.navigation:before {
 }
 
 .footer {
-    margin-top:4rem;
-    padding:30px 0;
+    margin-top: 4rem;
+    padding: 30px 0;
+    border-top: 1px solid #f0f0f0;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
     ul li {
         display: inline-block;
-        padding:10px;
+        padding: 10px;
     }
 }
 
 .hover-opacity:hover {
     transition: all .3s;
     opacity:.8;
+}
+
+/* Dark Mode
+================================================== */
+html[data-theme="dark"] {
+    body {
+        background: #0f1117;
+        color: #e8e6e3;
+    }
+    .navigation-wrap {
+        background: rgba(19, 21, 31, 0.94);
+        border-bottom-color: #252839;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+    }
+    .navbar-light .navbar-brand,
+    .navbar-light .navbar-nav .nav-link,
+    .text-dark,
+    .dropdown-item {
+        color: #e8e6e3 !important;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6,
+    h1, h2, h3, h4, h5, h6 {
+        color: #f0eee9;
+    }
+    .text-muted {
+        color: rgba(232, 230, 227, 0.5) !important;
+    }
+    .card {
+        background: #1a1d27;
+        &:hover {
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
+        }
+    }
+    blockquote {
+        border-left-color: #fdd93d;
+        color: rgba(232, 230, 227, 0.6);
+    }
+    .section-title h2:before {
+        background-color: #2a2d3a;
+    }
+    .section-title span,
+    .layout-page .section-title span {
+        background-color: #0f1117;
+    }
+    .prevnextlinks {
+        border-top-color: #2a2d3a;
+        border-bottom-color: #2a2d3a;
+    }
+    .prevnextlinks .rightborder {
+        border-right-color: #2a2d3a;
+    }
+    .prevnextlinks .thepostlink {
+        color: #e8e6e3;
+    }
+    .author-thumb {
+        border-color: #2a2d3a;
+    }
+    .post-top-meta span {
+        color: rgba(232, 230, 227, 0.5);
+    }
+    .article-post {
+        color: #e8e6e3;
+        code {
+            background: rgba(255, 255, 255, 0.08);
+        }
+        a {
+            color: #e8e6e3;
+        }
+    }
+    .link-dark {
+        color: #e8e6e3;
+    }
+    span.post-read-more a {
+        color: rgba(232, 230, 227, 0.5);
+        border-color: #2a2d3a;
+    }
+    span.post-name a,
+    span.post-read-more a:hover {
+        color: #e8e6e3;
+    }
+    ul.tags li a {
+        background: #252839;
+        color: #c8c6c2;
+        box-shadow: none;
+        &:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+    }
+    .sidebar h5:before {
+        background-color: #e8e6e3;
+    }
+    .sidebar h5 span {
+        background-color: #1a1d27;
+    }
+    .sidebar ul li a {
+        color: rgba(232, 230, 227, 0.5);
+        border-bottom-color: #252839;
+    }
+    .sidebar-section {
+        background: #1a1d27;
+        box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.6);
+    }
+    .sidebar #mc_embed_signup h2 {
+        color: rgba(232, 230, 227, 0.5);
+    }
+    .pagination {
+        background: #0f1117;
+        color: #e8e6e3;
+    }
+    .footer {
+        background: #13151f;
+        border-top-color: #252839;
+    }
+    .form-control {
+        background: #1a1d27;
+        color: #e8e6e3;
+        border-color: #2a2d3a;
+        &::placeholder {
+            color: rgba(232, 230, 227, 0.4);
+        }
+    }
+    .graybg.authorpage {
+        border-top-color: #2a2d3a;
+    }
+    .authorpage .author-description {
+        color: rgba(232, 230, 227, 0.7);
+    }
+    .text-overlay {
+        background-color: rgba(26, 29, 39, 0.97);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+    .text-overlay p {
+        color: #e8e6e3;
+    }
+    .dark-mode-btn {
+        border-color: #3a3d4a;
+        color: #e8e6e3;
+    }
+    .item-card .categories a {
+        background: #252839;
+    }
 }
