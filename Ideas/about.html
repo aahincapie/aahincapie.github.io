@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About — Adolfo Andrés Hincapié</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Spectral:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="about.css">
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script>
+  // Mermaid 11 emits an opaque cross-origin "Script error" via window.onerror
+  // during initial render that we can't otherwise suppress. Install a capturing
+  // listener at page top to stop it before browser logs it.
+  window.addEventListener('error', function(e){
+    if (!e || !e.message || e.message === 'Script error.') {
+      e.stopImmediatePropagation && e.stopImmediatePropagation();
+      e.preventDefault && e.preventDefault();
+      return false;
+    }
+  }, true);
+</script>
+</head>
+<body>
+
+<!-- ===== NAV (same as index) ===== -->
+<header class="nav" id="nav">
+  <div class="nav__inner wrap">
+    <a class="brand" href="index.html">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>
+        </svg>
+      </span>
+      <span class="brand__text">
+        <span class="brand__name">Adolfo Andrés Hincapié</span>
+        <span class="brand__role">Spatial analyst · Carbon accounting</span>
+      </span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="index.html">Writing</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#es" class="lang">ES</a>
+    </nav>
+
+    <div class="nav__actions">
+      <a class="iconlink" href="https://www.linkedin.com/in/aahincapie/" aria-label="LinkedIn">
+        <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>
+      </a>
+      <button class="themetoggle" id="themetoggle" aria-label="Toggle theme">
+        <svg class="t-sun" viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/></svg>
+        <svg class="t-moon" viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ===== PAGE HEAD ===== -->
+<section class="pagehead">
+  <div class="wrap pagehead__inner">
+    <div>
+      <div class="pagehead__kicker">
+        <span class="dot" style="width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block"></span>
+        <span>About — curriculum &amp; practice</span>
+      </div>
+      <h1 class="pagehead__title">
+        Forestry engineer, anthropologist, and spatial modeller working on
+        nature&#8209;based <em>climate solutions</em>.
+      </h1>
+      <p class="pagehead__lede">
+        I explore complex land-use problems across palm oil, coffee, cocoa,
+        and forestry. I am an expert in carbon certification for voluntary
+        markets (VCS, CCB, GS) and Scope&nbsp;3 (GHG Protocol, SBTi), with
+        AFOLU project experience &mdash; REDD+, ARR, ALM, IFM &mdash; across
+        Latin America, Africa, and Southeast Asia.
+      </p>
+
+      <div class="expertise">
+        <a class="expertise__card" href="#carbon">
+          <span class="expertise__icon">01 / Practice area</span>
+          <span class="expertise__lbl">Carbon Development &amp; Operations</span>
+          <span class="expertise__sub">Methodology, MRV, registration, verification</span>
+        </a>
+        <a class="expertise__card" href="#social">
+          <span class="expertise__icon">02 / Practice area</span>
+          <span class="expertise__lbl">Social Safeguards &amp; Community</span>
+          <span class="expertise__sub">FPIC, theory of change, community monitoring</span>
+        </a>
+      </div>
+
+      <div class="pills">
+        <span class="pill pill--accent">REDD+</span>
+        <span class="pill pill--accent">ARR</span>
+        <span class="pill pill--accent">ALM</span>
+        <span class="pill pill--accent">IFM</span>
+        <span class="pill">VCS</span>
+        <span class="pill">CCB</span>
+        <span class="pill">Gold Standard</span>
+        <span class="pill">GHG Protocol</span>
+        <span class="pill">SBTi</span>
+      </div>
+    </div>
+
+    <div class="pagehead__portrait" aria-hidden="true"></div>
+  </div>
+</section>
+
+<!-- ===== BODY ===== -->
+<div class="wrap">
+  <div class="about-body">
+
+    <!-- TOC -->
+    <aside class="toc" aria-label="Sections">
+      <div class="toc__head">On this page</div>
+      <a href="#snapshot">01 · Snapshot</a>
+      <a href="#qualifications">02 · Qualifications</a>
+      <a href="#interests">03 · Interests</a>
+      <a href="#experience">04 · Experience</a>
+      <a href="#tools">05 · Tools</a>
+      <a href="#references">06 · References</a>
+      <a href="#cv">07 · Download CV</a>
+    </aside>
+
+    <div>
+      <!-- ===== SNAPSHOT ===== -->
+      <section class="about-section" id="snapshot">
+        <div class="about-section__head">
+          <span class="about-section__num">01 — Snapshot</span>
+          <h2 class="about-section__title">A profile at a glance.</h2>
+          <p class="about-section__intro">
+            Four lenses on the same work &mdash; what I trained in, what I&rsquo;m
+            curious about, what I can do, and where I&rsquo;ve been doing it.
+          </p>
+        </div>
+
+        <div class="diagram">
+          <span class="diagram__label">fig. 01 — profile overview</span>
+          <pre class="mermaid">
+graph LR
+  P((Andrés))
+  P --> Q[Qualifications]
+  P --> I[Interests]
+  P --> S[Skills]
+  P --> X[Experience]
+
+  Q --> Q1["Forestry Engineer<br/>+ Anthropologist"]
+  Q --> Q2["M.Sc. Geospatial Modelling"]
+
+  I --> I1["Quantitative forestry"]
+  I --> I2["GIS &amp; spatial modelling"]
+  I --> I3["Nature Climate Solutions"]
+
+  S --> S1["Problem-solving"]
+  S --> S2["GIS &amp; carbon technical"]
+  S --> S3["Impact assessment"]
+  S --> S4["ES · EN · PT"]
+
+  X --> X1["6 years voluntary carbon"]
+  X --> X2["Earthshot Lab — current"]
+  X --> X3["South Pole — prior"]
+          </pre>
+        </div>
+
+        <p class="callout">
+          &ldquo;I don&rsquo;t have all the answers &mdash; but I know where to
+          start looking. Let&rsquo;s navigate this carbon-markets journey and
+          explore climate-based solutions together.&rdquo;
+        </p>
+      </section>
+
+      <!-- ===== QUALIFICATIONS ===== -->
+      <section class="about-section" id="qualifications">
+        <div class="about-section__head">
+          <span class="about-section__num">02 — Qualifications</span>
+          <h2 class="about-section__title">Education.</h2>
+          <p class="about-section__intro">
+            A path through forestry, anthropology, and geospatial modelling
+            &mdash; the combination that informs how I read AFOLU projects today.
+          </p>
+        </div>
+
+        <article class="edu">
+          <div class="edu__logo">UFMG</div>
+          <div class="edu__body">
+            <h3 class="edu__degree">M.Sc. — Analysis &amp; Modelling of Environmental Systems</h3>
+            <div class="edu__meta">
+              <span><a href="https://ufmg.br/" target="_blank" rel="noopener">Federal University of Minas Gerais</a></span>
+              <span>Belo Horizonte, Brazil</span>
+              <span>Mar 2015 — May 2017</span>
+            </div>
+            <div class="pills">
+              <span class="pill">Improved forest management</span>
+              <span class="pill">Finance analysis</span>
+              <span class="pill">Deforestation</span>
+              <span class="pill">Degradation</span>
+            </div>
+
+            <div class="diagram">
+              <span class="diagram__label">fig. 02 — UFMG capability map</span>
+              <pre class="mermaid">
+graph LR
+  subgraph Technical
+    A[Analysis &amp; Modeling]
+    B[Statistical Methods]
+    C[Computational Techniques]
+  end
+  subgraph Practical
+    D[Fieldwork]
+    E[Env. Data Collection]
+    F[Data Management]
+  end
+  subgraph Communication
+    G[Research]
+    H[Academic Writing]
+    I[Audience Engagement]
+  end
+  A --> B & C
+  D --> E --> F
+  G --> H & I
+  B -.-> E
+  C -.-> F
+  F -.-> G
+              </pre>
+            </div>
+          </div>
+        </article>
+
+        <article class="edu">
+          <div class="edu__logo">UdeA</div>
+          <div class="edu__body">
+            <h3 class="edu__degree">B.Sc. — Anthropology</h3>
+            <div class="edu__meta">
+              <span><a href="https://www.udea.edu.co" target="_blank" rel="noopener">University of Antioquia</a></span>
+              <span>Medellín, Colombia</span>
+              <span>Dec 2005 — Dec 2013</span>
+            </div>
+            <div class="pills">
+              <span class="pill">Human-rights-based approach</span>
+              <span class="pill">FPIC</span>
+              <span class="pill">Land-use tenure</span>
+              <span class="pill">Deforestation</span>
+            </div>
+
+            <div class="diagram">
+              <span class="diagram__label">fig. 03 — UdeA capability map</span>
+              <pre class="mermaid">
+graph LR
+  subgraph Methods
+    D[Ethnography]
+    E[Qualitative Analysis]
+    F[Participatory Methods]
+  end
+  subgraph Focus
+    G[Human Rights]
+    H[Indigenous Communities]
+    I[Social Change]
+  end
+  subgraph Applied
+    J[Land-use Mapping]
+    K[FPIC Implementation]
+    L[Theory of Change]
+  end
+  D --> J & K
+  E --> J & L
+  F --> K
+  G --> K
+  H --> J & K
+  I --> L & F
+              </pre>
+            </div>
+          </div>
+        </article>
+
+        <article class="edu">
+          <div class="edu__logo">UNAL</div>
+          <div class="edu__body">
+            <h3 class="edu__degree">B.Eng. — Forestry</h3>
+            <div class="edu__meta">
+              <span><a href="https://unal.edu.co/" target="_blank" rel="noopener">National University of Colombia</a></span>
+              <span>Medellín, Colombia</span>
+              <span>Jan 2005 — Jun 2012</span>
+            </div>
+            <div class="pills">
+              <span class="pill">Forest inventory</span>
+              <span class="pill">LiDAR &amp; remote sensing</span>
+              <span class="pill">Sustainable forest mgmt</span>
+              <span class="pill">Forest economics</span>
+              <span class="pill">Forest mapping</span>
+            </div>
+
+            <div class="diagram">
+              <span class="diagram__label">fig. 04 — UNAL capability map</span>
+              <pre class="mermaid">
+graph LR
+  subgraph Core
+    A[Sustainable Forest Mgmt]
+    B[Forest Science]
+  end
+  subgraph Technical
+    C[Forest Inventory]
+    D[LiDAR &amp; RS]
+    E[Economic Outcomes]
+  end
+  subgraph Practical
+    F[Forest Mapping]
+    G[Harvesting Plan]
+    H[Resource Assessment]
+  end
+  subgraph Management
+    J[Sustainability Analysis]
+    K[Env. Impact Assessment]
+  end
+  A & B --> C
+  C --> F & H
+  D & E --> F
+  F --> G
+  H --> K & J
+  B --> K
+              </pre>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- ===== INTERESTS ===== -->
+      <section class="about-section" id="interests">
+        <div class="about-section__head">
+          <span class="about-section__num">03 — Interests</span>
+          <h2 class="about-section__title">Where the work lives.</h2>
+          <p class="about-section__intro">
+            My approach combines accounting models and geospatial methods to drive
+            climate action, always with a human-rights-based lens.
+          </p>
+        </div>
+
+        <div class="diagram">
+          <span class="diagram__label">fig. 05 — interest map (technical complexity × interest)</span>
+          <pre class="mermaid">
+quadrantChart
+  title "Where my interests sit"
+  x-axis "Medium tech. complexity" --> "High tech. complexity"
+  y-axis "Medium interest" --> "High interest"
+  quadrant-1 "Core technical"
+  quadrant-2 "Core research"
+  quadrant-3 "Growth areas"
+  quadrant-4 "Supporting knowledge"
+  "Carbon Methodologies": [0.75, 0.95]
+  "Carbon Accounting Modelling": [0.85, 0.85]
+  "Jurisdictional REDD": [0.55, 0.60]
+  "Scope 3 Removals": [0.65, 0.75]
+  "Geospatial Analysis": [0.80, 0.75]
+  "Socio-env. Monitoring": [0.35, 0.90]
+  "Forestry Science": [0.50, 0.95]
+  "Agroforestry": [0.50, 0.70]
+  "Benefit Sharing": [0.45, 0.15]
+  "Project Safeguards": [0.25, 0.60]
+  "Human Rights": [0.25, 0.45]
+  "FPIC": [0.15, 0.35]
+  "Article 6": [0.55, 0.30]
+  "Remote Sensing": [0.85, 0.45]
+  "Fire Modelling": [0.70, 0.35]
+  "Data Visualization": [0.60, 0.40]
+          </pre>
+        </div>
+      </section>
+
+      <!-- ===== EXPERIENCE ===== -->
+      <section class="about-section" id="experience">
+        <div class="about-section__head">
+          <span class="about-section__num">04 — Experience</span>
+          <h2 class="about-section__title">Roles and where they happened.</h2>
+          <p class="about-section__intro">
+            A condensed timeline of the work &mdash; private, public, and
+            non-profit &mdash; across Latin America, Africa, and Southeast Asia.
+          </p>
+        </div>
+
+        <ul class="timeline">
+          <li class="timeline__item">
+            <span class="timeline__date">Oct 2023 — Sep 2024</span>
+            <span class="timeline__role">
+              <span class="timeline__title">Carbon Compliance Expert — Carbon Development</span>
+              <span class="timeline__co"><a href="https://www.earthshot.eco/" target="_blank" rel="noopener">Earthshot Lab</a> · Private sector</span>
+            </span>
+            <span class="timeline__years">1 yr</span>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date">Jan 2023 — Nov 2023</span>
+            <span class="timeline__role">
+              <span class="timeline__title">Regional Lead — Nature-Based Solutions, Climate Projects</span>
+              <span class="timeline__co"><a href="https://www.southpole.com/" target="_blank" rel="noopener">South Pole</a> · Private sector</span>
+            </span>
+            <span class="timeline__years">0.9 yr</span>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date">Jun 2020 — Dec 2022</span>
+            <span class="timeline__role">
+              <span class="timeline__title">Senior Project Coordinator — Forestry &amp; Land-Use Projects</span>
+              <span class="timeline__co"><a href="https://www.southpole.com/" target="_blank" rel="noopener">South Pole</a> · Private sector</span>
+            </span>
+            <span class="timeline__years">2.5 yr</span>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date">Jun 2017 — Dec 2020</span>
+            <span class="timeline__role">
+              <span class="timeline__title">GIS — Forestry &amp; Land-Use Projects</span>
+              <span class="timeline__co"><a href="https://www.southpole.com/" target="_blank" rel="noopener">South Pole</a> · Private sector</span>
+            </span>
+            <span class="timeline__years">3 yr</span>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date">May 2016 — Dec 2016</span>
+            <span class="timeline__role">
+              <span class="timeline__title">Environmental Analyst</span>
+              <span class="timeline__co"><a href="https://www.wwf.org.co/" target="_blank" rel="noopener">WWF</a> · Non-profit</span>
+            </span>
+            <span class="timeline__years">0.67 yr</span>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date">Jul 2015 — Dec 2015</span>
+            <span class="timeline__role">
+              <span class="timeline__title">Assistant Professor</span>
+              <span class="timeline__co"><a href="https://www.ufmg.br/" target="_blank" rel="noopener">Universidade Federal de Minas Gerais</a> · Public sector</span>
+            </span>
+            <span class="timeline__years">0.5 yr</span>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date">Jul 2013 — Feb 2015</span>
+            <span class="timeline__role">
+              <span class="timeline__title">Land-Tenure &amp; Land-Use Advisor</span>
+              <span class="timeline__co"><a href="https://organizacionindigenadeantioquia.blogspot.com/" target="_blank" rel="noopener">Indigenous Organization of Antioquia</a> · Non-profit</span>
+            </span>
+            <span class="timeline__years">1.67 yr</span>
+          </li>
+        </ul>
+
+        <h4 style="margin-top: var(--s-8); margin-bottom: var(--s-3); font-family: var(--f-mono); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-muted); font-weight:500;">
+          Experience by region
+        </h4>
+        <div class="regionchart" aria-label="Distribution by region">
+          <div class="regionchart__row">
+            <span class="regionchart__name">Latin America</span>
+            <span class="regionchart__bar"><span class="regionchart__fill" style="width:72%"></span></span>
+            <span class="regionchart__val">72%</span>
+          </div>
+          <div class="regionchart__row">
+            <span class="regionchart__name">Africa</span>
+            <span class="regionchart__bar"><span class="regionchart__fill" style="width:18%"></span></span>
+            <span class="regionchart__val">18%</span>
+          </div>
+          <div class="regionchart__row">
+            <span class="regionchart__name">Southeast Asia</span>
+            <span class="regionchart__bar"><span class="regionchart__fill" style="width:10%"></span></span>
+            <span class="regionchart__val">10%</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== TOOLS ===== -->
+      <section class="about-section" id="tools">
+        <div class="about-section__head">
+          <span class="about-section__num">05 — Tools</span>
+          <h2 class="about-section__title">What I work with.</h2>
+        </div>
+
+        <div class="tools">
+          <div class="toolset">
+            <div class="toolset__head">
+              <span class="toolset__title">Project &amp; collaboration</span>
+              <span class="toolset__kind">SaaS</span>
+            </div>
+            <ul>
+              <li><span class="name">ClickUp</span><span class="desc">cloud PM</span></li>
+              <li><span class="name">Miro</span><span class="desc">whiteboarding</span></li>
+              <li><span class="name">Monday.com</span><span class="desc">task tracking</span></li>
+            </ul>
+          </div>
+
+          <div class="toolset">
+            <div class="toolset__head">
+              <span class="toolset__title">Commercial GIS &amp; RS</span>
+              <span class="toolset__kind">Platforms</span>
+            </div>
+            <ul>
+              <li><span class="name">ArcMap</span><span class="desc">Esri GIS</span></li>
+              <li><span class="name">ENVI</span><span class="desc">RS suite</span></li>
+              <li><span class="name">ERDAS Imagine</span><span class="desc">RS suite</span></li>
+              <li><span class="name">IDRISI</span><span class="desc">RS suite</span></li>
+            </ul>
+          </div>
+
+          <div class="toolset">
+            <div class="toolset__head">
+              <span class="toolset__title">Open-source GIS &amp; RS</span>
+              <span class="toolset__kind">Free</span>
+            </div>
+            <ul>
+              <li><span class="name">QGIS</span><span class="desc">GIS</span></li>
+              <li><span class="name">Google Earth Engine</span><span class="desc">cloud RS</span></li>
+              <li><span class="name">DINAMICA-EGO</span><span class="desc">REDD+ modelling</span></li>
+              <li><span class="name">SPRING</span><span class="desc">RS / image analysis</span></li>
+            </ul>
+          </div>
+
+          <div class="toolset">
+            <div class="toolset__head">
+              <span class="toolset__title">Data formats</span>
+              <span class="toolset__kind">Databases</span>
+            </div>
+            <ul>
+              <li><span class="name">.gdb</span><span class="desc">file geodatabase</span></li>
+              <li><span class="name">BigQuery</span><span class="desc">cloud warehouse</span></li>
+            </ul>
+          </div>
+
+          <div class="toolset">
+            <div class="toolset__head">
+              <span class="toolset__title">Programming</span>
+              <span class="toolset__kind">Languages</span>
+            </div>
+            <ul>
+              <li><span class="name">Python</span><span class="desc">geospatial / data</span></li>
+              <li><span class="name">R</span><span class="desc">stats / viz</span></li>
+              <li><span class="name">JavaScript</span><span class="desc">web maps</span></li>
+            </ul>
+          </div>
+
+          <div class="toolset">
+            <div class="toolset__head">
+              <span class="toolset__title">Standards</span>
+              <span class="toolset__kind">Methodologies</span>
+            </div>
+            <ul>
+              <li><span class="name">VCS / Verra</span><span class="desc">AFOLU registry</span></li>
+              <li><span class="name">CCB</span><span class="desc">co-benefit standard</span></li>
+              <li><span class="name">Gold Standard</span><span class="desc">project standard</span></li>
+              <li><span class="name">GHG Protocol</span><span class="desc">Scope 3</span></li>
+              <li><span class="name">SBTi</span><span class="desc">targets</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== REFERENCES ===== -->
+      <section class="about-section" id="references">
+        <div class="about-section__head">
+          <span class="about-section__num">06 — References</span>
+          <h2 class="about-section__title">People I&rsquo;ve learned from.</h2>
+          <p class="about-section__intro">
+            A short, partial list &mdash; mentors who shaped how I work and
+            colleagues who continue to.
+          </p>
+        </div>
+
+        <h4 style="font-family: var(--f-mono); font-size: var(--t-xs); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-muted); margin: 0 0 var(--s-3); font-weight:500;">Academic</h4>
+        <div class="refs" style="margin-bottom: var(--s-6);">
+          <article class="ref">
+            <div class="ref__avatar">RD</div>
+            <div class="ref__body">
+              <h4 class="ref__name">Robert Dover</h4>
+              <span class="ref__role">Anthropologist · Mentor</span>
+              <p class="ref__bio">Taught me the soft skills for working with
+                traditional communities. In memoriam.</p>
+            </div>
+          </article>
+          <article class="ref">
+            <div class="ref__avatar">BSF</div>
+            <div class="ref__body">
+              <h4 class="ref__name">Britaldo Soares-Filho</h4>
+              <span class="ref__role">Land-use modelling · UFMG</span>
+              <p class="ref__bio">Researcher pushing the frontier on Amazonian
+                land-use modelling and policy scenarios.</p>
+            </div>
+          </article>
+          <article class="ref">
+            <div class="ref__avatar">SMC</div>
+            <div class="ref__body">
+              <h4 class="ref__name">Sônia Maria Carvalho</h4>
+              <span class="ref__role">Forestry economics · UFMG</span>
+              <p class="ref__bio">Insight on the economics of sustainable forest
+                management at landscape scale.</p>
+            </div>
+          </article>
+          <article class="ref">
+            <div class="ref__avatar">DA</div>
+            <div class="ref__body">
+              <h4 class="ref__name">Dolors Armenteras</h4>
+              <span class="ref__role">Landscape ecology · UNAL</span>
+              <p class="ref__bio">A reference on biodiversity, fire, and
+                ecosystem dynamics in the Neotropics.</p>
+            </div>
+          </article>
+        </div>
+
+        <h4 style="font-family: var(--f-mono); font-size: var(--t-xs); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-muted); margin: 0 0 var(--s-3); font-weight:500;">Professional</h4>
+        <div class="refs">
+          <article class="ref">
+            <div class="ref__avatar">AM</div>
+            <div class="ref__body">
+              <h4 class="ref__name">Abel Marcarini</h4>
+              <span class="ref__role">Carbon project lead, Brazil · Earthshot Lab</span>
+              <p class="ref__bio">10+ years on NbS for the voluntary carbon
+                market. Prior: Verra, South Pole.</p>
+            </div>
+          </article>
+          <article class="ref">
+            <div class="ref__avatar">BZ</div>
+            <div class="ref__body">
+              <h4 class="ref__name">Beatriz Zapata</h4>
+              <span class="ref__role">Forest engineer · South Pole</span>
+              <p class="ref__bio">Deep technical knowledge of VCS, CCB, and
+                Gold Standard methodologies and tooling.</p>
+            </div>
+          </article>
+          <article class="ref">
+            <div class="ref__avatar">MA</div>
+            <div class="ref__body">
+              <h4 class="ref__name">Milena Agudelo</h4>
+              <span class="ref__role">Manager, Nature Climate Solutions · Verra</span>
+              <p class="ref__bio">Reviews ALM and WRC registration and
+                verification at Verra. Forest engineer, MSc.</p>
+            </div>
+          </article>
+          <article class="ref">
+            <div class="ref__avatar">DM</div>
+            <div class="ref__body">
+              <h4 class="ref__name">David Montoya González</h4>
+              <span class="ref__role">RS &amp; GIS lead · TerraGlobal</span>
+              <p class="ref__bio">Leads remote sensing and GIS for
+                community-based geospatial monitoring.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== CV ===== -->
+      <section class="about-section" id="cv">
+        <div class="about-section__head">
+          <span class="about-section__num">07 — Curriculum vitae</span>
+          <h2 class="about-section__title">Download my CV.</h2>
+          <p class="about-section__intro">
+            Two tracks, one career &mdash; pick the version that&rsquo;s most
+            relevant to your team.
+          </p>
+        </div>
+
+        <div class="cv-row">
+          <a class="cv-card" href="#" id="carbon">
+            <span class="cv-card__kind">PDF · 240 KB</span>
+            <span class="cv-card__title">CV — Carbon Development &amp; Operations</span>
+            <span class="cv-card__cta">Download →</span>
+          </a>
+          <a class="cv-card" href="#" id="social">
+            <span class="cv-card__kind">PDF · 240 KB</span>
+            <span class="cv-card__title">CV — Social Safeguards &amp; Community</span>
+            <span class="cv-card__cta">Download →</span>
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__col">
+      <span class="brand brand--small">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>
+          </svg>
+        </span>
+        <span>Adolfo Andrés Hincapié</span>
+      </span>
+      <p class="muted">Field notes on carbon, climate, and community.</p>
+    </div>
+    <div class="footer__col">
+      <h5 class="footer__title">Site</h5>
+      <ul><li><a href="index.html">Home</a></li><li><a href="index.html#writing">Writing</a></li><li><a href="about.html">About</a></li><li><a href="#contact">Contact</a></li></ul>
+    </div>
+    <div class="footer__col">
+      <h5 class="footer__title">Elsewhere</h5>
+      <ul><li><a href="https://www.linkedin.com/in/aahincapie/">LinkedIn</a></li><li><a href="#">Twitter</a></li><li><a href="#">Instagram</a></li><li><a href="#">RSS</a></li></ul>
+    </div>
+    <div class="footer__col">
+      <h5 class="footer__title">Colophon</h5>
+      <p class="muted small">Set in Newsreader and IBM&nbsp;Plex Sans. Built
+        with Jekyll. &copy; 2026.</p>
+    </div>
+  </div>
+</footer>
+
+<div id="tweaks-root"></div>
+
+<script>
+  // Mermaid 11 logs an opaque "Script error" via window.onerror from inside
+  // its CDN bundle on quadrant charts; it doesn't break rendering but pollutes
+  // the console. Swallow only that specific case.
+  window.addEventListener('error', function(e){
+    if (!e.message || e.message === 'Script error.') { e.preventDefault(); return false; }
+  });
+</script>
+
+<!-- Mermaid -->
+<script src="https://unpkg.com/mermaid@11.6.0/dist/mermaid.min.js" crossorigin="anonymous"></script>
+
+<script>
+  // Theme toggle + mermaid theming
+  (function(){
+    var KEY = 'theme';
+    var saved = localStorage.getItem(KEY);
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+
+    function isDark() {
+      return document.documentElement.getAttribute('data-theme') === 'dark';
+    }
+
+    // Resolve current accent + ink colors from CSS variables so mermaid matches.
+    // Mermaid doesn't parse oklch() — we round-trip each var through a hidden
+    // probe to compute the color, then through a 1×1 canvas to force sRGB rgb().
+    var probe = document.createElement('div');
+    probe.style.position = 'absolute';
+    probe.style.visibility = 'hidden';
+    document.body.appendChild(probe);
+    var cnv = document.createElement('canvas');
+    cnv.width = cnv.height = 1;
+    var cctx = cnv.getContext('2d');
+    function toRgb(s) {
+      try {
+        cctx.clearRect(0, 0, 1, 1);
+        cctx.fillStyle = s;
+        cctx.fillRect(0, 0, 1, 1);
+        var d = cctx.getImageData(0, 0, 1, 1).data;
+        return 'rgb(' + d[0] + ',' + d[1] + ',' + d[2] + ')';
+      } catch (e) { return s; }
+    }
+    function readVar(name) {
+      probe.style.color = 'var(' + name + ')';
+      return toRgb(getComputedStyle(probe).color);
+    }
+
+    function mermaidConfig() {
+      var dark = isDark();
+      var accent = readVar('--accent') || (dark ? '#e8a07a' : '#b06a45');
+      var accentSoft = readVar('--accent-soft');
+      var ink = readVar('--ink');
+      var ink2 = readVar('--ink-2');
+      var muted = readVar('--ink-muted');
+      var surface = readVar('--surface');
+      var line = readVar('--line');
+      var bg = readVar('--bg');
+
+      return {
+        startOnLoad: false,
+        securityLevel: 'loose',
+        fontFamily: '"IBM Plex Sans", system-ui, sans-serif',
+        theme: 'base',
+        themeVariables: {
+          primaryColor: surface,
+          primaryTextColor: ink,
+          primaryBorderColor: line,
+          lineColor: muted,
+          secondaryColor: accentSoft,
+          tertiaryColor: bg,
+          background: bg,
+          mainBkg: surface,
+          nodeBorder: line,
+          edgeLabelBackground: bg,
+          clusterBkg: bg,
+          clusterBorder: line,
+          titleColor: ink,
+          // quadrant chart
+          quadrant1Fill: accentSoft,
+          quadrant2Fill: bg,
+          quadrant3Fill: bg,
+          quadrant4Fill: accentSoft,
+          quadrant1TextFill: ink,
+          quadrant2TextFill: ink,
+          quadrant3TextFill: ink,
+          quadrant4TextFill: ink,
+          quadrantPointFill: accent,
+          quadrantPointTextFill: ink2,
+          quadrantXAxisTextFill: muted,
+          quadrantYAxisTextFill: muted,
+          quadrantInternalBorderStrokeFill: line,
+          quadrantExternalBorderStrokeFill: line,
+          quadrantTitleFill: ink
+        }
+      };
+    }
+
+    // Stash original mermaid source so we can re-render on theme change.
+    var nodes = document.querySelectorAll('pre.mermaid');
+    nodes.forEach(function(n, i){
+      n.setAttribute('data-mm-src', n.textContent);
+      n.id = n.id || ('mm-' + i);
+    });
+
+    function render() {
+      window.mermaid.initialize(mermaidConfig());
+      nodes.forEach(function(n){
+        n.removeAttribute('data-processed');
+        n.innerHTML = n.getAttribute('data-mm-src');
+      });
+      window.mermaid.run({ nodes: nodes });
+    }
+
+    // initial render
+    if (window.mermaid) render();
+
+    // Theme toggle
+    var btn = document.getElementById('themetoggle');
+    btn.addEventListener('click', function(){
+      var next = isDark() ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem(KEY, next);
+      // re-render mermaid with new palette
+      setTimeout(render, 50);
+    });
+
+    // Nav scroll state
+    var nav = document.getElementById('nav');
+    window.addEventListener('scroll', function(){
+      if (window.scrollY > 8) nav.classList.add('nav--scrolled');
+      else nav.classList.remove('nav--scrolled');
+    });
+
+    // Listen for tweaks panel theme changes too
+    new MutationObserver(function(muts){
+      for (var i = 0; i < muts.length; i++) {
+        if (muts[i].attributeName === 'data-theme' ||
+            muts[i].attributeName === 'data-accent') {
+          setTimeout(render, 60);
+          break;
+        }
+      }
+    }).observe(document.documentElement, { attributes: true });
+  })();
+</script>
+
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="tweaks.jsx"></script>
+
+</body>
+</html>

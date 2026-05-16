@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Adolfo Andrés Hincapié — redesign proposal</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Spectral:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: rgb(60, 60, 47)">
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav__inner wrap">
+    <a class="brand" href="#">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>
+        </svg>
+      </span>
+      <span class="brand__text">
+        <span class="brand__name">Adolfo Andrés Hincapié</span>
+        <span class="brand__role">Spatial analyst · Carbon accounting</span>
+      </span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#writing">Writing</a>
+      <a href="about.html">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#es" class="lang">ES</a>
+    </nav>
+
+    <div class="nav__actions">
+      <a class="iconlink" href="#" aria-label="LinkedIn">
+        <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>
+      </a>
+      <a class="iconlink" href="#" aria-label="Twitter">
+        <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor"><path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/></svg>
+      </a>
+      <button class="themetoggle" id="themetoggle" aria-label="Toggle theme">
+        <svg class="t-sun" viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/></svg>
+        <svg class="t-moon" viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ===== HERO ===== -->
+<section class="hero hero--split" id="hero">
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <div class="eyebrow">
+        <span class="dot"></span>
+        <span>Field notes &mdash; updated weekly</span>
+      </div>
+      <h1 class="hero__title">
+        Spatial analysis, GHG carbon accounting, and community-based outcomes for
+        <em style="font-family: Newsreader">AFOLU</em> projects.
+      </h1>
+      <p class="hero__lede">
+        Hi, I&rsquo;m Andr&eacute;s. I don&rsquo;t have all the answers &mdash;
+        but I know where to start looking. Let&rsquo;s navigate carbon
+        markets together and explore climate-based solutions.
+      </p>
+      <div class="hero__cta">
+        <a href="about.html" class="btn btn--primary">About me</a>
+        <a href="#es" class="btn btn--ghost">Leer en espa&ntilde;ol</a>
+      </div>
+      <dl class="hero__meta">
+        <div><dt>Based in</dt><dd>Bogot&aacute;, CO</dd></div>
+        <div><dt>Focus</dt><dd>AFOLU &middot; MRV &middot; Modelling</dd></div>
+        <div><dt>Writing since</dt><dd>2019</dd></div>
+      </dl>
+    </div>
+
+    <aside class="hero__card" aria-label="Featured note">
+      <div class="hero__cardhead">
+        <span class="tag tag--mono">Currently reading</span>
+        <span class="tag tag--mono muted">May 15</span>
+      </div>
+      <h3 class="hero__cardtitle">On the quality of voluntary carbon credits and the
+        role of governments in MRV.</h3>
+      <p class="hero__cardbody">
+        The posts on this blog reflect my evolving perspectives. They are
+        incomplete explorations of complex topics, always open to debate
+        and further development.
+      </p>
+      <div class="hero__cardfoot">
+        <span class="avatar" aria-hidden="true">AH</span>
+        <span class="muted">5 min read &middot; Andr&eacute;s H.</span>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ===== POSTS ===== -->
+<section class="section" id="writing">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 class="section__title">Featured writing</h2>
+      <a href="#all" class="section__more">All posts &rarr;</a>
+    </div>
+
+    <div class="grid grid--3">
+      <article class="card card--featured">
+        <a class="card__media" href="#" aria-label="open post">
+          <span class="media media--stripes" data-label="cover &mdash; satellite mosaic">
+            <span class="media__label">cover &mdash; satellite mosaic</span>
+          </span>
+          <span class="card__cat">Methodology</span>
+        </a>
+        <div class="card__body">
+          <h3 class="card__title">Leakage, additionality, and the long tail of
+            forestry baselines.</h3>
+          <p class="card__excerpt">A field-tested framework for treating
+            baseline assumptions as living documents rather than fixed inputs.</p>
+          <div class="card__meta">
+            <span>Apr 28, 2026</span><span class="sep">&middot;</span><span>9 min</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card card--featured">
+        <a class="card__media" href="#" aria-label="open post">
+          <span class="media media--swatch" data-label="cover &mdash; chart, GHG flows">
+            <span class="media__label">cover &mdash; chart, GHG flows</span>
+          </span>
+          <span class="card__cat">Modelling</span>
+        </a>
+        <div class="card__body">
+          <h3 class="card__title">Six things I keep getting wrong about
+            community-based monitoring.</h3>
+          <p class="card__excerpt">Notes from three years of MRV work with
+            smallholder cooperatives in the Colombian Pacific.</p>
+          <div class="card__meta">
+            <span>Mar 12, 2026</span><span class="sep">&middot;</span><span>14 min</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card card--featured">
+        <a class="card__media" href="#" aria-label="open post">
+          <span class="media media--dots" data-label="cover &mdash; mosaic, Choc&oacute;">
+            <span class="media__label">cover &mdash; mosaic, Choc&oacute;</span>
+          </span>
+          <span class="card__cat">Field notes</span>
+        </a>
+        <div class="card__body">
+          <h3 class="card__title">A practical taxonomy of carbon market
+            quality signals.</h3>
+          <p class="card__excerpt">What buyers actually read for, and what
+            standards rarely measure, in 2026.</p>
+          <div class="card__meta">
+            <span>Feb 02, 2026</span><span class="sep">&middot;</span><span>11 min</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RECENT + SIDEBAR ===== -->
+<section class="section section--alt" id="all">
+  <div class="wrap layout-2col">
+    <div>
+      <div class="section__head section__head--sub">
+        <h2 class="section__subtitle">Recent</h2>
+        <span class="muted mono">page 1 / 4</span>
+      </div>
+
+      <ul class="postlist">
+        <li class="postlist__item">
+          <a href="#" class="postlist__link">
+            <span class="postlist__date mono">May 09</span>
+            <span class="postlist__body">
+              <span class="postlist__title">Performance of the voluntary market under
+                rising integrity scrutiny.</span>
+              <span class="postlist__excerpt">A simple model for thinking about
+                supply-side response to ICVCM and CORSIA signals.</span>
+            </span>
+            <span class="postlist__tag">Markets</span>
+          </a>
+        </li>
+        <li class="postlist__item">
+          <a href="#" class="postlist__link">
+            <span class="postlist__date mono">Apr 22</span>
+            <span class="postlist__body">
+              <span class="postlist__title">Sampling design for permanent plots in
+                tropical secondary forest.</span>
+              <span class="postlist__excerpt">A practical guide to power, error,
+                and the unspoken trade-offs of plot-based MRV.</span>
+            </span>
+            <span class="postlist__tag">MRV</span>
+          </a>
+        </li>
+        <li class="postlist__item">
+          <a href="#" class="postlist__link">
+            <span class="postlist__date mono">Apr 03</span>
+            <span class="postlist__body">
+              <span class="postlist__title">When the model and the field disagree:
+                living with measurement uncertainty.</span>
+              <span class="postlist__excerpt">Reflections after a difficult
+                reconciliation week in the Pacific lowlands.</span>
+            </span>
+            <span class="postlist__tag">Field notes</span>
+          </a>
+        </li>
+        <li class="postlist__item">
+          <a href="#" class="postlist__link">
+            <span class="postlist__date mono">Mar 18</span>
+            <span class="postlist__body">
+              <span class="postlist__title">Five questions to ask before
+                buying any carbon credit.</span>
+              <span class="postlist__excerpt">A buyer&rsquo;s heuristic for the
+                impatient, with worked examples.</span>
+            </span>
+            <span class="postlist__tag">Markets</span>
+          </a>
+        </li>
+        <li class="postlist__item">
+          <a href="#" class="postlist__link">
+            <span class="postlist__date mono">Mar 01</span>
+            <span class="postlist__body">
+              <span class="postlist__title">Community-based outcomes are not a
+                co-benefit. They are the project.</span>
+              <span class="postlist__excerpt">A short argument, written in
+                frustration after a stakeholder workshop.</span>
+            </span>
+            <span class="postlist__tag">Opinion</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="pagination">
+        <a href="#" class="pagebtn">&larr; Newer</a>
+        <span class="mono muted">1 &middot; 2 &middot; 3 &middot; 4</span>
+        <a href="#" class="pagebtn">Older &rarr;</a>
+      </div>
+    </div>
+
+    <aside class="sidebar" aria-label="Sidebar">
+      <div class="sidebar__block">
+        <h4 class="sidebar__title"><span>About</span></h4>
+        <p class="sidebar__body">Spatial analyst working on GHG carbon
+          accounting and modelling for agriculture, forestry, and land
+          uses. Currently focused on community-based MRV.</p>
+        <a href="about.html" class="sidebar__more">Read more &rarr;</a>
+      </div>
+
+      <div class="sidebar__block">
+        <h4 class="sidebar__title"><span>Subscribe</span></h4>
+        <p class="sidebar__body muted">Field notes by email. One short
+          dispatch a month, no tracking.</p>
+        <form class="sub" onsubmit="event.preventDefault()">
+          <input type="email" placeholder="you@field.org" aria-label="Email">
+          <button type="submit">Join</button>
+        </form>
+      </div>
+
+      <div class="sidebar__block">
+        <h4 class="sidebar__title"><span>Topics</span></h4>
+        <ul class="tags">
+          <li><a href="#">MRV</a></li>
+          <li><a href="#">AFOLU</a></li>
+          <li><a href="#">Modelling</a></li>
+          <li><a href="#">Markets</a></li>
+          <li><a href="#">Methodology</a></li>
+          <li><a href="#">Field notes</a></li>
+          <li><a href="#">Opinion</a></li>
+          <li><a href="#">Colombia</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__col">
+      <span class="brand brand--small">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>
+          </svg>
+        </span>
+        <span>Adolfo Andr&eacute;s Hincapi&eacute;</span>
+      </span>
+      <p class="muted">Field notes on carbon, climate, and community.</p>
+    </div>
+    <div class="footer__col">
+      <h5 class="footer__title">Site</h5>
+      <ul><li><a href="#">Home</a></li><li><a href="#">Writing</a></li><li><a href="#">About</a></li><li><a href="#">Contact</a></li></ul>
+    </div>
+    <div class="footer__col">
+      <h5 class="footer__title">Elsewhere</h5>
+      <ul><li><a href="#">LinkedIn</a></li><li><a href="#">Twitter</a></li><li><a href="#">Instagram</a></li><li><a href="#">RSS</a></li></ul>
+    </div>
+    <div class="footer__col">
+      <h5 class="footer__title">Colophon</h5>
+      <p class="muted small">Set in Newsreader and IBM&nbsp;Plex Sans. Built
+        with Jekyll. &copy; 2026.</p>
+    </div>
+  </div>
+</footer>
+
+</main>
+
+<div id="tweaks-root"></div>
+
+<script>
+  // Theme toggle
+  (function(){
+    var KEY = 'theme';
+    var saved = localStorage.getItem(KEY);
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+    var btn = document.getElementById('themetoggle');
+    btn.addEventListener('click', function(){
+      var cur = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      var next = cur === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem(KEY, next);
+    });
+    // Nav scroll state
+    var nav = document.getElementById('nav');
+    window.addEventListener('scroll', function(){
+      if (window.scrollY > 8) nav.classList.add('nav--scrolled');
+      else nav.classList.remove('nav--scrolled');
+    });
+  })();
+</script>
+
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="tweaks.jsx"></script>
+
+</body>
+</html>
