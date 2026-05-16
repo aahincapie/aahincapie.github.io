@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="icon" href="{{ site.baseurl }}/{{site.favicon}}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <title>{{ page.title }} | {{site.title}}</title>
 
@@ -134,6 +136,10 @@ gtag('config', '{{site.ganalytics}}');
 <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
 <script src="https://unpkg.com/mermaid@11.6.0/dist/mermaid.min.js"></script>
+
+<div id="tweaks-root"></div>
+<script type="text/babel" src="{{ site.baseurl }}/assets/js/tweaks-panel.jsx"></script>
+<script type="text/babel" src="{{ site.baseurl }}/assets/js/tweaks.jsx"></script>
 
 </body>
 </html>

@@ -1,21 +1,1200 @@
 ---
-layout: about
+layout: default
 ---
 
-{% if page.mermaid %}
-  {% include mermaid.html %}
-{% endif %}
+<style>
+/* Page header */
+.pagehead {
+  padding: 5rem 0 3rem;
+  border-bottom: 1px solid var(--site-line, #eee);
+  position: relative;
+  overflow: hidden;
+}
+.pagehead::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(900px 320px at 80% 0%, var(--site-accent-soft, #fdd93d22), transparent 60%);
+  opacity: 0.55;
+  pointer-events: none;
+}
+.pagehead__inner {
+  position: relative;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 260px);
+  gap: 2rem;
+  align-items: end;
+}
+.pagehead__kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--site-ink-muted, rgba(0,0,0,.44));
+  margin-bottom: 1rem;
+}
+.pagehead__title {
+  font-size: clamp(2.2rem, 4.8vw, 3.6rem);
+  font-weight: 500;
+  letter-spacing: -0.022em;
+  max-width: 22ch;
+  margin-bottom: 1rem;
+  font-family: "Newsreader", "PT Serif", Georgia, serif;
+  line-height: 1.1;
+}
+.pagehead__lede {
+  font-size: 1.125rem;
+  color: var(--site-ink-2, rgba(0,0,0,.7));
+  line-height: 1.55;
+  max-width: 60ch;
+}
+.pagehead__portrait {
+  aspect-ratio: 1;
+  width: 100%;
+  border-radius: 14px;
+  background: repeating-linear-gradient(135deg, #f8f8f8 0 14px, #fff 14px 28px);
+  border: 1px solid var(--site-line, #eee);
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+@media (max-width: 820px) {
+  .pagehead__inner { grid-template-columns: 1fr; }
+  .pagehead__portrait { display: none; }
+}
 
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-lg-8">
-      <header class="mainheading text-center mb-5">
-        <h1 class="posttitle">{{ page.title }}</h1>
-      </header>
+/* Expertise cards */
+.expertise {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin: 1.25rem 0 0.75rem;
+}
+@media (max-width: 680px) { .expertise { grid-template-columns: 1fr; } }
+.expertise__card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--site-line, #eee);
+  border-radius: 14px;
+  background: var(--site-surface, #fff);
+  transition: all .2s;
+  color: inherit;
+  text-decoration: none;
+}
+.expertise__card:hover {
+  border-color: var(--site-accent, #3d61fd);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+.expertise__icon {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  color: var(--site-accent-ink, #3d61fd);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.expertise__lbl {
+  font-family: "Newsreader", "PT Serif", Georgia, serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--site-ink, #000);
+}
+.expertise__sub {
+  font-size: 0.875rem;
+  color: var(--site-ink-muted, rgba(0,0,0,.44));
+}
 
-      <article class="article-post serif-font">
-        {{ content }}
-      </article>
+/* Pills */
+.about-pills { display: flex; flex-wrap: wrap; gap: 6px; margin: 0.75rem 0 1rem; }
+.about-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  color: rgba(0,0,0,.6);
+}
+.about-pill--accent {
+  background: var(--site-accent-soft, #fdd93d44);
+  color: var(--site-accent-ink, #3d61fd);
+  border-color: transparent;
+}
+html[data-theme="dark"] .about-pill { background: rgba(255,255,255,.08); color: rgba(232,230,227,.6); border-color: rgba(255,255,255,.1); }
+html[data-theme="dark"] .expertise__card { background: #1a1d27; border-color: #2a2d3a; }
+html[data-theme="dark"] .pagehead__portrait { background: repeating-linear-gradient(135deg, #252839 0 14px, #1a1d27 14px 28px); border-color: #2a2d3a; }
+
+/* Two-col layout */
+.about-body {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 2.5rem;
+  padding: 2.5rem 0;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+@media (max-width: 980px) {
+  .about-body { grid-template-columns: 1fr; }
+  .about-toc { position: relative !important; top: 0 !important; flex-direction: row; flex-wrap: wrap; display: flex; }
+}
+
+/* TOC */
+.about-toc {
+  position: sticky;
+  top: calc(68px + 8px);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-self: start;
+}
+.about-toc__head {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(0,0,0,.44);
+  padding-bottom: 6px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 6px;
+}
+.about-toc a {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: rgba(0,0,0,.44);
+  border-left: 2px solid transparent;
+  transition: all .15s;
+  display: block;
+}
+.about-toc a:hover { color: #000; background: #f5f5f5; border-left-color: var(--site-accent, #3d61fd); }
+html[data-theme="dark"] .about-toc__head { color: rgba(232,230,227,.5); border-bottom-color: #2a2d3a; }
+html[data-theme="dark"] .about-toc a { color: rgba(232,230,227,.5); }
+html[data-theme="dark"] .about-toc a:hover { color: #e8e6e3; background: rgba(255,255,255,.06); }
+
+/* Section blocks */
+.about-section { margin-bottom: 4rem; }
+.about-section:last-child { margin-bottom: 0; }
+.about-section__num {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--site-accent-ink, #3d61fd);
+  display: block;
+}
+.about-section__title {
+  font-family: "Newsreader", "PT Serif", Georgia, serif;
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin: 6px 0 0.75rem;
+  letter-spacing: -0.018em;
+  line-height: 1.1;
+}
+.about-section__intro {
+  font-size: 1.125rem;
+  color: rgba(0,0,0,.6);
+  line-height: 1.55;
+  max-width: 64ch;
+  margin-bottom: 1.5rem;
+}
+.about-section__head {
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+html[data-theme="dark"] .about-section__intro { color: rgba(232,230,227,.7); }
+html[data-theme="dark"] .about-section__head { border-bottom-color: #2a2d3a; }
+
+/* Diagram container */
+.about-diagram {
+  margin: 1.25rem 0;
+  padding: 1.25rem;
+  background: var(--site-surface, #fff);
+  border: 1px solid #eee;
+  border-radius: 14px;
+  position: relative;
+  overflow-x: auto;
+}
+.about-diagram__label {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  color: rgba(0,0,0,.44);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.about-diagram .mermaid {
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: center;
+}
+.about-diagram .mermaid svg { max-width: 100% !important; height: auto !important; }
+html[data-theme="dark"] .about-diagram { background: #1a1d27; border-color: #2a2d3a; }
+html[data-theme="dark"] .about-diagram__label { color: rgba(232,230,227,.5); }
+
+/* Callout quote */
+.about-callout {
+  margin: 1.25rem 0;
+  padding: 1.25rem 1.25rem 1.25rem 1.5rem;
+  border-left: 3px solid var(--site-accent, #fdd93d);
+  background: #fffdf0;
+  border-radius: 0 10px 10px 0;
+  font-family: "Newsreader", "PT Serif", Georgia, serif;
+  font-style: italic;
+  color: rgba(0,0,0,.7);
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+html[data-theme="dark"] .about-callout { background: rgba(253,217,61,.06); color: rgba(232,230,227,.8); }
+
+/* Education */
+.about-edu {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 1.25rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid #eee;
+}
+.about-edu:last-of-type { border-bottom: 1px solid #eee; }
+.about-edu__logo {
+  width: 80px; height: 80px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  color: rgba(0,0,0,.44);
+  overflow: hidden;
+}
+.about-edu__logo img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+.about-edu__body { display: flex; flex-direction: column; gap: 6px; }
+.about-edu__degree {
+  font-family: "Newsreader", "PT Serif", Georgia, serif;
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+.about-edu__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  color: rgba(0,0,0,.44);
+}
+.about-edu__meta a { color: var(--site-accent-ink, #3d61fd); border-bottom: 1px solid currentColor; }
+html[data-theme="dark"] .about-edu { border-top-color: #2a2d3a; }
+html[data-theme="dark"] .about-edu:last-of-type { border-bottom-color: #2a2d3a; }
+html[data-theme="dark"] .about-edu__logo { border-color: #2a2d3a; background: #1a1d27; }
+html[data-theme="dark"] .about-edu__meta { color: rgba(232,230,227,.5); }
+
+/* Timeline */
+.about-timeline { list-style: none; padding: 0; margin: 0; }
+.about-timeline__item {
+  display: grid;
+  grid-template-columns: 160px 1fr auto;
+  gap: 1.25rem;
+  padding: 1rem 0;
+  border-top: 1px solid #eee;
+  align-items: baseline;
+}
+.about-timeline__item:last-child { border-bottom: 1px solid #eee; }
+.about-timeline__date {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  color: rgba(0,0,0,.44);
+  letter-spacing: 0.05em;
+  padding-top: 4px;
+}
+.about-timeline__role { display: flex; flex-direction: column; gap: 3px; }
+.about-timeline__title {
+  font-family: "Newsreader", "PT Serif", Georgia, serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+}
+.about-timeline__co { font-size: 0.875rem; color: rgba(0,0,0,.6); }
+.about-timeline__co a { color: var(--site-accent-ink, #3d61fd); border-bottom: 1px solid rgba(61,97,253,.3); }
+.about-timeline__years {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  color: rgba(0,0,0,.44);
+  white-space: nowrap;
+}
+@media (max-width: 680px) {
+  .about-timeline__item { grid-template-columns: 1fr; gap: 4px; }
+}
+html[data-theme="dark"] .about-timeline__item { border-top-color: #2a2d3a; }
+html[data-theme="dark"] .about-timeline__item:last-child { border-bottom-color: #2a2d3a; }
+html[data-theme="dark"] .about-timeline__date,
+html[data-theme="dark"] .about-timeline__years { color: rgba(232,230,227,.5); }
+html[data-theme="dark"] .about-timeline__title { color: #e8e6e3; }
+html[data-theme="dark"] .about-timeline__co { color: rgba(232,230,227,.7); }
+
+/* Region chart */
+.about-regionchart { display: grid; gap: 4px; margin-top: 0.75rem; }
+.about-regionchart__row {
+  display: grid;
+  grid-template-columns: 160px 1fr 60px;
+  gap: 0.75rem;
+  align-items: center;
+}
+.about-regionchart__name {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  color: rgba(0,0,0,.6);
+}
+.about-regionchart__bar {
+  height: 10px;
+  background: #f0f0f0;
+  border-radius: 999px;
+  position: relative;
+  overflow: hidden;
+}
+.about-regionchart__fill {
+  position: absolute; inset: 0;
+  background: var(--site-accent, #3d61fd);
+  border-radius: 999px;
+}
+.about-regionchart__val {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  color: rgba(0,0,0,.44);
+  text-align: right;
+}
+html[data-theme="dark"] .about-regionchart__name { color: rgba(232,230,227,.7); }
+html[data-theme="dark"] .about-regionchart__bar { background: #2a2d3a; }
+html[data-theme="dark"] .about-regionchart__val { color: rgba(232,230,227,.5); }
+
+/* References */
+.about-refs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 820px) { .about-refs { grid-template-columns: 1fr; } }
+.about-ref {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--site-surface, #fff);
+  border: 1px solid #eee;
+  border-radius: 14px;
+}
+.about-ref__avatar {
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #eee;
+  display: grid; place-items: center;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 12px;
+  color: rgba(0,0,0,.44);
+  background: #f5f5f5;
+}
+.about-ref__avatar img { width: 100%; height: 100%; object-fit: cover; }
+.about-ref__body { display: flex; flex-direction: column; gap: 4px; }
+.about-ref__name {
+  font-family: "Newsreader", "PT Serif", Georgia, serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.about-ref__role {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  color: var(--site-accent-ink, #3d61fd);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.about-ref__bio { font-size: 0.875rem; color: rgba(0,0,0,.6); line-height: 1.5; }
+html[data-theme="dark"] .about-ref { background: #1a1d27; border-color: #2a2d3a; }
+html[data-theme="dark"] .about-ref__avatar { background: #252839; border-color: #2a2d3a; }
+html[data-theme="dark"] .about-ref__bio { color: rgba(232,230,227,.7); }
+
+/* Tools */
+.about-tools {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+@media (max-width: 980px) { .about-tools { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 680px) { .about-tools { grid-template-columns: 1fr; } }
+.about-toolset {
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  background: var(--site-surface, #fff);
+  display: flex; flex-direction: column; gap: 0.75rem;
+}
+.about-toolset__head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.about-toolset__title { font-family: "Newsreader", "PT Serif", Georgia, serif; font-size: 1rem; font-weight: 600; }
+.about-toolset__kind {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  color: rgba(0,0,0,.44);
+  text-transform: uppercase;
+}
+.about-toolset ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 4px; }
+.about-toolset li {
+  display: flex; justify-content: space-between; gap: 0.75rem;
+  font-size: 0.875rem;
+  padding: 4px 0;
+  border-bottom: 1px dashed #f0f0f0;
+}
+.about-toolset li:last-child { border-bottom: 0; }
+.about-toolset li .tname { color: #000; }
+.about-toolset li .tdesc { color: rgba(0,0,0,.44); font-size: 0.78rem; text-align: right; }
+html[data-theme="dark"] .about-toolset { background: #1a1d27; border-color: #2a2d3a; }
+html[data-theme="dark"] .about-toolset__head { border-bottom-color: #2a2d3a; }
+html[data-theme="dark"] .about-toolset li { border-bottom-color: #252839; }
+html[data-theme="dark"] .about-toolset li .tname { color: #e8e6e3; }
+html[data-theme="dark"] .about-toolset li .tdesc { color: rgba(232,230,227,.5); }
+html[data-theme="dark"] .about-toolset__kind { color: rgba(232,230,227,.5); }
+
+/* CV cards */
+.about-cv-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1.5rem; }
+@media (max-width: 680px) { .about-cv-row { grid-template-columns: 1fr; } }
+.about-cv-card {
+  display: flex; flex-direction: column; gap: 6px;
+  padding: 1.25rem;
+  background: #000;
+  color: #fff;
+  border-radius: 14px;
+  transition: background .2s;
+  text-decoration: none;
+}
+.about-cv-card:hover { background: var(--site-accent, #3d61fd); color: #fff; }
+.about-cv-card__kind {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  opacity: 0.65;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.about-cv-card__title {
+  font-family: "Newsreader", "PT Serif", Georgia, serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.about-cv-card__cta { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.78rem; margin-top: 6px; }
+
+/* Section heading for subsections */
+.about-sub-h {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(0,0,0,.44);
+  margin: 0 0 0.75rem;
+  font-weight: 500;
+}
+html[data-theme="dark"] .about-sub-h { color: rgba(232,230,227,.5); }
+</style>
+
+<!-- Page header -->
+<section class="pagehead">
+  <div class="pagehead__inner">
+    <div>
+      <div class="pagehead__kicker">
+        <span style="width:6px;height:6px;border-radius:50%;background:var(--site-accent,#3d61fd);display:inline-block"></span>
+        <span>About — curriculum &amp; practice</span>
+      </div>
+      <h1 class="pagehead__title">
+        Forestry engineer, anthropologist, and spatial modeller working on
+        nature&#8209;based <em style="color:var(--site-accent-ink,#3d61fd)">climate solutions</em>.
+      </h1>
+      <p class="pagehead__lede">
+        I explore complex land-use problems across palm oil, coffee, cocoa, and forestry.
+        I am an expert in carbon certification for voluntary markets (VCS, CCB, GS) and
+        Scope&nbsp;3 (GHG Protocol, SBTi), with AFOLU project experience — REDD+, ARR, ALM, IFM —
+        across Latin America, Africa, and Southeast Asia.
+      </p>
+
+      <div class="expertise">
+        <a class="expertise__card" href="#carbon">
+          <span class="expertise__icon">01 / Practice area</span>
+          <span class="expertise__lbl">Carbon Development &amp; Operations</span>
+          <span class="expertise__sub">Methodology, MRV, registration, verification</span>
+        </a>
+        <a class="expertise__card" href="#social">
+          <span class="expertise__icon">02 / Practice area</span>
+          <span class="expertise__lbl">Social Safeguards &amp; Community</span>
+          <span class="expertise__sub">FPIC, theory of change, community monitoring</span>
+        </a>
+      </div>
+
+      <div class="about-pills">
+        <span class="about-pill about-pill--accent">REDD+</span>
+        <span class="about-pill about-pill--accent">ARR</span>
+        <span class="about-pill about-pill--accent">ALM</span>
+        <span class="about-pill about-pill--accent">IFM</span>
+        <span class="about-pill">VCS</span>
+        <span class="about-pill">CCB</span>
+        <span class="about-pill">Gold Standard</span>
+        <span class="about-pill">GHG Protocol</span>
+        <span class="about-pill">SBTi</span>
+      </div>
     </div>
+    <div class="pagehead__portrait" aria-hidden="true"></div>
+  </div>
+</section>
+
+<!-- Body -->
+<div class="about-body">
+  <!-- TOC -->
+  <aside class="about-toc" aria-label="Sections">
+    <div class="about-toc__head">On this page</div>
+    <a href="#snapshot">01 · Snapshot</a>
+    <a href="#qualifications">02 · Qualifications</a>
+    <a href="#interests">03 · Interests</a>
+    <a href="#experience">04 · Experience</a>
+    <a href="#tools">05 · Tools</a>
+    <a href="#references">06 · References</a>
+    <a href="#cv">07 · Download CV</a>
+  </aside>
+
+  <div>
+
+    <!-- 01 SNAPSHOT -->
+    <section class="about-section" id="snapshot">
+      <div class="about-section__head">
+        <span class="about-section__num">01 — Snapshot</span>
+        <h2 class="about-section__title">A profile at a glance.</h2>
+        <p class="about-section__intro">
+          Four lenses on the same work — what I trained in, what I&rsquo;m curious about,
+          what I can do, and where I&rsquo;ve been doing it.
+        </p>
+      </div>
+
+      <div class="about-diagram">
+        <span class="about-diagram__label">fig. 01 — profile overview</span>
+        <div class="mermaid">
+graph LR
+  P((Andrés))
+  P --> Q[Qualifications]
+  P --> I[Interests]
+  P --> S[Skills]
+  P --> X[Experience]
+  Q --> Q1["Forestry Engineer + Anthropologist"]
+  Q --> Q2["M.Sc. Geospatial Modelling"]
+  I --> I1["Quantitative forestry"]
+  I --> I2["GIS & spatial modelling"]
+  I --> I3["Nature Climate Solutions"]
+  S --> S1["Problem-solving"]
+  S --> S2["GIS & carbon technical"]
+  S --> S3["Impact assessment"]
+  S --> S4["ES · EN · PT"]
+  X --> X1["6 years voluntary carbon"]
+  X --> X2["Earthshot Lab — current"]
+  X --> X3["South Pole — prior"]
+        </div>
+      </div>
+
+      <p class="about-callout">
+        &ldquo;I don&rsquo;t have all the answers — but I know where to start looking.
+        Let&rsquo;s navigate this carbon-markets journey and explore climate-based solutions together.&rdquo;
+      </p>
+    </section>
+
+    <!-- 02 QUALIFICATIONS -->
+    <section class="about-section" id="qualifications">
+      <div class="about-section__head">
+        <span class="about-section__num">02 — Qualifications</span>
+        <h2 class="about-section__title">Education.</h2>
+        <p class="about-section__intro">
+          A path through forestry, anthropology, and geospatial modelling — the combination
+          that informs how I read AFOLU projects today.
+        </p>
+      </div>
+
+      <article class="about-edu">
+        <div class="about-edu__logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Symbolfumg.jpg" alt="UFMG">
+        </div>
+        <div class="about-edu__body">
+          <h3 class="about-edu__degree">M.Sc. — Analysis &amp; Modelling of Environmental Systems</h3>
+          <div class="about-edu__meta">
+            <span><a href="https://ufmg.br/" target="_blank" rel="noopener noreferrer">Federal University of Minas Gerais</a></span>
+            <span>Belo Horizonte, Brazil</span>
+            <span>Mar 2015 — May 2017</span>
+          </div>
+          <div class="about-pills">
+            <span class="about-pill">Improved forest management</span>
+            <span class="about-pill">Finance analysis</span>
+            <span class="about-pill">Deforestation</span>
+            <span class="about-pill">Degradation</span>
+          </div>
+          <div class="about-diagram">
+            <span class="about-diagram__label">fig. 02 — UFMG capability map</span>
+            <div class="mermaid">
+graph LR
+  subgraph Technical
+    A[Analysis & Modeling]
+    B[Statistical Methods]
+    C[Computational Techniques]
+  end
+  subgraph Practical
+    D[Fieldwork]
+    E[Env. Data Collection]
+    F[Data Management]
+  end
+  subgraph Communication
+    G[Research]
+    H[Academic Writing]
+    I[Audience Engagement]
+  end
+  A --> B & C
+  D --> E --> F
+  G --> H & I
+  B -.-> E
+  C -.-> F
+  F -.-> G
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="about-edu">
+        <div class="about-edu__logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Escudo-UdeA.svg" alt="UdeA">
+        </div>
+        <div class="about-edu__body">
+          <h3 class="about-edu__degree">B.Sc. — Anthropology</h3>
+          <div class="about-edu__meta">
+            <span><a href="https://www.udea.edu.co" target="_blank" rel="noopener noreferrer">University of Antioquia</a></span>
+            <span>Medellín, Colombia</span>
+            <span>Dec 2005 — Dec 2013</span>
+          </div>
+          <div class="about-pills">
+            <span class="about-pill">Human-rights-based approach</span>
+            <span class="about-pill">FPIC</span>
+            <span class="about-pill">Land-use tenure</span>
+            <span class="about-pill">Deforestation</span>
+          </div>
+          <div class="about-diagram">
+            <span class="about-diagram__label">fig. 03 — UdeA capability map</span>
+            <div class="mermaid">
+graph LR
+  subgraph Methods
+    D[Ethnography]
+    E[Qualitative Analysis]
+    F[Participatory Methods]
+  end
+  subgraph Focus
+    G[Human Rights]
+    H[Indigenous Communities]
+    I[Social Change]
+  end
+  subgraph Applied
+    J[Land-use Mapping]
+    K[FPIC Implementation]
+    L[Theory of Change]
+  end
+  D --> J & K
+  E --> J & L
+  F --> K
+  G --> K
+  H --> J & K
+  I --> L & F
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="about-edu">
+        <div class="about-edu__logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logotipo_de_la_Universidad_Nacional_de_Colombia.svg" alt="UNAL">
+        </div>
+        <div class="about-edu__body">
+          <h3 class="about-edu__degree">B.Eng. — Forestry</h3>
+          <div class="about-edu__meta">
+            <span><a href="https://unal.edu.co/" target="_blank" rel="noopener noreferrer">National University of Colombia</a></span>
+            <span>Medellín, Colombia</span>
+            <span>Jan 2005 — Jun 2012</span>
+          </div>
+          <div class="about-pills">
+            <span class="about-pill">Forest inventory</span>
+            <span class="about-pill">LiDAR &amp; remote sensing</span>
+            <span class="about-pill">Sustainable forest mgmt</span>
+            <span class="about-pill">Forest economics</span>
+            <span class="about-pill">Forest mapping</span>
+          </div>
+          <div class="about-diagram">
+            <span class="about-diagram__label">fig. 04 — UNAL capability map</span>
+            <div class="mermaid">
+graph LR
+  subgraph Core
+    A[Sustainable Forest Mgmt]
+    B[Forest Science]
+  end
+  subgraph Technical
+    C[Forest Inventory]
+    D[LiDAR & RS]
+    E[Economic Outcomes]
+  end
+  subgraph Practical
+    F[Forest Mapping]
+    G[Harvesting Plan]
+    H[Resource Assessment]
+  end
+  subgraph Management
+    J[Sustainability Analysis]
+    K[Env. Impact Assessment]
+  end
+  A & B --> C
+  C --> F & H
+  D & E --> F
+  F --> G
+  H --> K & J
+  B --> K
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- 03 INTERESTS -->
+    <section class="about-section" id="interests">
+      <div class="about-section__head">
+        <span class="about-section__num">03 — Interests</span>
+        <h2 class="about-section__title">Where the work lives.</h2>
+        <p class="about-section__intro">
+          My approach combines accounting models and geospatial methods to drive climate action,
+          always with a human-rights-based lens.
+        </p>
+      </div>
+
+      <div class="about-diagram">
+        <span class="about-diagram__label">fig. 05 — interest map (technical complexity × interest)</span>
+        <div class="mermaid">
+quadrantChart
+  title "Where my interests sit"
+  x-axis "Medium tech. complexity" --> "High tech. complexity"
+  y-axis "Medium interest" --> "High interest"
+  quadrant-1 "Core technical"
+  quadrant-2 "Core research"
+  quadrant-3 "Growth areas"
+  quadrant-4 "Supporting knowledge"
+  "Carbon Methodologies": [0.75, 0.95]
+  "Carbon Accounting Modelling": [0.85, 0.85]
+  "Jurisdictional REDD": [0.55, 0.60]
+  "Scope 3 Removals": [0.65, 0.75]
+  "Geospatial Analysis": [0.80, 0.75]
+  "Socio-env. Monitoring": [0.35, 0.90]
+  "Forestry Science": [0.50, 0.95]
+  "Agroforestry": [0.50, 0.70]
+  "Benefit Sharing": [0.45, 0.15]
+  "Project Safeguards": [0.25, 0.60]
+  "Human Rights": [0.25, 0.45]
+  "FPIC": [0.15, 0.35]
+  "Article 6": [0.55, 0.30]
+  "Remote Sensing": [0.85, 0.45]
+  "Fire Modelling": [0.70, 0.35]
+  "Data Visualization": [0.60, 0.40]
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 EXPERIENCE -->
+    <section class="about-section" id="experience">
+      <div class="about-section__head">
+        <span class="about-section__num">04 — Experience</span>
+        <h2 class="about-section__title">Roles and where they happened.</h2>
+        <p class="about-section__intro">
+          A condensed timeline of the work — private, public, and non-profit — across
+          Latin America, Africa, and Southeast Asia.
+        </p>
+      </div>
+
+      <ul class="about-timeline">
+        <li class="about-timeline__item">
+          <span class="about-timeline__date">Oct 2023 — Sep 2024</span>
+          <span class="about-timeline__role">
+            <span class="about-timeline__title">Carbon Compliance Expert — Carbon Development</span>
+            <span class="about-timeline__co"><a href="https://www.earthshot.eco/" target="_blank" rel="noopener noreferrer">Earthshot Lab</a> · Private sector</span>
+          </span>
+          <span class="about-timeline__years">1 yr</span>
+        </li>
+        <li class="about-timeline__item">
+          <span class="about-timeline__date">Jan 2023 — Nov 2023</span>
+          <span class="about-timeline__role">
+            <span class="about-timeline__title">Regional Lead — Nature-Based Solutions, Climate Projects</span>
+            <span class="about-timeline__co"><a href="https://www.southpole.com/" target="_blank" rel="noopener noreferrer">South Pole</a> · Private sector</span>
+          </span>
+          <span class="about-timeline__years">0.9 yr</span>
+        </li>
+        <li class="about-timeline__item">
+          <span class="about-timeline__date">Jun 2020 — Dec 2022</span>
+          <span class="about-timeline__role">
+            <span class="about-timeline__title">Senior Project Coordinator — Forestry &amp; Land-Use Projects</span>
+            <span class="about-timeline__co"><a href="https://www.southpole.com/" target="_blank" rel="noopener noreferrer">South Pole</a> · Private sector</span>
+          </span>
+          <span class="about-timeline__years">2.5 yr</span>
+        </li>
+        <li class="about-timeline__item">
+          <span class="about-timeline__date">Jun 2017 — Dec 2020</span>
+          <span class="about-timeline__role">
+            <span class="about-timeline__title">GIS — Forestry &amp; Land-Use Projects</span>
+            <span class="about-timeline__co"><a href="https://www.southpole.com/" target="_blank" rel="noopener noreferrer">South Pole</a> · Private sector</span>
+          </span>
+          <span class="about-timeline__years">3 yr</span>
+        </li>
+        <li class="about-timeline__item">
+          <span class="about-timeline__date">May 2016 — Dec 2016</span>
+          <span class="about-timeline__role">
+            <span class="about-timeline__title">Environmental Analyst</span>
+            <span class="about-timeline__co"><a href="https://www.wwf.org.co/" target="_blank" rel="noopener noreferrer">WWF</a> · Non-profit</span>
+          </span>
+          <span class="about-timeline__years">0.67 yr</span>
+        </li>
+        <li class="about-timeline__item">
+          <span class="about-timeline__date">Jul 2015 — Dec 2015</span>
+          <span class="about-timeline__role">
+            <span class="about-timeline__title">Assistant Professor</span>
+            <span class="about-timeline__co"><a href="https://www.ufmg.br/" target="_blank" rel="noopener noreferrer">Universidade Federal de Minas Gerais</a> · Public sector</span>
+          </span>
+          <span class="about-timeline__years">0.5 yr</span>
+        </li>
+        <li class="about-timeline__item">
+          <span class="about-timeline__date">Jul 2013 — Feb 2015</span>
+          <span class="about-timeline__role">
+            <span class="about-timeline__title">Land-Tenure &amp; Land-Use Advisor</span>
+            <span class="about-timeline__co"><a href="https://organizacionindigenadeantioquia.blogspot.com/" target="_blank" rel="noopener noreferrer">Indigenous Organization of Antioquia</a> · Non-profit</span>
+          </span>
+          <span class="about-timeline__years">1.67 yr</span>
+        </li>
+      </ul>
+
+      <p class="about-sub-h" style="margin-top:2rem;">Experience by region</p>
+      <div class="about-regionchart">
+        <div class="about-regionchart__row">
+          <span class="about-regionchart__name">Latin America</span>
+          <span class="about-regionchart__bar"><span class="about-regionchart__fill" style="width:72%"></span></span>
+          <span class="about-regionchart__val">72%</span>
+        </div>
+        <div class="about-regionchart__row">
+          <span class="about-regionchart__name">Africa</span>
+          <span class="about-regionchart__bar"><span class="about-regionchart__fill" style="width:18%"></span></span>
+          <span class="about-regionchart__val">18%</span>
+        </div>
+        <div class="about-regionchart__row">
+          <span class="about-regionchart__name">Southeast Asia</span>
+          <span class="about-regionchart__bar"><span class="about-regionchart__fill" style="width:10%"></span></span>
+          <span class="about-regionchart__val">10%</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 TOOLS -->
+    <section class="about-section" id="tools">
+      <div class="about-section__head">
+        <span class="about-section__num">05 — Tools</span>
+        <h2 class="about-section__title">What I work with.</h2>
+      </div>
+
+      <div class="about-tools">
+        <div class="about-toolset">
+          <div class="about-toolset__head">
+            <span class="about-toolset__title">Project &amp; collaboration</span>
+            <span class="about-toolset__kind">SaaS</span>
+          </div>
+          <ul>
+            <li><span class="tname">ClickUp</span><span class="tdesc">cloud PM</span></li>
+            <li><span class="tname">Miro</span><span class="tdesc">whiteboarding</span></li>
+            <li><span class="tname">Monday.com</span><span class="tdesc">task tracking</span></li>
+          </ul>
+        </div>
+        <div class="about-toolset">
+          <div class="about-toolset__head">
+            <span class="about-toolset__title">Commercial GIS &amp; RS</span>
+            <span class="about-toolset__kind">Platforms</span>
+          </div>
+          <ul>
+            <li><span class="tname">ArcMap</span><span class="tdesc">Esri GIS</span></li>
+            <li><span class="tname">ENVI</span><span class="tdesc">RS suite</span></li>
+            <li><span class="tname">ERDAS Imagine</span><span class="tdesc">RS suite</span></li>
+            <li><span class="tname">IDRISI</span><span class="tdesc">RS suite</span></li>
+          </ul>
+        </div>
+        <div class="about-toolset">
+          <div class="about-toolset__head">
+            <span class="about-toolset__title">Open-source GIS &amp; RS</span>
+            <span class="about-toolset__kind">Free</span>
+          </div>
+          <ul>
+            <li><span class="tname">QGIS</span><span class="tdesc">GIS</span></li>
+            <li><span class="tname">Google Earth Engine</span><span class="tdesc">cloud RS</span></li>
+            <li><span class="tname">DINAMICA-EGO</span><span class="tdesc">REDD+ modelling</span></li>
+            <li><span class="tname">SPRING</span><span class="tdesc">RS / image analysis</span></li>
+          </ul>
+        </div>
+        <div class="about-toolset">
+          <div class="about-toolset__head">
+            <span class="about-toolset__title">Data formats</span>
+            <span class="about-toolset__kind">Databases</span>
+          </div>
+          <ul>
+            <li><span class="tname">.gdb</span><span class="tdesc">file geodatabase</span></li>
+            <li><span class="tname">BigQuery</span><span class="tdesc">cloud warehouse</span></li>
+          </ul>
+        </div>
+        <div class="about-toolset">
+          <div class="about-toolset__head">
+            <span class="about-toolset__title">Programming</span>
+            <span class="about-toolset__kind">Languages</span>
+          </div>
+          <ul>
+            <li><span class="tname">Python</span><span class="tdesc">geospatial / data</span></li>
+            <li><span class="tname">R</span><span class="tdesc">stats / viz</span></li>
+            <li><span class="tname">JavaScript</span><span class="tdesc">web maps</span></li>
+          </ul>
+        </div>
+        <div class="about-toolset">
+          <div class="about-toolset__head">
+            <span class="about-toolset__title">Standards</span>
+            <span class="about-toolset__kind">Methodologies</span>
+          </div>
+          <ul>
+            <li><span class="tname">VCS / Verra</span><span class="tdesc">AFOLU registry</span></li>
+            <li><span class="tname">CCB</span><span class="tdesc">co-benefit standard</span></li>
+            <li><span class="tname">Gold Standard</span><span class="tdesc">project standard</span></li>
+            <li><span class="tname">GHG Protocol</span><span class="tdesc">Scope 3</span></li>
+            <li><span class="tname">SBTi</span><span class="tdesc">targets</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 REFERENCES -->
+    <section class="about-section" id="references">
+      <div class="about-section__head">
+        <span class="about-section__num">06 — References</span>
+        <h2 class="about-section__title">People I&rsquo;ve learned from.</h2>
+        <p class="about-section__intro">
+          A short, partial list — mentors who shaped how I work and colleagues who continue to.
+        </p>
+      </div>
+
+      <p class="about-sub-h">Academic</p>
+      <div class="about-refs" style="margin-bottom:1.5rem">
+        <article class="about-ref">
+          <div class="about-ref__avatar">RD</div>
+          <div class="about-ref__body">
+            <h4 class="about-ref__name">Robert Dover</h4>
+            <span class="about-ref__role">Anthropologist · Mentor</span>
+            <p class="about-ref__bio">Taught me the soft skills for working with traditional communities. In memoriam.</p>
+          </div>
+        </article>
+        <article class="about-ref">
+          <div class="about-ref__avatar">BSF</div>
+          <div class="about-ref__body">
+            <h4 class="about-ref__name">Britaldo Soares-Filho</h4>
+            <span class="about-ref__role">Land-use modelling · UFMG</span>
+            <p class="about-ref__bio">Researcher pushing the frontier on Amazonian land-use modelling and policy scenarios.</p>
+          </div>
+        </article>
+        <article class="about-ref">
+          <div class="about-ref__avatar">SMC</div>
+          <div class="about-ref__body">
+            <h4 class="about-ref__name">Sônia Maria Carvalho</h4>
+            <span class="about-ref__role">Forestry economics · UFMG</span>
+            <p class="about-ref__bio">Insight on the economics of sustainable forest management at landscape scale.</p>
+          </div>
+        </article>
+        <article class="about-ref">
+          <div class="about-ref__avatar">DA</div>
+          <div class="about-ref__body">
+            <h4 class="about-ref__name">Dolors Armenteras</h4>
+            <span class="about-ref__role">Landscape ecology · UNAL</span>
+            <p class="about-ref__bio">A reference on biodiversity, fire, and ecosystem dynamics in the Neotropics.</p>
+          </div>
+        </article>
+      </div>
+
+      <p class="about-sub-h">Professional</p>
+      <div class="about-refs">
+        <article class="about-ref">
+          <div class="about-ref__avatar">
+            <img src="https://uploads-ssl.webflow.com/636af6c7a6be384c24bea3d7/6393d225c7a3f2c03b710efd_637db6aff3ef8307cec3edfd_abel-p-500.jpeg" alt="Abel Marcarini">
+          </div>
+          <div class="about-ref__body">
+            <h4 class="about-ref__name">Abel Marcarini</h4>
+            <span class="about-ref__role">Carbon project lead, Brazil · Earthshot Lab</span>
+            <p class="about-ref__bio">10+ years on NbS for the voluntary carbon market. Prior: Verra, South Pole.</p>
+          </div>
+        </article>
+        <article class="about-ref">
+          <div class="about-ref__avatar">
+            <img src="https://www.southpole.com/uploads/thumbs/bza_600x775.jpg" alt="Beatriz Zapata">
+          </div>
+          <div class="about-ref__body">
+            <h4 class="about-ref__name">Beatriz Zapata</h4>
+            <span class="about-ref__role">Forest engineer · South Pole</span>
+            <p class="about-ref__bio">Deep technical knowledge of VCS, CCB, and Gold Standard methodologies and tooling.</p>
+          </div>
+        </article>
+        <article class="about-ref">
+          <div class="about-ref__avatar">
+            <img src="https://cdn.theorg.com/0cddd548-dd49-4a02-83d9-03aea86949bc_thumb.jpg" alt="Milena Agudelo">
+          </div>
+          <div class="about-ref__body">
+            <h4 class="about-ref__name">Milena Agudelo</h4>
+            <span class="about-ref__role">Manager, Nature Climate Solutions · Verra</span>
+            <p class="about-ref__bio">Reviews ALM and WRC registration and verification at Verra. Forest engineer, MSc.</p>
+          </div>
+        </article>
+        <article class="about-ref">
+          <div class="about-ref__avatar">
+            <img src="https://www.terraglobalcapital.com/sites/default/files/styles/square241px/public/5-5D8A8603_0.jpg" alt="David Montoya">
+          </div>
+          <div class="about-ref__body">
+            <h4 class="about-ref__name">David Montoya González</h4>
+            <span class="about-ref__role">RS &amp; GIS lead · TerraGlobal</span>
+            <p class="about-ref__bio">Leads remote sensing and GIS for community-based geospatial monitoring.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 07 CV -->
+    <section class="about-section" id="cv">
+      <div class="about-section__head">
+        <span class="about-section__num">07 — Curriculum vitae</span>
+        <h2 class="about-section__title">Download my CV.</h2>
+        <p class="about-section__intro">
+          Two tracks, one career — pick the version that&rsquo;s most relevant to your team.
+        </p>
+      </div>
+
+      <div class="about-cv-row" id="carbon">
+        <a class="about-cv-card" href="https://github.com/aahincapie/aahincapie.github.io/blob/master/assets/images/CV%20-%20A%20Andre%CC%81s_Hincapie%CC%81%20Nov%2024%20-%20CDBD.pdf?raw=true" target="_blank" rel="noopener noreferrer" id="social">
+          <span class="about-cv-card__kind">PDF · Carbon track</span>
+          <span class="about-cv-card__title">CV — Carbon Development &amp; Operations</span>
+          <span class="about-cv-card__cta">Download →</span>
+        </a>
+        <a class="about-cv-card" href="https://github.com/aahincapie/aahincapie.github.io/blob/ef3c6509c9de3835d7f72e2d3586e8962c9e8489/assets/images/CV%20-%20A%20Andre%CC%81s_Hincapie%CC%81%20Nov%2024%20-%20SCo.pdf" target="_blank" rel="noopener noreferrer">
+          <span class="about-cv-card__kind">PDF · Social track</span>
+          <span class="about-cv-card__title">CV — Social Safeguards &amp; Community</span>
+          <span class="about-cv-card__cta">Download →</span>
+        </a>
+      </div>
+    </section>
+
   </div>
 </div>
+
+<script>
+(function() {
+  var nodes = document.querySelectorAll('.about-diagram .mermaid');
+  nodes.forEach(function(n, i) {
+    n.setAttribute('data-mm-src', n.textContent.trim());
+    n.id = n.id || ('mm-about-' + i);
+  });
+
+  function probe(varName) {
+    var el = document.createElement('div');
+    el.style.cssText = 'position:absolute;visibility:hidden;color:var(' + varName + ')';
+    document.body.appendChild(el);
+    var c = getComputedStyle(el).color;
+    document.body.removeChild(el);
+    return c || null;
+  }
+
+  function renderMermaid() {
+    if (!window.mermaid) return;
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    var ink = probe('--site-ink') || (dark ? 'rgb(240,238,233)' : 'rgb(51,51,51)');
+    var surface = probe('--site-surface') || (dark ? 'rgb(32,29,39)' : '#ffffff');
+    var line = probe('--site-line') || (dark ? 'rgb(42,45,58)' : 'rgb(238,238,238)');
+    var accent = probe('--site-accent') || (dark ? 'rgb(180,140,100)' : 'rgb(61,97,253)');
+    var accentSoft = probe('--site-accent-soft') || (dark ? 'rgb(48,42,85)' : 'rgb(253,217,61)');
+    var bg = probe('--site-bg') || (dark ? 'rgb(23,20,28)' : '#ffffff');
+    var muted = probe('--site-ink-muted') || (dark ? 'rgba(232,230,227,.65)' : 'rgba(0,0,0,.44)');
+
+    window.mermaid.initialize({
+      startOnLoad: false,
+      securityLevel: 'loose',
+      fontFamily: '"IBM Plex Sans", system-ui, sans-serif',
+      theme: 'base',
+      themeVariables: {
+        primaryColor: surface,
+        primaryTextColor: ink,
+        primaryBorderColor: line,
+        lineColor: muted,
+        secondaryColor: accentSoft,
+        tertiaryColor: bg,
+        background: bg,
+        mainBkg: surface,
+        nodeBorder: line,
+        edgeLabelBackground: bg,
+        clusterBkg: bg,
+        clusterBorder: line,
+        titleColor: ink,
+        quadrant1Fill: accentSoft,
+        quadrant2Fill: bg,
+        quadrant3Fill: bg,
+        quadrant4Fill: accentSoft,
+        quadrant1TextFill: ink,
+        quadrant2TextFill: ink,
+        quadrant3TextFill: ink,
+        quadrant4TextFill: ink,
+        quadrantPointFill: accent,
+        quadrantPointTextFill: ink,
+        quadrantXAxisTextFill: muted,
+        quadrantYAxisTextFill: muted,
+        quadrantInternalBorderStrokeFill: line,
+        quadrantExternalBorderStrokeFill: line,
+        quadrantTitleFill: ink
+      }
+    });
+
+    nodes.forEach(function(n) {
+      n.removeAttribute('data-processed');
+      n.innerHTML = n.getAttribute('data-mm-src');
+    });
+    window.mermaid.run({ nodes: nodes });
+  }
+
+  // Run after mermaid loads
+  if (window.mermaid) {
+    renderMermaid();
+  } else {
+    window.addEventListener('load', function() {
+      if (window.mermaid) renderMermaid();
+    });
+  }
+
+  // Re-render on theme change
+  new MutationObserver(function(muts) {
+    for (var i = 0; i < muts.length; i++) {
+      if (muts[i].attributeName === 'data-theme' || muts[i].attributeName === 'data-accent') {
+        setTimeout(renderMermaid, 60);
+        break;
+      }
+    }
+  }).observe(document.documentElement, { attributes: true });
+})();
+</script>
