@@ -6,55 +6,20 @@ background: '/img/bg-index.jpg'
 
 <!-- Home intro
 ================================================== -->
-{% if page.url == "/" %}
-<section class="hero-split" id="hero">
-  <div class="container">
-    <div class="hero-split__grid">
-      <div class="hero-split__copy">
-        <div class="hero-split__eyebrow">
-          <span class="hero-split__dot"></span>
-          <span>Field notes &mdash; updated regularly</span>
-        </div>
-        <h1 class="hero-split__title">
-          Spatial analysis, GHG carbon accounting, and community-based outcomes for
-          <em>AFOLU</em> projects.
-        </h1>
-        <p class="hero-split__lede">
-          Hi, I&rsquo;m Andr&eacute;s. I don&rsquo;t have all the answers &mdash;
-          but I know where to start looking. Let&rsquo;s navigate carbon markets
-          together and explore climate-based solutions.
-        </p>
-        <div class="hero-split__cta">
-          <a href="{{site.baseurl}}/about" class="btn-site-primary">About me</a>
-          <a href="{{site.baseurl}}/about-es" class="btn-site-ghost">Leer en espa&ntilde;ol</a>
-        </div>
-        <dl class="hero-split__meta">
-          <div><dt>Based in</dt><dd>Bogot&aacute;, CO</dd></div>
-          <div><dt>Focus</dt><dd>AFOLU &middot; MRV &middot; Modelling</dd></div>
-          <div><dt>Writing since</dt><dd>2019</dd></div>
-        </dl>
-      </div>
-
-      <aside class="hero-split__card" aria-label="About this blog">
-        <div class="hero-split__cardhead">
-          <span class="hero-split__tag">Field notes</span>
-          <span class="hero-split__tag muted">Carbon markets</span>
-        </div>
-        <h3 class="hero-split__cardtitle">
-          Evolving perspectives on carbon markets, climate, and community.
-        </h3>
-        <p class="hero-split__cardbody">
-          These posts are incomplete explorations of complex topics —
-          always open to debate and further development.
-        </p>
-        <div class="hero-split__cardfoot">
-          <span class="hero-split__avatar" aria-hidden="true">AH</span>
-          <span>Andr&eacute;s Hincapi&eacute; &middot; Bogot&aacute;</span>
-        </div>
-      </aside>
-    </div>
-  </div>
-</section>
+{% if page.url == "/" %} 
+<div class="rounded mb-5 hero">
+<div class="row align-items-center justify-content-between">
+<div class="col-md-6">
+<h1 class="font-weight-bold mb-4 serif-font">Spatial Analyst, GHG Carbon Accounting and Modelling, Community-based outcomes.</h1> 
+<h2 class="font-weight-bold mb-4 serif-font">For Agriculture, Forest, and Land Uses (AFOLU) projects.</h2> 
+<p class="lead mb-4">Hi!, my name is Andrés Hincapie. <b>I don’t have all the answers, but I know where to start looking</b>. Let's navigate this carbon markets journey and explore Climate-based Solutions together!</p>
+<a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About me</a>
+<a href="{{site.baseurl}}/about-es" class="btn btn-dark text-white px-5 btn-lg">Español</a> 
+</div>
+<div class="col-md-6 text-right pl-0 pl-lg-4">
+  <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro_.svg"> 
+</div>
+</div>
 {% endif %}
 
 <!-- Dialogue Section

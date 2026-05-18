@@ -1,8 +1,8 @@
 ---
-layout: about
+layout: post
 permalink: "/about/"
-title: About
-mermaid: true
+author: Andres_Hincapie
+categories: [ Curriculum, Resume, HV, Contact ]
 ---
 
 <div class="rounded mb-5 hero">
